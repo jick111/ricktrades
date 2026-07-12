@@ -83,7 +83,7 @@ const AiScanner: React.FC = () => {
             return;
         }
 
-        const currency = api_base.account_info?.currency || 'USD';
+        const currency = (api_base.account_info as { currency?: string })?.currency || 'USD';
         let contract_type = '';
         let barrier: string | undefined;
 
