@@ -1,0 +1,8 @@
+import { ComponentProps } from 'react';
+
+type PaneProps = ComponentProps<"div">;
+export declare const TabPanel: {
+    ({ children, className }: PaneProps): import("react").JSX.Element;
+    displayName: string;
+};
+export {};

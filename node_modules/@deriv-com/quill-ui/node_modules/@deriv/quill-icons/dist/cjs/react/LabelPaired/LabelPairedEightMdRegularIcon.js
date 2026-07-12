@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedEightMdRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 10, height: 24, viewBox: '0 0 10 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M9.5 8.75a3.76 3.76 0 0 1-1.656 3.125C9.094 12.469 10 13.75 10 15.25A3.74 3.74 0 0 1 6.25 19h-2.5A3.72 3.72 0 0 1 0 15.25c0-1.5.875-2.781 2.125-3.375C1.125 11.188.5 10.063.5 8.75A3.74 3.74 0 0 1 4.25 5h1.5A3.76 3.76 0 0 1 9.5 8.75M5.75 12.5h-2A2.754 2.754 0 0 0 1 15.25 2.734 2.734 0 0 0 3.75 18h2.5C7.75 18 9 16.781 9 15.25c0-1.5-1.25-2.75-2.75-2.75zm0-1c1.5 0 2.75-1.219 2.75-2.75C8.5 7.25 7.25 6 5.75 6h-1.5A2.754 2.754 0 0 0 1.5 8.75a2.73 2.73 0 0 0 2.719 2.75H5.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'c103b65a59508b004b7683ed4f355192__a' },
+            React.createElement("path", { d: 'M0 0h10v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedEightMdRegularIcon);
+exports.default = ForwardRef;

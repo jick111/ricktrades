@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedSearchXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M17.25 15.75c0-2.672-1.453-5.11-3.75-6.469-2.344-1.36-5.203-1.36-7.5 0-2.344 1.36-3.75 3.797-3.75 6.469A7.46 7.46 0 0 0 6 22.266c2.297 1.359 5.156 1.359 7.5 0 2.297-1.36 3.75-3.797 3.75-6.516m-1.453 7.688A9.82 9.82 0 0 1 9.75 25.5C4.36 25.5 0 21.14 0 15.75 0 10.406 4.36 6 9.75 6c5.344 0 9.75 4.406 9.75 9.75a9.9 9.9 0 0 1-2.11 6.094l6.282 6.234c.422.469.422 1.172 0 1.594-.469.469-1.172.469-1.594 0z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '4155be534434a49bda63c9b655e91f94__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedSearchXlBoldIcon);
+exports.default = ForwardRef;

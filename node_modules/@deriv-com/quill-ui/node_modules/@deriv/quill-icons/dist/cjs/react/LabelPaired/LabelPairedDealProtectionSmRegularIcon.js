@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedDealProtectionSmRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 22, viewBox: '0 0 18 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M2.766 7.086h2.597c.465 0 .875.082 1.258.246.383.137.711.383.984.684.274.3.493.683.63 1.148.136.465.218.984.218 1.586 0 .629-.082 1.148-.219 1.613a2.9 2.9 0 0 1-.629 1.149c-.273.3-.601.52-.984.683a3.1 3.1 0 0 1-1.258.246H2.766zm2.597 6.289c.547 0 .985-.164 1.313-.52.328-.328.52-.847.52-1.503v-1.176c0-.656-.192-1.176-.52-1.504-.328-.356-.766-.52-1.313-.52H3.941v5.223zm4.567 1.04v-7.33h3.144c.684 0 1.203.22 1.586.603.356.41.547.957.547 1.613 0 .683-.191 1.203-.547 1.613-.383.41-.902.602-1.586.602h-1.969v2.898zm1.175-3.938h1.915c.3 0 .52-.082.683-.247s.246-.382.246-.683v-.492c0-.301-.082-.52-.246-.684s-.383-.246-.683-.246h-1.915z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'bc204233162d56e1bbc10c64f38fc732__a' },
+            React.createElement("path", { d: 'M0 0h18v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedDealProtectionSmRegularIcon);
+exports.default = ForwardRef;

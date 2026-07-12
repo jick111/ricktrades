@@ -1,0 +1,39 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LegacyThemeLightIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const LegacyThemeLightIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 16 16', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#07b8a3c4f9f595541924d1b16d16c108__a)' },
+        React.createElement("path", { fill: '#333', d: 'M8 12c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4m0-7C6.35 5 5 6.35 5 8s1.35 3 3 3 3-1.35 3-3-1.35-3-3-3m.5-2.5v-2C8.5.22 8.28 0 8 0s-.5.22-.5.5v2c0 .28.22.5.5.5s.5-.22.5-.5m3.74 1.96 1.11-1.11c.2-.2.2-.51 0-.71s-.51-.2-.71 0l-1.11 1.11c-.2.2-.2.51 0 .71a.485.485 0 0 0 .7 0zm1.11 8.89c.2-.2.2-.51 0-.71l-1.11-1.11c-.2-.2-.51-.2-.71 0s-.2.51 0 .71l1.11 1.11a.485.485 0 0 0 .7 0zm-10 0 1.11-1.11c.2-.2.2-.51 0-.71s-.51-.2-.71 0l-1.11 1.11c-.2.2-.2.51 0 .71a.485.485 0 0 0 .7 0zm1.11-8.89c.2-.2.2-.51 0-.71L3.35 2.64c-.2-.2-.51-.2-.71 0s-.2.51 0 .71l1.11 1.11a.485.485 0 0 0 .7 0zM16 8c0-.28-.22-.5-.5-.5h-2c-.28 0-.5.22-.5.5s.22.5.5.5h2c.28 0 .5-.22.5-.5m-7.5 7.5v-2c0-.28-.22-.5-.5-.5s-.5.22-.5.5v2c0 .28.22.5.5.5s.5-.22.5-.5M3 8c0-.28-.22-.5-.5-.5h-2c-.28 0-.5.22-.5.5s.22.5.5.5h2c.28 0 .5-.22.5-.5' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '07b8a3c4f9f595541924d1b16d16c108__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h16v16H0z' })))));
+exports.LegacyThemeLightIcon = LegacyThemeLightIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.LegacyThemeLightIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,35 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.StandaloneUbuntuIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const StandaloneUbuntuIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("path", { d: 'M23.57 9.43c0 1.093-.586 2.03-1.484 2.578a3.08 3.08 0 0 1-2.969 0c-.898-.547-1.484-1.485-1.484-2.578a2.94 2.94 0 0 1 1.484-2.54 2.89 2.89 0 0 1 2.969 0 2.94 2.94 0 0 1 1.484 2.54m-12.304 6.484c0 1.055-.586 2.031-1.485 2.578-.898.508-2.031.508-2.969 0a3.02 3.02 0 0 1-1.445-2.578c0-1.055.547-2.031 1.446-2.539.937-.547 2.07-.547 2.968 0a2.94 2.94 0 0 1 1.485 2.54m-3.79 4.102h-.038a4.14 4.14 0 0 0 2.656-.313c.469.977 1.172 1.797 1.992 2.461a7.8 7.8 0 0 0 2.89 1.328c.235.04.508.078.743.117.039.938.351 1.836.937 2.54a9.6 9.6 0 0 1-5.547-1.602c-1.64-1.133-2.93-2.695-3.632-4.531m15.43 3.515c0 1.055-.586 2.032-1.484 2.578a3.08 3.08 0 0 1-2.969 0c-.898-.547-1.484-1.523-1.484-2.578s.586-2.031 1.484-2.539a2.89 2.89 0 0 1 2.969 0 2.94 2.94 0 0 1 1.484 2.54m-.312-3.281h-.04c.704-1.094 1.055-2.305 1.094-3.594.04-1.25-.234-2.5-.82-3.633.742-.468 1.367-1.171 1.68-1.992a9.66 9.66 0 0 1 1.68 5.82c-.118 2.07-.86 4.063-2.149 5.665a4.38 4.38 0 0 0-1.445-2.266M9.195 11.813c-.312-.079-.586-.079-.898-.079h-.313a9.8 9.8 0 0 1 3.946-3.828 9.56 9.56 0 0 1 5.39-1.133 3.85 3.85 0 0 0-.86 1.797c-.038.235-.077.47-.077.664-1.172.04-2.305.313-3.281.86-1.016.547-1.915 1.328-2.54 2.265-.43-.273-.898-.43-1.367-.546' })));
+exports.StandaloneUbuntuIcon = StandaloneUbuntuIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.StandaloneUbuntuIcon);
+exports.default = ForwardRef;

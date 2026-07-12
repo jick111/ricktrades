@@ -1,0 +1,35 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const DerivLightIcEmptyBlockedAdvertisersIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 128 128', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("path", { fill: '#fff', stroke: '#D4E9EB', strokeWidth: 5, d: 'M96 17.5H32a5.5 5.5 0 0 0-5.5 5.5v89a5.5 5.5 0 0 0 5.5 5.5h64a5.5 5.5 0 0 0 5.5-5.5V23a5.5 5.5 0 0 0-5.5-5.5Z' }),
+    React.createElement("path", { fill: '#B4D8DC', fillRule: 'evenodd', d: 'M84 8H73.8c-.927-4.564-4.962-8-9.8-8s-8.873 3.436-9.8 8H44a4 4 0 0 0-4 4v10h48V12a4 4 0 0 0-4-4M64 4a6 6 0 0 1 5.659 4H58.34c.824-2.33 3.048-4 5.66-4', clipRule: 'evenodd' }),
+    React.createElement("path", { fill: '#2A8F9D', fillOpacity: 0.24, d: 'M40 18h48v4H40z' }),
+    React.createElement("path", { fill: '#B4D8DC', fillRule: 'evenodd', d: 'M37 38a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2zm12-2h42v3H49zm24 5H49v3h24zM37 54a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2zm12-2h42v3H49zm24 5H49v3h24zM37 70a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2zm12-2h42v3H49zm24 5H49v3h24zM37 86a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4a2 2 0 0 1-2 2h-4a2 2 0 0 1-2-2zm12-2h42v3H49zm24 5H49v3h24z', clipRule: 'evenodd' })));
+const ForwardRef = (0, react_1.forwardRef)(DerivLightIcEmptyBlockedAdvertisersIcon);
+exports.default = ForwardRef;

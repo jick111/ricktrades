@@ -41,6 +41,7 @@ import { useDevice } from '@deriv-com/ui';
 import RunPanel from '../../components/run-panel';
 import ChartModal from '../chart/chart-modal';
 import Dashboard from '../dashboard';
+import FreeBots from '../free-bots';
 import RunStrategy from '../dashboard/run-strategy';
 import './main.scss';
 
@@ -404,7 +405,17 @@ const AppWrapper = observer(() => {
                                     </>
                                 }
                                 id='id-bot-builder'
-                            />
+<div
+    label={
+        <>
+            🤖
+            <Localize i18n_default_text='Free Bots' />
+        </>
+    }
+    id='id-free-bots'
+>
+    <FreeBots />
+</div>                           />
                             <div
                                 label={
                                     <>

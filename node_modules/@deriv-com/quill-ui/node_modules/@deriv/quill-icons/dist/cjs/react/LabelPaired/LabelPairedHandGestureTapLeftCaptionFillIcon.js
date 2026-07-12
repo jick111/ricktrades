@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedHandGestureTapLeftCaptionFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 15, height: 18, viewBox: '0 0 15 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M4.758 7.977a.61.61 0 0 1 .797.28l.937 1.97c.047-.165.164-.282.328-.375a.724.724 0 0 1 .914.304.7.7 0 0 1 .352-.375.667.667 0 0 1 .89.305.77.77 0 0 1 .376-.399c.328-.164.773 0 .937.352l.586 1.266c.445.937.047 2.062-.89 2.484l-1.57.75c-.493.234-1.056.305-1.571.164l-.094-.023a1.84 1.84 0 0 1-1.242-1.032l-.235-.492a.95.95 0 0 1 0-.797l.141-.328c.024-.023.047-.07.07-.094l.329.727c.07.117.21.164.328.117.093-.047.164-.187.093-.304L4.477 8.75a.57.57 0 0 1 .28-.773m1.5.984c.117-.211.187-.469.187-.727 0-.82-.68-1.5-1.5-1.5s-1.5.68-1.5 1.5c0 .68.446 1.266 1.078 1.454l-.351-.727a.97.97 0 0 1 .445-1.266.99.99 0 0 1 1.266.446zM2.695 4.25c.235 0 .446.21.446.469v9.586c0 .258-.211.445-.446.445a.43.43 0 0 1-.445-.445V4.719c0-.258.188-.469.445-.469' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '7083050931adba88fc2331d9823616f6__a' },
+            React.createElement("path", { d: 'M0 0h15v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedHandGestureTapLeftCaptionFillIcon);
+exports.default = ForwardRef;

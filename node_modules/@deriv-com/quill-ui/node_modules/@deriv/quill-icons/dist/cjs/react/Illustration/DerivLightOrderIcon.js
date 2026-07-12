@@ -1,0 +1,44 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const DerivLightOrderIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 128 128', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#d4f4ee5370664f77d6215ab68de84314__a)' },
+        React.createElement("mask", { id: 'd4f4ee5370664f77d6215ab68de84314__b', width: 128, height: 128, x: 0, y: 0, maskUnits: 'userSpaceOnUse', style: {
+                maskType: 'luminance',
+            } },
+            React.createElement("path", { fill: '#fff', d: 'M128 0H0v128h128z' })),
+        React.createElement("g", { mask: 'url(#d4f4ee5370664f77d6215ab68de84314__b)' },
+            React.createElement("path", { fill: '#C7E5E5', d: 'M31.36 17.83V17A12.12 12.12 0 0 0 20 5q.455-.022.91 0H18.1a9.291 9.291 0 0 0 0 18.58h13.26z' }),
+            React.createElement("path", { fill: '#BCCDCE', d: 'M47.18 15.78V16a7.63 7.63 0 0 1-7.7 7.55H17.86a7.37 7.37 0 0 0 6.9-7.29v-.49z' }),
+            React.createElement("path", { fill: '#E0F0F0', d: 'M96.8 5H20.89A9 9 0 0 0 20 5a12.13 12.13 0 0 1 11.36 12v95.89A10.08 10.08 0 0 0 41.45 123h65.35V15c0-5.523-4.477-10-10-10' }),
+            React.createElement("path", { fill: '#BCCDCE', d: 'M123 109.58v.82a12.64 12.64 0 0 1-12.69 12.6h-69.7A12.61 12.61 0 0 0 52 110.4v-.82zM47.77 17.8h-4.85a2 2 0 0 0-2 2v4.85a2 2 0 0 0 2 2h4.85a2 2 0 0 0 2-2V19.8a2 2 0 0 0-2-2M47.77 34.65h-4.85a2 2 0 0 0-2 2v4.85a2 2 0 0 0 2 2h4.85a2 2 0 0 0 2-2v-4.85a2 2 0 0 0-2-2M48.6 53.28h-4.85a2 2 0 0 0-2 2v4.85a2 2 0 0 0 2 2h4.85a2 2 0 0 0 2-2v-4.85a2 2 0 0 0-2-2M48.6 71.9h-4.85a2 2 0 0 0-2 2v4.85a2 2 0 0 0 2 2h4.85a2 2 0 0 0 2-2V73.9a2 2 0 0 0-2-2M92.16 73.34H53.61a1 1 0 1 0 0 2h38.55a1 1 0 1 0 0-2M73.91 77.8h-20.8a.5.5 0 0 0 0 1h20.8a.5.5 0 0 0 0-1M93.68 54.97H55.13a1 1 0 1 0 0 2h38.55a1 1 0 1 0 0-2M75.43 59.43h-20.8a.5.5 0 0 0 0 1h20.8a.5.5 0 0 0 0-1M93.68 36.6H55.13a1 1 0 1 0 0 2h38.55a1 1 0 1 0 0-2M75.43 41.06h-20.8a.5.5 0 0 0 0 1h20.8a.5.5 0 0 0 0-1M93.68 19.5H55.13a1 1 0 1 0 0 2h38.55a1 1 0 1 0 0-2M75.43 23.96h-20.8a.5.5 0 1 0 0 1h20.8a.5.5 0 0 0 0-1' }))),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'd4f4ee5370664f77d6215ab68de84314__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h128v128H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(DerivLightOrderIcon);
+exports.default = ForwardRef;

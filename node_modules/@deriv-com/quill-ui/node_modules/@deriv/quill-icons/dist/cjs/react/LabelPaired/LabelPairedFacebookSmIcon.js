@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedFacebookSmIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 22, viewBox: '0 0 14 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M14 10.75c0 3.582-2.707 6.535-6.152 6.973V12.91h1.886l.383-2.16h-2.27v-.738c0-1.149.438-1.586 1.587-1.586.355 0 .629.027.793.027V6.54c-.301-.11-1.067-.191-1.504-.191-2.352 0-3.418 1.12-3.418 3.5v.902h-1.45v2.16h1.45v4.649A7.01 7.01 0 0 1 0 10.75c0-3.855 3.117-7 7-7 3.855 0 7 3.145 7 7' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'ae2cbfe442dda563e881d709419597f3__a' },
+            React.createElement("path", { d: 'M0 0h14v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedFacebookSmIcon);
+exports.default = ForwardRef;

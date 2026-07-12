@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLightChartLineUpDownClockMdRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 24, viewBox: '0 0 20 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M0 5.5c0-.25.219-.5.5-.5.25 0 .5.25.5.5v11c0 .844.656 1.5 1.5 1.5h8.094c.187.375.406.719.656 1H2.5A2.47 2.47 0 0 1 0 16.5zm3.125 6.656 3-3A.52.52 0 0 1 6.5 9c.125 0 .25.063.344.156L9 11.312C10.406 9.876 11.844 8.439 13.281 7H11.5a.494.494 0 0 1-.5-.5c0-.25.219-.5.5-.5h3c.25 0 .5.25.5.5v3c0 .281-.25.5-.5.5a.494.494 0 0 1-.5-.5V7.719c-1.562 1.562-3.125 3.093-4.656 4.656a.53.53 0 0 1-.719 0c-.719-.719-1.437-1.437-2.125-2.156-.906.875-1.781 1.781-2.656 2.656a.53.53 0 0 1-.719 0 .53.53 0 0 1 0-.719M11 15.5c0-2.469 2-4.5 4.5-4.5 2.469 0 4.5 2.031 4.5 4.5 0 2.5-2.031 4.5-4.5 4.5-2.5 0-4.5-2-4.5-4.5m1 0c0 1.938 1.563 3.5 3.5 3.5 1.906 0 3.5-1.562 3.5-3.5 0-1.906-1.594-3.5-3.5-3.5-1.937 0-3.5 1.594-3.5 3.5m3-2c0-.25.219-.5.5-.5.25 0 .5.25.5.5V15h1c.25 0 .5.25.5.5 0 .281-.25.5-.5.5h-1.5a.494.494 0 0 1-.5-.5z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '6022464bcc281e0495df2ca825fdf2bb__a' },
+            React.createElement("path", { d: 'M0 0h20v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLightChartLineUpDownClockMdRegularIcon);
+exports.default = ForwardRef;

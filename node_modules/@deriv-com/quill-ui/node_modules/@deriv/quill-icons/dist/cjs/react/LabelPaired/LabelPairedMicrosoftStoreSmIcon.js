@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedMicrosoftStoreSmIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 17, height: 22, viewBox: '0 0 17 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M5.752 7.25V5.691c0-.957.492-1.257 1.422-1.476 1.394-.328 1.476.574 1.476 1.148v1.313l.356-.055v-1.23c0-1.094-.356-1.887-1.887-1.532-.848.164-1.695.383-1.695 1.805v1.668zm3.582-2.16c-.027-.137-.055-.246-.055-.356 1.067-.136 1.258.164 1.258 1.368v.218l-.328.055v-.328c0-.738 0-1.094-.875-.957m-2.05 1.34c0-1.094.437-1.258.984-1.45.027.11.054.22.054.356-.492.219-.683.355-.683 1.094v.465l-.356.054zm-4.43 1.832 9.378-1.887 1.887.684v9.187l-1.887.684-9.378-1.86zm2.023 5.113 2.078.273v-1.996H4.877zm0-1.996h2.078V9.492l-2.078.301zm2.352 2.297 2.625.383v-2.407H7.229zm0-2.297h2.625v-2.27l-2.625.383z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '3c6a6907fc8dc6cd03d91654e13765e2__a' },
+            React.createElement("path", { d: 'M0 0h17v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedMicrosoftStoreSmIcon);
+exports.default = ForwardRef;

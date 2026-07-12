@@ -1,0 +1,3 @@
+import { ReactNode } from 'react';
+
+export declare const FlagsMap: Record<string, ReactNode>;

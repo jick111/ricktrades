@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedEllipsisMdFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 24, viewBox: '0 0 14 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.25 12c0-.625.313-1.187.875-1.5.531-.312 1.188-.312 1.75 0 .531.313.875.875.875 1.5 0 .656-.344 1.219-.875 1.531-.562.313-1.219.313-1.75 0C.563 13.22.25 12.656.25 12m5 0c0-.625.313-1.187.875-1.5.531-.312 1.188-.312 1.75 0 .531.313.875.875.875 1.5 0 .656-.344 1.219-.875 1.531-.562.313-1.219.313-1.75 0-.562-.312-.875-.875-.875-1.531M12 10.25c.625 0 1.188.344 1.5.875.313.563.313 1.219 0 1.75a1.68 1.68 0 0 1-1.5.875c-.656 0-1.219-.312-1.531-.875-.313-.531-.313-1.187 0-1.75A1.76 1.76 0 0 1 12 10.25' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '107f9c2e9ee34b86bad31e145fb4b7d4__a' },
+            React.createElement("path", { d: 'M0 0h14v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedEllipsisMdFillIcon);
+exports.default = ForwardRef;

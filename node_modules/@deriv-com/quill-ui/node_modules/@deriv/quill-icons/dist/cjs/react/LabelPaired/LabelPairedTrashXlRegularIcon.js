@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedTrashXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 21, height: 36, viewBox: '0 0 21 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M8.297 7.5c-.235 0-.469.14-.61.375L6.938 9h7.079l-.75-1.125c-.141-.234-.375-.375-.61-.375zM15.75 9h4.5c.375 0 .75.375.75.75 0 .422-.375.75-.75.75h-.89l-1.172 16.734c-.141 1.594-1.407 2.766-3 2.766H5.765a3.01 3.01 0 0 1-3-2.766L1.594 10.5H.75A.74.74 0 0 1 0 9.75C0 9.375.328 9 .75 9h4.453l1.219-1.922A2.2 2.2 0 0 1 8.297 6h4.36c.75 0 1.5.422 1.921 1.078zm2.11 1.5H3.093l1.172 16.64c.046.75.703 1.36 1.5 1.36h9.422c.796 0 1.453-.61 1.5-1.36z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'e0dc420e1bf384d751e5e656d7a880cf__a' },
+            React.createElement("path", { d: 'M0 0h21v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedTrashXlRegularIcon);
+exports.default = ForwardRef;

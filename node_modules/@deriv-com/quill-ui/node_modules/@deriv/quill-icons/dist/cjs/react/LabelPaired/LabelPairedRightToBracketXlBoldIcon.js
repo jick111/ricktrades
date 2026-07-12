@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedRightToBracketXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M9 23.156 14.156 18 9 12.89v2.485A1.11 1.11 0 0 1 7.875 16.5H2.25v3h5.625c.61 0 1.125.516 1.125 1.125zM16.5 18c0 .563-.234 1.078-.61 1.453l-5.437 5.438c-.422.422-.984.609-1.547.609a2.12 2.12 0 0 1-2.156-2.156V21.75h-4.5A2.22 2.22 0 0 1 0 19.5v-3a2.25 2.25 0 0 1 2.25-2.25h4.5v-1.547c0-1.219.938-2.203 2.156-2.203.563 0 1.125.234 1.547.656l5.438 5.438c.375.375.609.89.609 1.406m-.375 8.25h3.75a1.85 1.85 0 0 0 1.875-1.875v-12.75a1.88 1.88 0 0 0-1.875-1.875h-3.75C15.469 9.75 15 9.281 15 8.625c0-.61.469-1.125 1.125-1.125h3.75C22.125 7.5 24 9.375 24 11.625v12.75a4.13 4.13 0 0 1-4.125 4.125h-3.75c-.656 0-1.125-.469-1.125-1.125 0-.61.469-1.125 1.125-1.125' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'c099992bd82e69e5bc83e059a80b4d94__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedRightToBracketXlBoldIcon);
+exports.default = ForwardRef;

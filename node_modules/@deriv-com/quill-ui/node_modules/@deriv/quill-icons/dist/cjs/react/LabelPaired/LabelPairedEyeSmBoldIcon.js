@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedEyeSmBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 22, viewBox: '0 0 16 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M8 5.938c-1.805 0-3.254.82-4.375 1.859a9.8 9.8 0 0 0-2.16 2.953c.383.82 1.094 1.996 2.16 2.98 1.121 1.04 2.57 1.832 4.375 1.832 1.777 0 3.227-.792 4.348-1.832 1.066-.984 1.804-2.16 2.16-2.98-.356-.82-1.094-1.969-2.133-2.953-1.148-1.04-2.598-1.86-4.375-1.86m-5.277.902C4.008 5.637 5.785 4.625 8 4.625c2.188 0 3.965 1.012 5.25 2.215s2.133 2.598 2.543 3.582a.98.98 0 0 1 0 .683c-.41.957-1.258 2.38-2.543 3.582-1.285 1.204-3.062 2.188-5.25 2.188-2.215 0-3.992-.984-5.277-2.187C1.438 13.484.59 12.062.18 11.105a.98.98 0 0 1 0-.683c.41-.985 1.257-2.406 2.543-3.582M8 12.938a2.176 2.176 0 0 0 2.188-2.188A2.194 2.194 0 0 0 8 8.563h-.055c.028.164.055.3.055.437 0 .984-.793 1.75-1.75 1.75-.164 0-.3 0-.437-.055v.055A2.16 2.16 0 0 0 8 12.938M8 7.25c1.23 0 2.379.684 3.008 1.75a3.48 3.48 0 0 1 0 3.5A3.47 3.47 0 0 1 8 14.25a3.48 3.48 0 0 1-3.035-1.75 3.48 3.48 0 0 1 0-3.5A3.54 3.54 0 0 1 8 7.25' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '05b9c79b5dc358559fe712a9bf8dc034__a' },
+            React.createElement("path", { d: 'M0 0h16v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedEyeSmBoldIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedCircleUserSlashSmFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 22, viewBox: '0 0 18 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.387 4.023a.604.604 0 0 1 .902-.109l2.625 2.023A6.5 6.5 0 0 1 5.5 4.708c2.16-1.258 4.813-1.258 7 0A6.97 6.97 0 0 1 16 10.75c0 1.367-.41 2.68-1.121 3.8l2.598 2.052c.3.218.355.628.109.902a.604.604 0 0 1-.902.11L.496 4.925a.604.604 0 0 1-.11-.903M2 10.75c0-.902.164-1.777.492-2.598l5.524 4.375a3.49 3.49 0 0 0-2.953 1.75A5.3 5.3 0 0 0 8.973 16c.957 0 1.832-.246 2.597-.684l1.477 1.149c-.192.137-.383.246-.574.355-2.16 1.258-4.813 1.258-7 0A6.99 6.99 0 0 1 2 10.75m5.168-2.242 2.98 2.324a2 2 0 0 0 .547-.629 1.95 1.95 0 0 0 0-1.969 2.01 2.01 0 0 0-1.722-.984c-.684 0-1.34.383-1.696.984a.8.8 0 0 0-.109.274' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '32f971704eb8c756ff2443ecd194c069__a' },
+            React.createElement("path", { d: 'M0 0h18v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedCircleUserSlashSmFillIcon);
+exports.default = ForwardRef;

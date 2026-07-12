@@ -1,0 +1,12 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+import { sizes } from '../../types';
+export const LegacyInfoXsIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 8 8', ...sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#5791ec724248cf62d78ed273c8d06894__a)' },
+        React.createElement("path", { fill: '#333', d: 'M4 0a4 4 0 1 1 0 8 4 4 0 0 1 0-8m0 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6m0 2.5a.5.5 0 0 1 .5.5v1.5a.5.5 0 0 1-1 0V4a.5.5 0 0 1 .5-.5M4 2a.5.5 0 1 1 0 1 .5.5 0 0 1 0-1' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '5791ec724248cf62d78ed273c8d06894__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h8v8H0z' })))));
+const ForwardRef = forwardRef(LegacyInfoXsIcon);
+export default ForwardRef;

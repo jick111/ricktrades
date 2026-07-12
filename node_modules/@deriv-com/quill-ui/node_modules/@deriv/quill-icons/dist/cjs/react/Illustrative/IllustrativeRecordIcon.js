@@ -1,0 +1,38 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeRecordIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeRecordIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M22 26h-.667V11.333c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2V16c0 1.1.9 2 2 2h.667v10.667c0 1.1.9 2 2 2H22c1.1 0 2-.9 2-2V28c0-1.1-.9-2-2-2m-2-14.667V26H9.333c-1.1 0-2 .9-2 2v.667c0 .366-.3.666-.666.666A.67.67 0 0 1 6 28.667V11.333c0-.233-.047-.46-.12-.666h13.453c.367 0 .667.3.667.666M4 16.667A.67.67 0 0 1 3.333 16v-4.667c0-.366.3-.666.667-.666s.667.3.667.666v5.334zm18.667 12c0 .366-.3.666-.667.666H8.547c.073-.206.12-.433.12-.666V28c0-.367.3-.667.666-.667H22c.367 0 .667.3.667.667z' }),
+        React.createElement("path", { d: 'M11.333 15.333h6c.367 0 .667-.3.667-.666S17.7 14 17.333 14h-6c-.366 0-.666.3-.666.667 0 .366.3.666.666.666M11.333 18h6c.367 0 .667-.3.667-.667 0-.366-.3-.666-.667-.666h-6c-.366 0-.666.3-.666.666s.3.667.666.667M11.333 20.667h6c.367 0 .667-.3.667-.667s-.3-.667-.667-.667h-6c-.366 0-.666.3-.666.667s.3.667.666.667M11.333 23.333h6c.367 0 .667-.3.667-.666S17.7 22 17.333 22h-6c-.366 0-.666.3-.666.667 0 .366.3.666.666.666M8.667 15.333a.667.667 0 1 0 0-1.333.667.667 0 0 0 0 1.333M8.667 18a.667.667 0 1 0 0-1.333.667.667 0 0 0 0 1.333M8.667 20.667a.667.667 0 1 0 0-1.334.667.667 0 0 0 0 1.334M8.667 23.333a.667.667 0 1 0 0-1.333.667.667 0 0 0 0 1.333M25.667 2a4.333 4.333 0 1 0 0 8.666 4.333 4.333 0 0 0 0-8.666m0 7.333c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.347 3 3-1.347 3-3 3' }),
+        React.createElement("path", { d: 'm26.193 5.527-.86.86-.193-.194a.664.664 0 1 0-.94.94l.667.667c.133.133.3.193.473.193s.34-.066.473-.193l1.334-1.333a.664.664 0 1 0-.94-.94z' }))));
+exports.IllustrativeRecordIcon = IllustrativeRecordIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeRecordIcon);
+exports.default = ForwardRef;

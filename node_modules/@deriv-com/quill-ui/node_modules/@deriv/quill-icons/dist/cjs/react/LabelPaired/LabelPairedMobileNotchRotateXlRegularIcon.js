@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedMobileNotchRotateXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 27, height: 36, viewBox: '0 0 27 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.5 9c0-1.64 1.313-3 3-3h9c1.64 0 3 1.36 3 3v6.938c-.14.046-.234.093-.328.14A2.56 2.56 0 0 0 15 15.141V9c0-.797-.703-1.5-1.5-1.5H12v.75c0 .844-.703 1.5-1.5 1.5h-3A1.48 1.48 0 0 1 6 8.25V7.5H4.5C3.656 7.5 3 8.203 3 9v18c0 .844.656 1.5 1.5 1.5h9.328c.328.375.703.797 1.125 1.125a3.1 3.1 0 0 1-1.5.375H4.5c-1.687 0-3-1.312-3-3zm6-1.5v.75h3V7.5zm6 9.75c0-.375.328-.75.75-.75.375 0 .75.375.75.75v1.781a6.62 6.62 0 0 1 5.25-2.531c2.813 0 5.25 1.781 6.234 4.219.141.422-.047.843-.422.984-.375.188-.796 0-.984-.422A5.17 5.17 0 0 0 20.25 18a5.24 5.24 0 0 0-4.312 2.25H18c.375 0 .75.375.75.75 0 .422-.375.75-.75.75h-3.75a.74.74 0 0 1-.75-.75zm.469 8.531a.73.73 0 0 1 .422-.937c.375-.188.797 0 .984.375.75 1.968 2.672 3.281 4.875 3.281 1.781 0 3.328-.89 4.266-2.25H22.5a.74.74 0 0 1-.75-.75c0-.375.328-.75.75-.75h3.75c.375 0 .75.375.75.75v3.75c0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75v-1.734A6.72 6.72 0 0 1 20.25 30c-2.86 0-5.297-1.734-6.281-4.219' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '58874b26b49f531008ef32aa716dc1bc__a' },
+            React.createElement("path", { d: 'M0 0h27v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedMobileNotchRotateXlRegularIcon);
+exports.default = ForwardRef;

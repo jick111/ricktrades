@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedStarCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 18, viewBox: '0 0 14 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M6.977 3.5c.234 0 .421.14.515.328L9.11 7.133l3.586.539c.211.023.375.164.446.375.07.21.023.422-.141.586l-2.602 2.578.61 3.633a.56.56 0 0 1-.211.562.63.63 0 0 1-.61.047l-3.21-1.734-3.188 1.734a.63.63 0 0 1-.61-.047.58.58 0 0 1-.21-.562l.61-3.633L.976 8.633a.55.55 0 0 1-.141-.586c.07-.188.234-.352.445-.375l3.586-.54 1.617-3.304a.57.57 0 0 1 .493-.328m0 1.852-1.22 2.554c-.093.164-.234.282-.421.305l-2.766.398 1.993 1.993c.14.14.21.328.164.492l-.47 2.812 2.462-1.312a.55.55 0 0 1 .539 0l2.46 1.312-.468-2.789a.49.49 0 0 1 .164-.492l1.992-2.016-2.765-.398c-.188-.024-.328-.14-.422-.305z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '1ae01324eeecbe00dfc8d58d9da5ae1c__a' },
+            React.createElement("path", { d: 'M0 0h14v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedStarCaptionBoldIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedShieldCheckCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 18, viewBox: '0 0 12 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.71 6.477c-.14.07-.21.187-.21.304 0 2.157.89 5.836 4.36 7.5.07.047.187.047.257 0 3.469-1.64 4.36-5.344 4.383-7.5 0-.117-.094-.234-.21-.304L6 4.672zm9-1.032c.517.235.915.727.915 1.336-.023 2.344-.984 6.586-5.016 8.532a1.44 1.44 0 0 1-1.242 0C1.336 13.367.375 9.125.375 6.78c-.023-.61.375-1.101.89-1.336L5.673 3.57a.75.75 0 0 1 .633 0zm-3.398 2.93c0 .54-.328.984-.75 1.195v1.617A.555.555 0 0 1 6 11.75a.54.54 0 0 1-.562-.562V9.57a1.31 1.31 0 0 1-.75-1.195c0-.703.585-1.312 1.312-1.312.703 0 1.313.609 1.313 1.312' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'dd29396bde1a2ec9690ac0f655e572da__a' },
+            React.createElement("path", { d: 'M0 0h12v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedShieldCheckCaptionBoldIcon);
+exports.default = ForwardRef;

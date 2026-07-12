@@ -1,0 +1,8 @@
+import { BottomAction, BottomBar } from './bottom-navigation';
+
+interface NavigationType {
+    Bottom: typeof BottomBar;
+    BottomAction: typeof BottomAction;
+}
+export declare const Navigation: NavigationType;
+export default Navigation;

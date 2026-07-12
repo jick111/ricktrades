@@ -1,0 +1,39 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeExecutionSpeedIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeExecutionSpeedIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M16.667 14.293a.67.67 0 0 1-.667-.666v-.294c0-.366.3-.666.667-.666.366 0 .666.3.666.666v.294c0 .366-.3.666-.666.666M22 19.333h-.293a.67.67 0 0 1-.667-.666c0-.367.3-.667.667-.667H22c.367 0 .667.3.667.667 0 .366-.3.666-.667.666M16.667 24.667A.67.67 0 0 1 16 24v-.293c0-.367.3-.667.667-.667.366 0 .666.3.666.667V24c0 .367-.3.667-.666.667M11.627 19.333h-.294a.67.67 0 0 1-.666-.666c0-.367.3-.667.666-.667h.294c.366 0 .666.3.666.667 0 .366-.3.666-.666.666M20.234 15.767a.664.664 0 0 1-.473-1.133l.206-.207c.26-.26.68-.26.947 0 .26.26.26.68 0 .94l-.207.206a.68.68 0 0 1-.474.194M20.44 23.107a.68.68 0 0 1-.473-.194l-.207-.206a.664.664 0 1 1 .94-.94l.207.206a.664.664 0 0 1-.474 1.134zM12.893 23.107a.664.664 0 0 1-.473-1.133l.207-.207a.664.664 0 1 1 .94.94l-.207.206a.66.66 0 0 1-.473.194zM13.1 15.767a.68.68 0 0 1-.473-.194l-.207-.206a.664.664 0 1 1 .94-.94l.207.206a.664.664 0 0 1-.474 1.134z' }),
+        React.createElement("path", { d: 'M16.667 27.334c-4.78 0-8.667-3.887-8.667-8.667 0-.367.3-.667.667-.667.366 0 .666.3.666.667A7.34 7.34 0 0 0 16.667 26 7.34 7.34 0 0 0 24 18.667a7.338 7.338 0 0 0-11.693-5.9.67.67 0 0 1-.934-.14.67.67 0 0 1 .14-.934 8.6 8.6 0 0 1 5.147-1.7c4.78 0 8.667 3.887 8.667 8.667s-3.887 8.667-8.667 8.667z' }),
+        React.createElement("path", { d: 'M19.313 7.653a.7.7 0 0 0 .02-.16V6h1.334c1.106 0 2-.893 2-2s-.894-2-2-2h-8c-1.1 0-2 .9-2 2s.9 2 2 2H14v1.493c0 .054 0 .107.02.154q-.76.182-1.5.473a.667.667 0 0 0-.38.867.67.67 0 0 0 .867.373 10 10 0 0 1 3.66-.693c5.513 0 10 4.486 10 10 0 5.513-4.487 10-10 10-5.514 0-10-4.487-10-10 0-.367-.3-.667-.667-.667s-.667.3-.667.667C5.333 24.92 10.42 30 16.667 30S28 24.92 28 18.667c0-5.334-3.713-9.827-8.687-11.014m-6.646-2.986A.67.67 0 0 1 12 4c0-.367.3-.667.667-.667h8c.366 0 .666.3.666.667s-.3.667-.666.667zm2.666 2.746V6H18v1.413a11 11 0 0 0-2.667 0' }),
+        React.createElement("path", { d: 'M9.333 11.333H6.667A.67.67 0 0 1 6 10.667c0-.367.3-.667.667-.667h2.666c.367 0 .667.3.667.667 0 .366-.3.666-.667.666M8.667 14H2a.67.67 0 0 1-.667-.667c0-.366.3-.666.667-.666h6.667c.366 0 .666.3.666.666s-.3.667-.666.667M9.333 16.667h-4A.67.67 0 0 1 4.667 16c0-.367.3-.667.666-.667h4c.367 0 .667.3.667.667s-.3.667-.667.667M16.667 19.333a.68.68 0 0 1-.474-.193l-2-2a.664.664 0 1 1 .94-.94l2 2a.664.664 0 0 1-.473 1.133z' }))));
+exports.IllustrativeExecutionSpeedIcon = IllustrativeExecutionSpeedIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeExecutionSpeedIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,39 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LegacyBuyTimeIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const LegacyBuyTimeIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 16 16', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#effd58061f76b4c992ec13c5814fb45f__a)' },
+        React.createElement("path", { fill: '#333', d: 'M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0m0 1.143a6.857 6.857 0 1 0 0 13.714A6.857 6.857 0 0 0 8 1.143M9.5 2.5a.5.5 0 0 1 .09.992L9.5 3.5h-1v1.028a4.5 4.5 0 1 1-1 0V3.5h-1a.5.5 0 0 1-.492-.41L6 3a.5.5 0 0 1 .41-.492L6.5 2.5zM8 5.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7m1.95 1.649a.5.5 0 0 1 .054.638l-.058.069L8.35 9.429a.5.5 0 0 1-.76-.643l.058-.069 1.594-1.573a.5.5 0 0 1 .707.005' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'effd58061f76b4c992ec13c5814fb45f__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h16v16H0z' })))));
+exports.LegacyBuyTimeIcon = LegacyBuyTimeIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.LegacyBuyTimeIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,4 @@
+import { BaseTagProps } from './types';
+
+export declare const Tag: import('react').ForwardRefExoticComponent<BaseTagProps & import('react').RefAttributes<HTMLDivElement>>;
+export default Tag;

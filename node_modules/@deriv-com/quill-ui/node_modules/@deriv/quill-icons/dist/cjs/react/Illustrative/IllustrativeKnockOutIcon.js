@@ -1,0 +1,37 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeKnockOutIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeKnockOutIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm30.469 12.86-.394-.393a2 2 0 0 0-2.826 0l-3.447 3.446a.676.676 0 0 1-.94 0l-3.447-3.446a2 2 0 0 0-2.826 0l-6.84 6.84a.67.67 0 0 1-.914.026l-3.453-3.026a2 2 0 0 0-2.733.093l-1.12 1.12a.664.664 0 1 0 .94.94l1.12-1.12a.67.67 0 0 1 .913-.027l3.453 3.027c.38.327.847.493 1.32.493.514 0 1.027-.193 1.413-.586l6.84-6.84c.26-.26.68-.26.94 0l3.447 3.446a2 2 0 0 0 2.827 0l3.447-3.446c.26-.26.68-.26.94 0l.393.393a.664.664 0 1 0 .94-.94zM17.995 9.333a3.33 3.33 0 0 0 2.36-.973A3.32 3.32 0 0 0 21.328 6a3.33 3.33 0 0 0-.973-2.36 3.3 3.3 0 0 0-2.36-.973c-.893 0-1.727.346-2.36.973A3.3 3.3 0 0 0 14.662 6c0 .893.346 1.727.973 2.36a3.3 3.3 0 0 0 2.36.973m1.413-1.92c-.593.594-1.52.714-2.266.38l2.646-2.646a1.982 1.982 0 0 1-.387 2.273zm-2.826-2.826a1.98 1.98 0 0 1 2.273-.387l-2.66 2.66a1.982 1.982 0 0 1 .387-2.273M6.969 24.307a3.32 3.32 0 0 0-.974 2.36c0 .893.347 1.726.973 2.36a3.347 3.347 0 0 0 4.72 0 3.24 3.24 0 0 0 .974-2.36 3.329 3.329 0 0 0-5.687-2.36zm.94.94a2 2 0 0 1 1.413-.587c.293 0 .587.073.853.2l-2.653 2.653a1.982 1.982 0 0 1 .387-2.273zm2.826 2.826a2 2 0 0 1-2.273.387l2.653-2.653a1.982 1.982 0 0 1-.387 2.273z' }),
+        React.createElement("path", { d: 'M15.329 10c0 .367.3.667.666.667h4c.367 0 .667-.3.667-.667s-.3-.667-.667-.667h-4c-.366 0-.666.3-.666.667M11.329 23.333c.366 0 .666-.3.666-.666s-.3-.667-.666-.667h-4c-.367 0-.667.3-.667.667 0 .366.3.666.667.666zM14.662 22h-.667c-.366 0-.666.3-.666.667 0 .366.3.666.666.666h.667c.366 0 .666-.3.666-.666s-.3-.667-.666-.667M4.662 22h-.667c-.367 0-.667.3-.667.667 0 .366.3.666.667.666h.667c.367 0 .667-.3.667-.666S5.029 22 4.662 22M17.995 22h-.667c-.366 0-.666.3-.666.667 0 .366.3.666.666.666h.667c.367 0 .667-.3.667-.666s-.3-.667-.667-.667M21.329 22h-.667c-.367 0-.667.3-.667.667 0 .366.3.666.667.666h.666c.367 0 .667-.3.667-.666s-.3-.667-.667-.667M12.662 10.667h.666c.367 0 .667-.3.667-.667s-.3-.667-.666-.667h-.667c-.367 0-.667.3-.667.667s.3.667.667.667M22.662 10.667h.666c.367 0 .667-.3.667-.667s-.3-.667-.667-.667h-.666c-.367 0-.667.3-.667.667s.3.667.667.667M25.995 10.667h.667c.367 0 .666-.3.666-.667s-.3-.667-.666-.667h-.667c-.367 0-.667.3-.667.667s.3.667.667.667M9.329 10.667h.666c.367 0 .667-.3.667-.667s-.3-.667-.667-.667H9.33c-.367 0-.667.3-.667.667s.3.667.666.667' }))));
+exports.IllustrativeKnockOutIcon = IllustrativeKnockOutIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeKnockOutIcon);
+exports.default = ForwardRef;

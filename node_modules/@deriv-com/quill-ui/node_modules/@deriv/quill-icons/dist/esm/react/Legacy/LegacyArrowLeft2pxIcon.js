@@ -1,0 +1,12 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+import { sizes } from '../../types';
+export const LegacyArrowLeft2pxIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 16 16', ...sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#20d57e0cc8235d74cafcf04710e0a168__a)' },
+        React.createElement("path", { fill: '#333', d: 'M8.707.293a1 1 0 0 1 0 1.414L3.414 7 15 7a1 1 0 1 1 0 2L3.414 8.999l5.293 5.294a1 1 0 1 1-1.414 1.414l-7-7-.073-.082-.007-.008.08.09a1 1 0 0 1-.289-.617L0 8v-.02q0-.034.004-.07L0 8a1 1 0 0 1 .213-.617q.037-.047.08-.09l7-7a1 1 0 0 1 1.414 0' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '20d57e0cc8235d74cafcf04710e0a168__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h16v16H0z' })))));
+const ForwardRef = forwardRef(LegacyArrowLeft2pxIcon);
+export default ForwardRef;

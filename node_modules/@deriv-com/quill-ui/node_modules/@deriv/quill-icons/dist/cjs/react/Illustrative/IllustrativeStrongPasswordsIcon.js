@@ -1,0 +1,35 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeStrongPasswordsIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeStrongPasswordsIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("path", { d: 'M30.547 20.72a4.26 4.26 0 0 0-2.76-3.987v-2.946c0-1.56-1.24-2.827-2.787-2.88C24.947 5.987 20.933 2 16 2s-8.947 3.987-9 8.907a2.88 2.88 0 0 0-2.773 2.88v2.933c-1.627.613-2.787 2.16-2.787 4s1.16 3.373 2.773 3.987v2.413a2.89 2.89 0 0 0 2.894 2.893H24.88a2.89 2.89 0 0 0 2.893-2.893v-2.413c1.614-.614 2.774-2.16 2.774-3.987M16 3.333c4.187 0 7.613 3.387 7.667 7.56h-.907c-.053-3.68-3.067-6.666-6.76-6.666s-6.707 2.986-6.76 6.666h-.907c.054-4.173 3.48-7.56 7.667-7.56m5.44 7.56H10.56C10.613 7.947 13.04 5.56 16 5.56s5.387 2.387 5.44 5.333M5.56 13.787c0-.867.693-1.56 1.56-1.56h17.773c.867 0 1.56.693 1.56 1.56v2.666s-.12-.013-.186-.013H5.72s-.107.013-.16.013zM26.44 27.12c0 .867-.693 1.56-1.56 1.56H7.107c-.867 0-1.56-.693-1.56-1.56v-2.133s.12.013.173.013h20.547s.12-.013.173-.013zm-.173-3.453H5.72a2.948 2.948 0 0 1 0-5.894h20.547a2.948 2.948 0 0 1 0 5.894m-8.814-3.08-.2.133.2.133c.307.2.414.614.214.92-.12.2-.347.32-.574.32a.56.56 0 0 1-.346-.106l-.094-.054v.187a.66.66 0 0 1-.666.667.66.66 0 0 1-.667-.667v-.187l-.107.067a.66.66 0 0 1-.346.107.63.63 0 0 1-.56-.32c-.2-.307-.094-.72.213-.92l.2-.134-.2-.133c-.307-.2-.413-.613-.213-.92s.6-.4.92-.213l.106.066v-.186A.66.66 0 0 1 16 18.68a.66.66 0 0 1 .667.667v.186l.093-.053a.684.684 0 0 1 .92.213c.2.307.093.72-.213.92zm4.454 0-.2.133.2.133c.306.2.413.614.213.92-.12.2-.347.32-.56.32a.56.56 0 0 1-.347-.106l-.106-.067v.187a.66.66 0 0 1-.667.666.66.66 0 0 1-.667-.666v-.187l-.093.053a.66.66 0 0 1-.347.107.63.63 0 0 1-.56-.32c-.2-.307-.093-.72.214-.92l.2-.133-.2-.134c-.307-.2-.414-.613-.214-.92.2-.306.614-.4.92-.213l.094.053v-.186a.66.66 0 0 1 .666-.667.66.66 0 0 1 .667.667v.186l.107-.066a.68.68 0 0 1 .92.213c.2.307.093.72-.214.92zm4.44 0-.2.133.2.133c.306.2.413.614.213.92-.12.2-.347.32-.56.32a.56.56 0 0 1-.347-.106l-.093-.054v.187a.66.66 0 0 1-.667.667.66.66 0 0 1-.666-.667v-.187L24.12 22a.66.66 0 0 1-.347.107.63.63 0 0 1-.56-.32c-.2-.307-.093-.72.214-.92l.2-.134-.2-.133c-.307-.2-.414-.613-.214-.92s.614-.4.92-.213l.107.066v-.186a.66.66 0 0 1 .667-.667.66.66 0 0 1 .666.667v.186l.094-.053a.68.68 0 0 1 .92.213c.2.307.093.72-.214.92zm-13.334 0-.2.133.2.133c.307.2.414.614.214.92-.12.2-.347.32-.56.32a.56.56 0 0 1-.347-.106l-.093-.054v.187a.66.66 0 0 1-.667.667.66.66 0 0 1-.667-.667v-.187l-.106.067a.66.66 0 0 1-.347.107.63.63 0 0 1-.56-.32c-.2-.307-.093-.72.213-.92l.2-.134-.2-.133c-.306-.2-.413-.613-.213-.92s.6-.4.92-.213l.107.066v-.186a.66.66 0 0 1 .666-.667.66.66 0 0 1 .667.667v.186l.093-.053a.684.684 0 0 1 .92.213c.2.307.094.72-.213.92zm-4.44 0-.2.133.2.133c.307.2.414.614.214.92-.12.2-.347.32-.56.32a.56.56 0 0 1-.347-.106l-.107-.067v.187a.66.66 0 0 1-.666.666.66.66 0 0 1-.667-.666v-.187l-.093.053A.66.66 0 0 1 6 22.08a.63.63 0 0 1-.56-.32c-.2-.307-.093-.72.213-.92l.2-.133-.2-.134c-.306-.2-.413-.613-.213-.92.2-.306.613-.4.92-.213l.093.053v-.186a.66.66 0 0 1 .667-.667.66.66 0 0 1 .667.667v.186l.106-.066a.684.684 0 0 1 .92.213c.2.307.094.72-.213.92z' })));
+exports.IllustrativeStrongPasswordsIcon = IllustrativeStrongPasswordsIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeStrongPasswordsIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedScissorsCaptionRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 18, viewBox: '0 0 12 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M11.906 13.883c-.14.164-.375.164-.539.047l-3.562-3.047c-.164-.117-.164-.375-.047-.516a.377.377 0 0 1 .539-.047l3.562 3.024c.164.14.164.375.047.539M6.726 9.03l4.641-3.937c.164-.117.399-.117.54.047.116.164.116.398-.048.539l-6.984 5.883c.234.374.375.843.375 1.312A2.636 2.636 0 0 1 2.625 15.5 2.62 2.62 0 0 1 0 12.875a2.636 2.636 0 0 1 2.625-2.625c.68 0 1.313.281 1.781.727L6.141 9.5 4.406 8.047a2.58 2.58 0 0 1-1.781.703A2.62 2.62 0 0 1 0 6.125 2.636 2.636 0 0 1 2.625 3.5c1.43 0 2.625 1.195 2.625 2.648 0 .47-.14.938-.375 1.313zM2.626 8c.656 0 1.266-.352 1.617-.937a1.91 1.91 0 0 0 0-1.875c-.351-.563-.96-.938-1.617-.938-.68 0-1.29.375-1.64.938a1.91 1.91 0 0 0 0 1.875c.35.585.96.937 1.64.937m0 3c-.68 0-1.29.375-1.64.938a1.91 1.91 0 0 0 0 1.874c.35.586.96.938 1.64.938.656 0 1.266-.352 1.617-.937a1.91 1.91 0 0 0 0-1.876c-.351-.562-.96-.937-1.617-.937' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '88da124054407730938bbadf05ca59a4__a' },
+            React.createElement("path", { d: 'M0 0h12v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedScissorsCaptionRegularIcon);
+exports.default = ForwardRef;

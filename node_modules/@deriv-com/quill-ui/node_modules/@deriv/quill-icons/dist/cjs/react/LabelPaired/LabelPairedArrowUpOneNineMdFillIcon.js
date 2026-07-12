@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowUpOneNineMdFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 24, viewBox: '0 0 18 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M14.063 5.188c.28.187.437.5.437.812v3h.5c.531 0 1 .469 1 1 0 .563-.469 1-1 1h-3c-.562 0-1-.437-1-1 0-.531.438-1 1-1h.5V7.406l-.187.063a1.054 1.054 0 0 1-1.282-.625 1.054 1.054 0 0 1 .625-1.282l1.5-.5c.313-.093.656-.03.906.157zM5 5c.281 0 .531.125.719.344l2.75 3a.99.99 0 0 1-.063 1.406A.99.99 0 0 1 7 9.688L6 8.594V18c0 .563-.469 1-1 1-.562 0-1-.437-1-1V8.594L2.969 9.688a.99.99 0 0 1-1.406.062.99.99 0 0 1-.063-1.406l2.75-3A1 1 0 0 1 5 5m8.906 10.406a.96.96 0 0 0 .469-1.312.997.997 0 0 0-1.312-.5c-.5.25-.72.844-.47 1.344.22.5.813.718 1.313.468m-1.25 1.719c-1.125-.344-1.906-1.375-1.906-2.625 0-1.5 1.219-2.75 2.75-2.75 1.5 0 2.75 1.25 2.75 2.75 0 .75-.25 1.469-.687 2.063l-1.532 2.03c-.312.47-.937.563-1.406.22-.437-.313-.531-.938-.187-1.407z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'cdf8dd998015b9a5d4a0a0b8f1f6a380__a' },
+            React.createElement("path", { d: 'M0 0h18v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowUpOneNineMdFillIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,40 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.LegacyMarketStocksIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const LegacyMarketStocksIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 16 16', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { fill: '#333', fillRule: 'evenodd', clipPath: 'url(#398b5aac1eb2863698183a1ac2c85e4d__a)', clipRule: 'evenodd' },
+        React.createElement("path", { d: 'M15.5 1.5a1.5 1.5 0 0 1-1.993 1.417l-2.233 2.79a1.5 1.5 0 1 1-2.628.145l-2-1.998a1.5 1.5 0 0 1-1.293 0l-2 2a1.5 1.5 0 1 1-.707-.707l2-2a1.5 1.5 0 1 1 2.708 0l2 2a1.5 1.5 0 0 1 1.14-.064l2.232-2.79A1.5 1.5 0 1 1 15.5 1.5m-5 5a.5.5 0 0 1-.5.5.5.5 0 0 1-.5-.5.5.5 0 0 1 1 0m-8.114.318a.5.5 0 1 1-.77-.636.5.5 0 0 1 .77.636m11.2-5.598.024-.032a.5.5 0 1 1-.025.032M6 3a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1' }),
+        React.createElement("path", { d: 'M12.5 6.5a1.5 1.5 0 0 1 3 0v8a1.5 1.5 0 0 1-3 0zM14 6a.5.5 0 0 0-.5.5v8a.5.5 0 0 0 1 0v-8A.5.5 0 0 0 14 6M.5 10.5a1.5 1.5 0 1 1 3 0v4a1.5 1.5 0 0 1-3 0zM2 10a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 1 0v-4A.5.5 0 0 0 2 10M8.5 10.5a1.5 1.5 0 1 1 3 0v4a1.5 1.5 0 0 1-3 0zM10 10a.5.5 0 0 0-.5.5v4a.5.5 0 0 0 1 0v-4a.5.5 0 0 0-.5-.5M4.5 7.5a1.5 1.5 0 1 1 3 0v7a1.5 1.5 0 0 1-3 0zM6 7a.5.5 0 0 0-.5.5v7a.5.5 0 0 0 1 0v-7A.5.5 0 0 0 6 7' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '398b5aac1eb2863698183a1ac2c85e4d__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h16v16H0z' })))));
+exports.LegacyMarketStocksIcon = LegacyMarketStocksIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.LegacyMarketStocksIcon);
+exports.default = ForwardRef;

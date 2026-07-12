@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedMemoCircleCheckMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 24, viewBox: '0 0 18 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M2 5.5c-.281 0-.5.25-.5.5v12c0 .281.219.5.5.5h6.875a5.4 5.4 0 0 0 1.406 1.5H2c-1.125 0-2-.875-2-2V6c0-1.094.875-2 2-2h8c1.094 0 2 .906 2 2v4.219c-.562.156-1.062.375-1.5.687V6c0-.25-.25-.5-.5-.5zM3.75 8h4.5a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-4.5A.72.72 0 0 1 3 8.75.74.74 0 0 1 3.75 8m0 3h4.5a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-4.5a.72.72 0 0 1-.75-.75.74.74 0 0 1 .75-.75m0 3h1.5a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-1.5a.72.72 0 0 1-.75-.75.74.74 0 0 1 .75-.75M18 15.5a4.54 4.54 0 0 1-2.25 3.906 4.46 4.46 0 0 1-4.5 0A4.47 4.47 0 0 1 9 15.5c0-1.594.844-3.062 2.25-3.875a4.46 4.46 0 0 1 4.5 0c1.375.813 2.25 2.281 2.25 3.875m-2.406-1.344a.53.53 0 0 0-.719 0L13 16.062l-.906-.906a.53.53 0 0 0-.719 0 .53.53 0 0 0 0 .719l1.25 1.25a.53.53 0 0 0 .719 0l2.25-2.25a.53.53 0 0 0 0-.719' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '0b5182a0869cb52e9cc7ea3d5766de2a__a' },
+            React.createElement("path", { d: 'M0 0h18v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedMemoCircleCheckMdBoldIcon);
+exports.default = ForwardRef;

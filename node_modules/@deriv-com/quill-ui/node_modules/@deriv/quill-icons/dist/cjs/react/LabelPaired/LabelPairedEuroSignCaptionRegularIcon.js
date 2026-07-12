@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedEuroSignCaptionRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 8, height: 18, viewBox: '0 0 8 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.047 8.75H.625a.37.37 0 0 1-.375-.375C.25 8.188.414 8 .625 8h.586A5.25 5.25 0 0 1 6.25 4.25h1.148c.188 0 .375.188.375.375 0 .21-.187.375-.375.375H6.25C4.281 5 2.617 6.266 1.984 8h4.641c.188 0 .375.188.375.375 0 .21-.187.375-.375.375H1.797c-.047.258-.047.516-.047.75 0 .258.023.516.047.75h4.828c.188 0 .375.188.375.375 0 .21-.187.375-.375.375h-4.64a4.52 4.52 0 0 0 4.265 3h1.148c.188 0 .375.188.375.375 0 .21-.187.375-.375.375H6.25A5.224 5.224 0 0 1 1.21 11H.626a.37.37 0 0 1-.375-.375c0-.187.164-.375.375-.375h.422C1 10.016 1 9.758 1 9.5c0-.234 0-.492.047-.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'c566e986971c1c710415abb081fb9506__a' },
+            React.createElement("path", { d: 'M0 0h8v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedEuroSignCaptionRegularIcon);
+exports.default = ForwardRef;

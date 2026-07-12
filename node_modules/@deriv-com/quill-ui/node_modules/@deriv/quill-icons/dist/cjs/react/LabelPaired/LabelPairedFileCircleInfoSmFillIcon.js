@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedFileCircleInfoSmFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 22, viewBox: '0 0 16 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.125 5.5c0-.957.766-1.75 1.75-1.75H6.25v3.5c0 .492.383.875.875.875h3.5v1.066a4.815 4.815 0 0 0-3.5 4.621 4.84 4.84 0 0 0 1.996 3.938H1.875c-.984 0-1.75-.766-1.75-1.75zm10.5 1.75h-3.5v-3.5zm1.313 2.625c1.394 0 2.68.766 3.39 1.969a3.9 3.9 0 0 1 0 3.937 3.9 3.9 0 0 1-3.39 1.969 3.92 3.92 0 0 1-3.418-1.969 3.9 3.9 0 0 1 0-3.937 3.97 3.97 0 0 1 3.418-1.969m0 2.625a.65.65 0 0 0 .656-.656c0-.356-.301-.656-.656-.656-.383 0-.657.3-.657.656 0 .383.274.656.656.656m-.876 1.313c0 .246.192.437.438.437v1.313a.45.45 0 0 0-.437.437c0 .246.19.438.437.438h.875a.45.45 0 0 0 .438-.438.47.47 0 0 0-.438-.437v-1.75a.47.47 0 0 0-.437-.438H11.5a.45.45 0 0 0-.437.438' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'b1916ffd6f2688ecf3d4c571752a9219__a' },
+            React.createElement("path", { d: 'M0 0h16v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedFileCircleInfoSmFillIcon);
+exports.default = ForwardRef;

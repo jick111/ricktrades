@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedMagnifyingGlassPlusXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M9.75 8.25c-2.719 0-5.156 1.453-6.516 3.75-1.359 2.344-1.359 5.203 0 7.5a7.46 7.46 0 0 0 6.516 3.75c2.672 0 5.11-1.406 6.469-3.75 1.36-2.297 1.36-5.156 0-7.5-1.36-2.297-3.797-3.75-6.469-3.75m0 17.25C4.36 25.5 0 21.14 0 15.75 0 10.406 4.36 6 9.75 6c5.344 0 9.75 4.406 9.75 9.75a9.9 9.9 0 0 1-2.11 6.094l6.235 6.281a1.027 1.027 0 0 1 0 1.547 1.027 1.027 0 0 1-1.547 0l-6.281-6.235A9.82 9.82 0 0 1 9.75 25.5m-1.125-5.625v-3h-3c-.656 0-1.125-.469-1.125-1.125 0-.61.469-1.125 1.125-1.125h3v-3c0-.61.469-1.125 1.125-1.125.61 0 1.125.516 1.125 1.125v3h3c.61 0 1.125.516 1.125 1.125a1.11 1.11 0 0 1-1.125 1.125h-3v3A1.11 1.11 0 0 1 9.75 21c-.656 0-1.125-.469-1.125-1.125' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '27ac18360fe493a36808910e0cc82c4b__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedMagnifyingGlassPlusXlBoldIcon);
+exports.default = ForwardRef;

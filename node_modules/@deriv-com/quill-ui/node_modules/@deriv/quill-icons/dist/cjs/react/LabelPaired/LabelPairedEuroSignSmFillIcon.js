@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedEuroSignSmFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 9, height: 22, viewBox: '0 0 9 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.438 10.313H1a.864.864 0 0 1-.875-.876c0-.464.383-.874.875-.874h.766c.793-2.27 3.007-3.938 5.578-3.938H8a.9.9 0 0 1 .875.875c0 .492-.41.875-.875.875h-.656c-1.586 0-2.98.902-3.664 2.188h3.445A.9.9 0 0 1 8 9.437c0 .493-.41.876-.875.876H3.188v.875h3.937a.9.9 0 0 1 .875.874c0 .493-.41.876-.875.876H3.68c.683 1.312 2.078 2.187 3.664 2.187H8a.9.9 0 0 1 .875.875c0 .492-.41.875-.875.875h-.656c-2.57 0-4.785-1.64-5.578-3.937H1a.864.864 0 0 1-.875-.876c0-.464.383-.874.875-.874h.438v-.876' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '89f3a1735f75c0caff7387853221bc9a__a' },
+            React.createElement("path", { d: 'M0 0h9v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedEuroSignSmFillIcon);
+exports.default = ForwardRef;

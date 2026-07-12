@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedStopLossCaptionFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 15, height: 18, viewBox: '0 0 15 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M3.445 12.852a3.8 3.8 0 0 1-1.078-.82l-.234-.282 1.43-1.43.257.282c.352.421.774.609 1.29.609.304 0 .445-.07.515-.117.07-.07.094-.14.094-.258s-.024-.164-.047-.211c-.024 0-.024-.023-.07-.047a.9.9 0 0 0-.282-.047l-.61-.094c-.726-.093-1.312-.304-1.687-.703H3c-.375-.421-.54-.937-.54-1.546 0-.329.048-.633.188-.915.141-.28.329-.539.563-.75.234-.187.539-.351.867-.445a3.3 3.3 0 0 1 1.102-.164c.515 0 .984.07 1.406.258.398.164.75.422 1.055.75l.234.258-1.43 1.453-.28-.305A2 2 0 0 0 5.741 8H5.72c-.14-.07-.328-.14-.61-.14-.28 0-.421.07-.468.093-.047.047-.07.07-.07.164 0 .07.023.117.023.14s.023.024.023.024c.047.047.164.094.399.14l.609.095c.68.093 1.266.328 1.64.703.4.375.587.914.587 1.523 0 .352-.07.68-.188.985a2.1 2.1 0 0 1-.586.773 2.5 2.5 0 0 1-.89.492 3.7 3.7 0 0 1-1.149.164c-.61 0-1.125-.094-1.57-.304zm4.782.21v-7.03h2.132v5.062h2.391v1.969z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'd6159e03f45a6839e853d7a6750627c4__a' },
+            React.createElement("path", { d: 'M0 0h15v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedStopLossCaptionFillIcon);
+exports.default = ForwardRef;

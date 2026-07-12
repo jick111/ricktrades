@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLinkSimpleCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 18, viewBox: '0 0 14 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.25 9.5A3.746 3.746 0 0 1 4 5.75h1.688a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562H4A2.636 2.636 0 0 0 1.375 9.5 2.62 2.62 0 0 0 4 12.125h1.688a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562H4A3.73 3.73 0 0 1 .25 9.5m13.5 0A3.746 3.746 0 0 1 10 13.25H8.313a.54.54 0 0 1-.563-.562c0-.305.234-.563.563-.563H10A2.636 2.636 0 0 0 12.625 9.5c0-1.43-1.195-2.625-2.625-2.625H8.313a.54.54 0 0 1-.563-.562c0-.305.234-.563.563-.563H10a3.76 3.76 0 0 1 3.75 3.75m-9.187-.562h4.875A.57.57 0 0 1 10 9.5a.555.555 0 0 1-.562.563H4.562A.54.54 0 0 1 4 9.5c0-.305.234-.562.563-.562' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'a33cc3f9f06dd253dcfe11a6cd0d544a__a' },
+            React.createElement("path", { d: 'M0 0h14v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLinkSimpleCaptionBoldIcon);
+exports.default = ForwardRef;

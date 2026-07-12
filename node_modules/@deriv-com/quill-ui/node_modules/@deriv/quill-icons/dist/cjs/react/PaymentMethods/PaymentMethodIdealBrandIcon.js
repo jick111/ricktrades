@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const PaymentMethodIdealBrandIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 128 80', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("path", { fill: '#fff', d: 'M30.03 14.448v51.104C30.03 68 32.026 70 34.468 70h30.474c23.04 0 33.028-12.92 33.028-30.067C97.97 22.876 87.982 10 64.943 10H34.47c-2.442 0-4.44 2.002-4.44 4.448' }),
+    React.createElement("path", { fill: '#C06', d: 'M50.427 22.542v37.762H66.83c14.893 0 21.352-8.429 21.352-20.349 0-11.408-6.459-20.26-21.352-20.26H53.268a2.85 2.85 0 0 0-2.84 2.847' }),
+    React.createElement("path", { fill: '#000', d: 'M64.943 65.93H38.442a4.267 4.267 0 0 1-4.262-4.27V18.362a4.267 4.267 0 0 1 4.262-4.27h26.501c25.148 0 28.9 16.212 28.9 25.863 0 16.746-10.277 25.975-28.9 25.975M38.442 15.515A2.835 2.835 0 0 0 35.6 18.36v43.3a2.835 2.835 0 0 0 2.84 2.846h26.502c17.713 0 27.479-8.718 27.479-24.552 0-21.26-17.224-24.44-27.479-24.44z' }),
+    React.createElement("path", { fill: '#fff', d: 'M56.198 34.863c.577 0 1.11.089 1.62.267.511.178.933.467 1.31.823.355.378.644.845.866 1.378.2.556.31 1.201.31 1.957 0 .668-.088 1.268-.244 1.824-.177.556-.421 1.045-.754 1.445s-.755.712-1.265.957c-.511.222-1.11.355-1.798.355h-3.885v-9.028h3.84zm-.133 7.36c.289 0 .555-.044.843-.133.267-.089.511-.244.71-.467.2-.222.378-.489.511-.845.133-.355.2-.756.2-1.267a5.2 5.2 0 0 0-.133-1.223 2.4 2.4 0 0 0-.444-.934 2 2 0 0 0-.8-.6c-.332-.134-.732-.201-1.22-.201h-1.42v5.693h1.753zM68.317 36.53h-4.75v1.935h4.373V40h-4.373v2.202h4.861v1.668h-6.836v-9.03h6.725zM75.11 34.863l3.373 9.029h-2.064l-.688-2.001h-3.374l-.71 2.001h-1.998l3.396-9.029zm.11 5.538-1.132-3.314h-.022L72.889 40.4zM81.701 34.863v7.361h4.395v1.668h-6.37v-9.029z' }),
+    React.createElement("path", { fill: '#000', d: 'M43.014 43.536a4.155 4.155 0 0 0 4.15-4.159 4.155 4.155 0 0 0-4.15-4.158 4.155 4.155 0 0 0-4.15 4.158 4.155 4.155 0 0 0 4.15 4.159M46.144 60.304c-3.485 0-6.282-2.824-6.282-6.294v-4.914a3.153 3.153 0 1 1 6.304 0v11.208z' })));
+const ForwardRef = (0, react_1.forwardRef)(PaymentMethodIdealBrandIcon);
+exports.default = ForwardRef;

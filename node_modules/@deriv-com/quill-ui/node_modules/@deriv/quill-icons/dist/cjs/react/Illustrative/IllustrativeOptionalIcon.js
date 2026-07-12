@@ -1,0 +1,40 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeOptionalIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeOptionalIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M22.247 8.987a.66.66 0 0 0 .473.193c.18 0 .347-.073.473-.193L24.32 7.86a.664.664 0 1 0-.94-.94l-.66.66-.093-.093a.664.664 0 1 0-.94.94l.566.566z' }),
+        React.createElement("path", { d: 'M6 10.667h13.88A4.31 4.31 0 0 0 23 12a4.34 4.34 0 0 0 4.333-4.333A4.34 4.34 0 0 0 23 3.333a4.31 4.31 0 0 0-3.12 1.334H6c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2m17-6c1.653 0 3 1.346 3 3s-1.347 3-3 3-3-1.347-3-3 1.347-3 3-3m-17.667 2C5.333 6.3 5.633 6 6 6h13a4.32 4.32 0 0 0 0 3.333H6a.67.67 0 0 1-.667-.666zM22 16.333A4.34 4.34 0 0 0 17.667 12a4.31 4.31 0 0 0-3.12 1.333H6c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2h8.547a4.31 4.31 0 0 0 3.12 1.334A4.34 4.34 0 0 0 22 16.333M6 18a.67.67 0 0 1-.667-.667v-2c0-.366.3-.666.667-.666h7.667a4.32 4.32 0 0 0 0 3.333zm11.667 1.333c-1.654 0-3-1.346-3-3s1.346-3 3-3 3 1.347 3 3-1.347 3-3 3' }),
+        React.createElement("path", { d: 'm18.04 15.58-.66.66-.093-.093a.664.664 0 1 0-.94.94l.566.566a.66.66 0 0 0 .474.194c.18 0 .346-.074.473-.194l1.127-1.126a.664.664 0 1 0-.94-.94zM12.333 20.667A4.31 4.31 0 0 0 9.213 22H6c-1.1 0-2 .9-2 2v2c0 1.1.9 2 2 2h3.213a4.31 4.31 0 0 0 3.12 1.333A4.34 4.34 0 0 0 16.667 25a4.34 4.34 0 0 0-4.334-4.333m-6.333 6A.67.67 0 0 1 5.333 26v-2c0-.367.3-.667.667-.667h2.333a4.32 4.32 0 0 0 0 3.334zM12.333 28c-1.653 0-3-1.347-3-3s1.347-3 3-3 3 1.347 3 3-1.346 3-3 3' }),
+        React.createElement("path", { d: 'm12.707 24.247-.654.66-.093-.094a.664.664 0 1 0-.94.94l.567.567a.66.66 0 0 0 .473.193c.18 0 .347-.073.473-.193l1.127-1.127a.664.664 0 1 0-.94-.94zM27.607 26.667H28c.367 0 .667-.3.667-.667s-.3-.667-.667-.667h-2c-.08 0-.16.02-.233.047q-.028.012-.067.033a.6.6 0 0 0-.14.094c-.02.013-.033.026-.053.046a.8.8 0 0 0-.12.174s-.007.013-.014.02a.7.7 0 0 0-.046.233v2.027c0 .366.3.666.666.666s.667-.3.667-.666v-.394l.86.86c.133.134.3.194.473.194a.664.664 0 0 0 .473-1.133l-.86-.86zM26 22c-.367 0-.667.3-.667.667v.666c0 .367.3.667.667.667s.667-.3.667-.667v-.666c0-.367-.3-.667-.667-.667M23.807 22.86a.664.664 0 1 0-.94.94l.666.667c.134.133.3.193.474.193a.664.664 0 0 0 .473-1.133l-.667-.667zM23.333 25.333h-.666c-.367 0-.667.3-.667.667s.3.667.667.667h.666c.367 0 .667-.3.667-.667s-.3-.667-.667-.667' }),
+        React.createElement("path", { d: 'M26 20.667c.367 0 .667-.3.667-.667s-.3-.667-.667-.667c-3.673 0-6.667 2.994-6.667 6.667 0 .367.3.667.667.667s.667-.3.667-.667A5.34 5.34 0 0 1 26 20.667' }))));
+exports.IllustrativeOptionalIcon = IllustrativeOptionalIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeOptionalIcon);
+exports.default = ForwardRef;

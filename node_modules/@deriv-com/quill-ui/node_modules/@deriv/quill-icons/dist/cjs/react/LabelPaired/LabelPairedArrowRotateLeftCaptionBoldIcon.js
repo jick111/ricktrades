@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowRotateLeftCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 18, viewBox: '0 0 12 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.938 8.75a.54.54 0 0 1-.563-.562V4.812c0-.304.234-.562.563-.562a.57.57 0 0 1 .562.563V6.71l.469-.563C2.929 5 4.359 4.25 6 4.25c2.883 0 5.25 2.367 5.25 5.25A5.256 5.256 0 0 1 6 14.75a5.27 5.27 0 0 1-3.164-1.031.586.586 0 0 1-.117-.797.564.564 0 0 1 .797-.117c.68.515 1.547.82 2.484.82A4.116 4.116 0 0 0 10.125 9.5 4.13 4.13 0 0 0 6 5.375c-1.29 0-2.414.586-3.187 1.5l-.633.75h2.133a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '79fa30f925e49f288f8302908f3b105d__a' },
+            React.createElement("path", { d: 'M0 0h12v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowRotateLeftCaptionBoldIcon);
+exports.default = ForwardRef;

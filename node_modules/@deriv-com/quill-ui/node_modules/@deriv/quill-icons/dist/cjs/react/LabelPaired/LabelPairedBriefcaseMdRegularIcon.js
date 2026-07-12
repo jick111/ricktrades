@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedBriefcaseMdRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 24, viewBox: '0 0 16 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M5 5.5V7h6V5.5c0-.25-.25-.5-.5-.5h-5c-.281 0-.5.25-.5.5M4 7V5.5A1.5 1.5 0 0 1 5.5 4h5c.813 0 1.5.688 1.5 1.5V7h2c1.094 0 2 .906 2 2v8c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V9c0-1.094.875-2 2-2zm7.5 1H2c-.562 0-1 .469-1 1v3h14V9c0-.531-.469-1-1-1zm3.5 5h-4.5v1.5c0 .563-.469 1-1 1h-3c-.562 0-1-.437-1-1V13H1v4c0 .563.438 1 1 1h12c.531 0 1-.437 1-1zm-8.5 0v1.5h3V13z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'a012cad7dcf16c95787d018e24f85ce1__a' },
+            React.createElement("path", { d: 'M0 0h16v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedBriefcaseMdRegularIcon);
+exports.default = ForwardRef;

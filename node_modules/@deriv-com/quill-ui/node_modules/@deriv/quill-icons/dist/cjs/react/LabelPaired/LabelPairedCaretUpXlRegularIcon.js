@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedCaretUpXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 15, height: 36, viewBox: '0 0 15 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm7.219 13.64-5.625 5.297c-.094.094-.094.141-.094.235 0 .187.14.328.328.328h11.297c.188 0 .375-.14.375-.328a.26.26 0 0 0-.14-.235l-5.626-5.296A.26.26 0 0 0 7.5 13.5q-.21 0-.281.14m-1.032-1.124C6.517 12.188 6.985 12 7.5 12c.469 0 .938.188 1.266.516l5.625 5.343c.375.328.609.844.609 1.313C15 20.203 14.156 21 13.125 21H1.828A1.8 1.8 0 0 1 0 19.172c0-.469.188-.985.563-1.313z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '7d7c496f01314039c98744ec5520f692__a' },
+            React.createElement("path", { d: 'M0 0h15v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedCaretUpXlRegularIcon);
+exports.default = ForwardRef;

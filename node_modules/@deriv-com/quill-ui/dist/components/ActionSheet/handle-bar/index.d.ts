@@ -1,0 +1,7 @@
+import { ComponentProps } from 'react';
+
+export interface BarProps extends ComponentProps<"div"> {
+    position?: "sticky" | "absolute";
+}
+declare const HandleBar: ({ position, ...rest }: BarProps) => import("react").JSX.Element;
+export default HandleBar;

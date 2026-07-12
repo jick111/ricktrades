@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowRightArrowLeftXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 21, height: 36, viewBox: '0 0 21 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm4.828 29.297-4.5-4.5c-.469-.422-.469-1.125 0-1.594l4.5-4.453a1.026 1.026 0 0 1 1.547 0 1.027 1.027 0 0 1 0 1.547l-2.578 2.578h16.078c.61 0 1.125.516 1.125 1.125a1.11 1.11 0 0 1-1.125 1.125l-16.078.047 2.578 2.578a1.027 1.027 0 0 1 0 1.547 1.027 1.027 0 0 1-1.547 0m15.844-16.5-4.5 4.5c-.469.469-1.172.469-1.594 0-.469-.422-.469-1.125 0-1.594l2.578-2.578H1.125C.469 13.125 0 12.656 0 12c0-.61.469-1.125 1.125-1.125h16.031l-2.578-2.578c-.469-.422-.469-1.125 0-1.594.422-.422 1.125-.422 1.594 0l4.5 4.547a1.103 1.103 0 0 1 0 1.547' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '5b1c5ff57a51051b61ac39a6a546aa1b__a' },
+            React.createElement("path", { d: 'M0 0h21v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowRightArrowLeftXlBoldIcon);
+exports.default = ForwardRef;

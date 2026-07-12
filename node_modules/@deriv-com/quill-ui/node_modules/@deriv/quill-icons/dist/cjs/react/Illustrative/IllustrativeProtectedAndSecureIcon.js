@@ -1,0 +1,38 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeProtectedAndSecureIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeProtectedAndSecureIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { fillRule: 'evenodd', d: 'M26.667 2c-1.102 0-2 .898-2 2v.78a2 2 0 0 0-1.334 1.887v2a2 2 0 0 0 2 2h3.334a2 2 0 0 0 2-2v-2a2 2 0 0 0-1.334-1.887V4c0-1.102-.898-2-2-2zM28 4.667V4a.67.67 0 0 0-.667-.667h-.666A.67.67 0 0 0 26 4v.667zM25.333 6a.667.667 0 0 0-.666.667v2c0 .368.298.666.666.666h3.334a.667.667 0 0 0 .666-.666v-2A.667.667 0 0 0 28.667 6z', clipRule: 'evenodd' }),
+        React.createElement("path", { d: 'M7.333 6.667a2 2 0 0 0-2 2v2a.667.667 0 1 1-1.333 0v-2a3.333 3.333 0 0 1 3.333-3.334h13.334a.667.667 0 1 1 0 1.334zM30.667 13.333a.667.667 0 0 0-1.334 0V20a2 2 0 0 1-2 2H14a.667.667 0 0 0 0 1.333h2.667v2H14a.667.667 0 0 0 0 1.334h6.667a.667.667 0 0 0 0-1.334H18v-2h9.333A3.333 3.333 0 0 0 30.667 20zM4.667 25.867a.667.667 0 0 0 0 1.333h4a.667.667 0 0 0 0-1.334z' }),
+        React.createElement("path", { fillRule: 'evenodd', d: 'M4 12.667h5.333A2.666 2.666 0 0 1 12 15.333v12A2.666 2.666 0 0 1 9.333 30H4a2.666 2.666 0 0 1-2.667-2.667v-12A2.666 2.666 0 0 1 4 12.667m6.667 2.666c0-.733-.6-1.333-1.334-1.333H4c-.733 0-1.333.6-1.333 1.333v12c0 .734.6 1.334 1.333 1.334h5.333c.734 0 1.334-.6 1.334-1.334z', clipRule: 'evenodd' }))));
+exports.IllustrativeProtectedAndSecureIcon = IllustrativeProtectedAndSecureIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeProtectedAndSecureIcon);
+exports.default = ForwardRef;

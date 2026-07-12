@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLoaderLgFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 30, viewBox: '0 0 20 30', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M11.25 6.75v2.5c0 .703-.586 1.25-1.25 1.25-.703 0-1.25-.547-1.25-1.25v-2.5c0-.664.547-1.25 1.25-1.25.664 0 1.25.586 1.25 1.25m0 15v2.5c0 .703-.586 1.25-1.25 1.25-.703 0-1.25-.547-1.25-1.25v-2.5c0-.664.547-1.25 1.25-1.25.664 0 1.25.586 1.25 1.25M0 15.5c0-.664.547-1.25 1.25-1.25h2.5c.664 0 1.25.586 1.25 1.25 0 .703-.586 1.25-1.25 1.25h-2.5C.547 16.75 0 16.203 0 15.5m16.25-1.25h2.5c.664 0 1.25.586 1.25 1.25 0 .703-.586 1.25-1.25 1.25h-2.5c-.703 0-1.25-.547-1.25-1.25 0-.664.547-1.25 1.25-1.25M2.93 8.43c.468-.47 1.25-.47 1.757 0l1.758 1.797a1.205 1.205 0 0 1 0 1.757 1.205 1.205 0 0 1-1.758 0L2.93 10.227a1.25 1.25 0 0 1 0-1.797m12.343 10.625 1.797 1.758c.47.507.47 1.289 0 1.757a1.25 1.25 0 0 1-1.797 0l-1.757-1.758c-.47-.468-.47-1.289 0-1.757.507-.508 1.289-.508 1.757 0M2.93 22.57v.04a1.25 1.25 0 0 1 0-1.797l1.757-1.758a1.205 1.205 0 0 1 1.758 0c.508.468.508 1.289 0 1.758L4.687 22.57c-.507.508-1.289.508-1.757 0m10.586-12.343 1.757-1.797a1.324 1.324 0 0 1 1.797 0c.47.508.47 1.289 0 1.797l-1.797 1.757c-.468.47-1.25.47-1.757 0-.47-.507-.47-1.289 0-1.757' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'd6c3fcfb74fdcd0717ba54fe58f21d2c__a' },
+            React.createElement("path", { d: 'M0 0h20v30H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLoaderLgFillIcon);
+exports.default = ForwardRef;

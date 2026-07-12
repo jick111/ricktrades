@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+const LabelPairedSevenSmBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 9, height: 22, viewBox: '0 0 9 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.125 5.281c0-.355.273-.656.656-.656H8.22c.219 0 .437.137.547.355.136.192.136.438 0 .657L2.203 16.574a.66.66 0 0 1-.902.219c-.301-.191-.41-.602-.219-.902l5.961-9.953H.781a.63.63 0 0 1-.656-.657' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'ba2c6f08501710972c008af0384b1c64__a' },
+            React.createElement("path", { d: 'M0 0h9v22H0z' })))));
+const ForwardRef = forwardRef(LabelPairedSevenSmBoldIcon);
+export default ForwardRef;

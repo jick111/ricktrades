@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedEllipsisVerticalXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 6, height: 36, viewBox: '0 0 6 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M3 22.875c.938 0 1.781.516 2.25 1.313.469.843.469 1.828 0 2.625-.469.843-1.312 1.312-2.25 1.312-.984 0-1.828-.469-2.297-1.312-.469-.797-.469-1.782 0-2.625A2.64 2.64 0 0 1 3 22.875m0-7.5c.938 0 1.781.516 2.25 1.313.469.843.469 1.828 0 2.625-.469.843-1.312 1.312-2.25 1.312-.984 0-1.828-.469-2.297-1.312-.469-.797-.469-1.782 0-2.625A2.64 2.64 0 0 1 3 15.375M5.625 10.5c0 .984-.516 1.828-1.312 2.297-.844.469-1.829.469-2.625 0C.844 12.328.375 11.484.375 10.5c0-.937.469-1.781 1.313-2.25.796-.469 1.78-.469 2.625 0 .796.469 1.312 1.313 1.312 2.25' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '704469b0a7d0293ce04c9f19080e8920__a' },
+            React.createElement("path", { d: 'M0 0h6v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedEllipsisVerticalXlFillIcon);
+exports.default = ForwardRef;

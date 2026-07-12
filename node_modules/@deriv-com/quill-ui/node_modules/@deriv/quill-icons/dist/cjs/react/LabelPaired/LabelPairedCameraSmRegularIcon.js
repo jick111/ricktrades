@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedCameraSmRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 22, viewBox: '0 0 14 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M5.223 4.625H8.75c.574 0 1.066.383 1.258.902l.273.848h1.969c.957 0 1.75.793 1.75 1.75v7c0 .984-.793 1.75-1.75 1.75H1.75c-.984 0-1.75-.766-1.75-1.75v-7c0-.957.766-1.75 1.75-1.75h1.941l.274-.848c.191-.52.683-.902 1.258-.902m-.438 1.176-.383 1.176a.42.42 0 0 1-.41.273H1.75a.88.88 0 0 0-.875.875v7c0 .492.383.875.875.875h10.5a.88.88 0 0 0 .875-.875v-7a.9.9 0 0 0-.875-.875H9.98a.41.41 0 0 1-.41-.3L9.187 5.8c-.082-.163-.246-.3-.437-.3H5.223c-.192 0-.356.137-.438.3M7 14.688a3.01 3.01 0 0 1-2.652-1.532 2.94 2.94 0 0 1 0-3.062A3.07 3.07 0 0 1 7 8.563c1.094 0 2.078.601 2.625 1.53a2.94 2.94 0 0 1 0 3.063A3 3 0 0 1 7 14.687m-2.187-3.063c0 .793.41 1.504 1.093 1.914.657.383 1.504.383 2.188 0 .656-.41 1.094-1.121 1.094-1.914 0-.766-.438-1.477-1.094-1.887-.684-.383-1.531-.383-2.188 0-.683.41-1.093 1.121-1.093 1.887' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'ad6fce4a7901b659a57ad7c80197119c__a' },
+            React.createElement("path", { d: 'M0 0h14v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedCameraSmRegularIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedMagnifyingGlassPlusMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 24, viewBox: '0 0 16 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M6.5 5.5c-1.812 0-3.437.969-4.344 2.5a4.94 4.94 0 0 0 0 5A4.97 4.97 0 0 0 6.5 15.5a4.96 4.96 0 0 0 4.313-2.5 4.94 4.94 0 0 0 0-5C9.906 6.469 8.28 5.5 6.5 5.5m0 11.5A6.495 6.495 0 0 1 0 10.5C0 6.938 2.906 4 6.5 4c3.563 0 6.5 2.938 6.5 6.5a6.6 6.6 0 0 1-1.406 4.063l4.156 4.187a.684.684 0 0 1 0 1.031.684.684 0 0 1-1.031 0l-4.188-4.156A6.55 6.55 0 0 1 6.5 17m-.75-3.75v-2h-2A.72.72 0 0 1 3 10.5a.74.74 0 0 1 .75-.75h2v-2A.74.74 0 0 1 6.5 7a.76.76 0 0 1 .75.75v2h2a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-2v2a.74.74 0 0 1-.75.75.72.72 0 0 1-.75-.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '868d02bf9cd6ecac92e33a393bde08b5__a' },
+            React.createElement("path", { d: 'M0 0h16v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedMagnifyingGlassPlusMdBoldIcon);
+exports.default = ForwardRef;

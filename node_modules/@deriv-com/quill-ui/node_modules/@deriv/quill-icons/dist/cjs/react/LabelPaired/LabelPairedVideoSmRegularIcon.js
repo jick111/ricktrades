@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedVideoSmRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 22, viewBox: '0 0 16 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.875 6.375A.88.88 0 0 0 1 7.25v7c0 .492.383.875.875.875h7a.88.88 0 0 0 .875-.875v-7a.9.9 0 0 0-.875-.875zm-1.75.875c0-.957.766-1.75 1.75-1.75h7c.957 0 1.75.793 1.75 1.75v7c0 .984-.793 1.75-1.75 1.75h-7c-.984 0-1.75-.766-1.75-1.75zm14.191 7.766L11.5 13.457v-1.012l3.227 1.805c.027 0 .054.027.082.027.109 0 .191-.082.191-.191V7.44a.187.187 0 0 0-.191-.191c-.028 0-.055.027-.082.027L11.5 9.082V8.07l2.816-1.558c.164-.082.329-.137.493-.137.574 0 1.066.492 1.066 1.066v6.645c0 .574-.492 1.039-1.066 1.039-.164 0-.328-.027-.493-.11' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '5bcf5eb2bf6a03d25f9fced5a26b0996__a' },
+            React.createElement("path", { d: 'M0 0h16v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedVideoSmRegularIcon);
+exports.default = ForwardRef;

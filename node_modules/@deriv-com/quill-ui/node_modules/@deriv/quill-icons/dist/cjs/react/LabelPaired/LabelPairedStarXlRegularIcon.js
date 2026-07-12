@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedStarXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 27, height: 36, viewBox: '0 0 27 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M10.594 13.922c-.235.469-.656.75-1.125.844l-6.422.937 4.64 4.64c.375.329.516.845.422 1.313L7.031 28.22l5.719-3.094a1.59 1.59 0 0 1 1.453 0l5.719 3.094-1.078-6.563c-.094-.468.047-.984.422-1.312l4.64-4.64-6.422-.938c-.515-.094-.937-.375-1.125-.844l-2.906-5.906zm9.281 15.984h.047L13.5 26.438l-6.422 3.468c-.375.188-.844.14-1.219-.093-.328-.282-.515-.704-.421-1.125l1.218-7.266-5.203-5.156a1.1 1.1 0 0 1-.281-1.172c.14-.375.469-.703.89-.75l7.172-1.078 3.235-6.61c.187-.375.562-.656.984-.656.469 0 .844.281 1.031.656l3.235 6.61 7.172 1.078c.422.047.75.375.89.75.14.422.047.844-.281 1.172l-5.203 5.156 1.219 7.265c.093.422-.094.844-.422 1.125a1.25 1.25 0 0 1-1.219.094' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '246e689b1d0371b6962681ad573ca969__a' },
+            React.createElement("path", { d: 'M0 0h27v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedStarXlRegularIcon);
+exports.default = ForwardRef;

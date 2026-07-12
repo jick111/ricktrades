@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedEllipsisVerticalSmBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 4, height: 22, viewBox: '0 0 4 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M2 13.813c.465 0 .875.273 1.121.656.246.41.246.93 0 1.312-.246.41-.656.656-1.121.656a1.31 1.31 0 0 1-1.148-.656c-.247-.383-.247-.902 0-1.312.246-.383.656-.656 1.148-.656m0-4.376c.465 0 .875.274 1.121.657.246.41.246.93 0 1.312-.246.41-.656.656-1.121.656a1.31 1.31 0 0 1-1.148-.656c-.247-.383-.247-.902 0-1.312.246-.383.656-.656 1.148-.656m1.313-3.062c0 .492-.274.902-.657 1.148-.41.247-.93.247-1.312 0a1.31 1.31 0 0 1-.657-1.148c0-.465.247-.875.657-1.121.383-.246.902-.246 1.312 0 .383.246.656.656.656 1.121' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'c79bab5ebc59918e0fc510d4af0e2c8a__a' },
+            React.createElement("path", { d: 'M0 0h4v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedEllipsisVerticalSmBoldIcon);
+exports.default = ForwardRef;

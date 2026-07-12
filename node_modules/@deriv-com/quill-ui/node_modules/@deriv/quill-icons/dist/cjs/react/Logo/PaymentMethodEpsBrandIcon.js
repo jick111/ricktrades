@@ -1,0 +1,35 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const PaymentMethodEpsBrandIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 128 80', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("path", { fill: '#71706F', d: 'M93.539 41.079h8.574c4.472.066 8.137 3.797 8.137 8.309 0 4.499-3.665 8.283-8.137 8.349h-24.32c3.044-1.257 4.539-3.771 6.074-6.708h18.127c.952 0 1.72-.702 1.72-1.654 0-.953-.768-1.707-1.72-1.707h-8.455c-4.552 0-8.257-3.718-8.257-8.257s3.705-8.256 8.257-8.256h13.046v6.43H93.539c-.953 0-1.72.834-1.72 1.787s.767 1.707 1.72 1.707' }),
+    React.createElement("path", { fill: '#71706F', fillRule: 'evenodd', d: 'M56.081 44.413c0-7.304 5.914-13.258 13.178-13.258S82.411 37.083 82.4 44.4c0 7.304-5.889 13.337-13.153 13.337h-6.589V72h-6.576zm6.576 6.603h6.602a6.607 6.607 0 0 0 6.63-6.63c0-3.704-2.978-6.72-6.63-6.72s-6.602 3.016-6.602 6.72z', clipRule: 'evenodd' }),
+    React.createElement("path", { fill: '#B90466', d: 'M35.242 8c6.179 0 11.194 4.882 11.194 10.916h.013v3.056c0 .397-.358.78-.755.78H41.58c-.41 0-.728-.383-.728-.78v-3.056c0-3.017-2.5-5.465-5.597-5.465-3.096 0-5.597 2.448-5.597 5.465v3.056c0 .397-.357.78-.754.78h-4.115c-.41 0-.728-.383-.728-.78v-3.347C24.22 12.737 29.17 8 35.241 8M35.268 57.737c-6.219 0-11.445-4.433-12.86-10.215 0 0-.41-1.919-.41-3.176s.383-3.188.383-3.188c1.429-5.77 6.642-10.07 12.847-10.07 7.304 0 13.298 5.928 13.298 13.232v3.215H29.129c1.15 2.236 3.466 3.493 6.14 3.493h17.438l.026-18.934c0-2.818-2.302-5.134-5.133-5.134H22.884c-2.819 0-5.134 2.236-5.134 5.068v24.716c0 2.818 2.315 5.2 5.134 5.2H47.6c2.527 0 4.644-1.813 5.054-4.194H35.268z' }),
+    React.createElement("path", { fill: '#B90466', d: 'M35.242 37.36c-2.66 0-4.975 1.628-6.126 3.732h12.252c-1.151-2.104-3.467-3.731-6.126-3.731' })));
+const ForwardRef = (0, react_1.forwardRef)(PaymentMethodEpsBrandIcon);
+exports.default = ForwardRef;

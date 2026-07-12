@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedClapperboardPlayMdRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 24, viewBox: '0 0 16 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M15 10H1v7c0 .563.438 1 1 1h12c.531 0 1-.437 1-1zm0-1V7a.93.93 0 0 0-.344-.719L11.937 9zM7.188 9h3.343l3-3h-3.344zM5.78 9l3-3H5.437l-3 3zM2 6c-.562 0-1 .469-1 1v2h.031l3-3zm14 3v8c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2V7c0-1.094.875-2 2-2h12c1.094 0 2 .906 2 2zm-9.25 2.094 4.25 2.5c.156.094.25.25.25.406a.5.5 0 0 1-.25.438l-4.25 2.5a.48.48 0 0 1-.5 0c-.156-.094-.281-.25-.281-.438v-5c0-.156.125-.344.281-.406a.48.48 0 0 1 .5 0m3 2.906L7 12.375v3.25z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '778a80067eccf8f8b4d46788f5dad7dc__a' },
+            React.createElement("path", { d: 'M0 0h16v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedClapperboardPlayMdRegularIcon);
+exports.default = ForwardRef;

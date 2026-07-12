@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedWifiMdRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 24, viewBox: '0 0 20 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.844 9.781c-.219.188-.531.188-.719 0-.187-.219-.187-.531 0-.719A14.04 14.04 0 0 1 10 5c3.813 0 7.313 1.563 9.844 4.063.187.187.187.5 0 .718-.188.188-.5.188-.719 0A12.85 12.85 0 0 0 10 6 12.87 12.87 0 0 0 .844 9.781M10 11a7.98 7.98 0 0 0-5.656 2.344c-.188.187-.5.187-.719 0a.49.49 0 0 1 0-.688A8.97 8.97 0 0 1 10 10.031c2.469 0 4.719 1 6.344 2.625a.49.49 0 0 1 0 .688c-.188.187-.5.187-.719 0A7.96 7.96 0 0 0 10 11m0 5c-.562 0-1 .469-1 1 0 .563.438 1 1 1 .531 0 1-.437 1-1 0-.531-.469-1-1-1m0 3a2.03 2.03 0 0 1-1.75-1c-.344-.594-.344-1.375 0-2 .375-.594 1.031-1 1.75-1 .688 0 1.344.406 1.719 1 .344.625.344 1.406 0 2A2.02 2.02 0 0 1 10 19' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '4ac02f6d64a65ae6e575c271d7b1c058__a' },
+            React.createElement("path", { d: 'M0 0h20v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedWifiMdRegularIcon);
+exports.default = ForwardRef;

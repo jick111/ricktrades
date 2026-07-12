@@ -1,0 +1,49 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const DerivLightDepositIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#95d16d55f2be919a8508b4b03de147b5__a)' },
+        React.createElement("mask", { id: '95d16d55f2be919a8508b4b03de147b5__b', width: 32, height: 32, x: 0, y: 0, maskUnits: 'userSpaceOnUse', style: {
+                maskType: 'luminance',
+            } },
+            React.createElement("path", { fill: '#fff', d: 'M32 0H0v32h32z' })),
+        React.createElement("g", { mask: 'url(#95d16d55f2be919a8508b4b03de147b5__b)' },
+            React.createElement("path", { fill: '#85ACB0', d: 'm15.175 1.14 11.818 2.084a2 2 0 0 1 1.622 2.317l-2.257 12.803L10.6 15.565l2.257-12.802a2 2 0 0 1 2.317-1.622' }),
+            React.createElement("path", { fill: '#fff', d: 'm22.912 26.367 2.691-15.265q-3.591-2.664-1.912-6.43l-5.909-1.041q.29 4.113-3.996 5.388l-2.692 15.264z' }),
+            React.createElement("path", { fill: '#85ACB0', d: 'M7 0h12a2 2 0 0 1 2 2v13H5V2a2 2 0 0 1 2-2' }),
+            React.createElement("path", { fill: '#fff', d: 'M19 23.5V8q-4-2-3-6h-6q1 4-3 6v15.5z' }),
+            React.createElement("path", { fill: '#FF444F', d: 'M9 10.303a.5.5 0 0 1 .5-.5h.488A2.3 2.3 0 0 1 12.234 8a.5.5 0 1 1 0 1 1.303 1.303 0 0 0-.27 2.578L14.072 8h.286c1.1 0 2.02.772 2.249 1.804h.37a.5.5 0 0 1 0 1h-.37a2.304 2.304 0 0 1-2.249 1.802.5.5 0 1 1 0-1 1.303 1.303 0 0 0 .27-2.578l-2.106 3.578h-.286c-1.1 0-2.021-.772-2.249-1.804l-.018.001H9.5a.5.5 0 0 1-.5-.5' }),
+            React.createElement("path", { fill: '#C7E5E5', d: 'M5 6H4a4 4 0 0 0-4 4v18a4 4 0 0 0 4 4h24a2 2 0 0 0 2-2V16a2 2 0 0 0-2-2H5z' }),
+            React.createElement("path", { fill: '#2A2A2A', d: 'M4.5 7H5v7h-.5a3.5 3.5 0 1 1 0-7' }),
+            React.createElement("path", { fill: '#BCCDCE', d: 'M23 18h8a1 1 0 0 1 1 1v6a1 1 0 0 1-1 1h-8a4 4 0 0 1 0-8' }),
+            React.createElement("path", { fill: '#2A2A2A', d: 'M24 24a2 2 0 1 0 0-4 2 2 0 0 0 0 4' }))),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '95d16d55f2be919a8508b4b03de147b5__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h32v32H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(DerivLightDepositIcon);
+exports.default = ForwardRef;

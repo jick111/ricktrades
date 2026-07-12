@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLoaderLgRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 30, viewBox: '0 0 20 30', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M10.625 6.125v3.75A.64.64 0 0 1 10 10.5a.617.617 0 0 1-.625-.625v-3.75c0-.312.273-.625.625-.625.313 0 .625.313.625.625m0 15v3.75A.64.64 0 0 1 10 25.5a.617.617 0 0 1-.625-.625v-3.75c0-.312.273-.625.625-.625.313 0 .625.313.625.625M0 15.5c0-.312.273-.625.625-.625h3.75c.313 0 .625.313.625.625a.64.64 0 0 1-.625.625H.625A.617.617 0 0 1 0 15.5m15.625-.625h3.75c.313 0 .625.313.625.625a.64.64 0 0 1-.625.625h-3.75A.617.617 0 0 1 15 15.5c0-.312.273-.625.625-.625M17.07 8.43c.235.273.235.664 0 .898l-2.656 2.656c-.273.235-.664.235-.898 0-.235-.234-.235-.625 0-.898l2.656-2.656c.234-.235.625-.235.898 0M6.445 19.953 3.79 22.57a.553.553 0 0 1-.86 0 .553.553 0 0 1 0-.86l2.618-2.655c.273-.235.664-.235.898 0 .235.234.235.625 0 .898M2.93 8.43a.613.613 0 0 1 .86 0l2.655 2.656c.235.273.235.664 0 .898-.234.235-.625.235-.898 0L2.93 9.328c-.274-.234-.274-.625 0-.898m11.484 10.625 2.656 2.656a.613.613 0 0 1 0 .86c-.273.273-.664.273-.898 0l-2.656-2.618c-.235-.273-.235-.664 0-.898.234-.235.625-.235.898 0' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '5c7871cd4d766b9bd1a59f1b8bab883b__a' },
+            React.createElement("path", { d: 'M0 0h20v30H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLoaderLgRegularIcon);
+exports.default = ForwardRef;

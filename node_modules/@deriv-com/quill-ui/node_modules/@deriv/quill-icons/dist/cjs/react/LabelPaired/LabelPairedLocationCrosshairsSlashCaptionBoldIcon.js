@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLocationCrosshairsSlashCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 15, height: 18, viewBox: '0 0 15 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm.89 3.64 3.423 2.673c.703-.68 1.593-1.149 2.625-1.266v-.984c0-.305.234-.563.562-.563a.57.57 0 0 1 .563.563v.984a4.525 4.525 0 0 1 3.89 3.89h.985a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.563h-.985a4.14 4.14 0 0 1-.61 1.757l3.423 2.696c.257.187.304.539.093.773a.518.518 0 0 1-.773.094L.21 4.508a.518.518 0 0 1-.094-.774.518.518 0 0 1 .774-.093m4.337 3.376.89.703A2.34 2.34 0 0 1 7.5 7.25 2.25 2.25 0 0 1 9.75 9.5c0 .328-.07.633-.187.914l.89.703a3.4 3.4 0 0 0 .422-1.617A3.39 3.39 0 0 0 7.5 6.125c-.89 0-1.687.352-2.273.89m3.375 2.648V9.5c0-.61-.493-1.125-1.125-1.125-.141 0-.282.047-.399.094zm.14 2.977.961.773a4 4 0 0 1-1.64.563v.96a.555.555 0 0 1-.563.563.54.54 0 0 1-.562-.562v-.961c-2.04-.258-3.657-1.875-3.915-3.891h-.96a.555.555 0 0 1-.563-.563c0-.328.234-.562.563-.562h.96c.024-.258.07-.469.141-.703l.984.773c-.023.164-.023.328-.023.469 0 1.875 1.5 3.375 3.375 3.375.422 0 .844-.07 1.242-.234' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '938b9f30bce46c310e4d4ca832b61f53__a' },
+            React.createElement("path", { d: 'M0 0h15v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLocationCrosshairsSlashCaptionBoldIcon);
+exports.default = ForwardRef;

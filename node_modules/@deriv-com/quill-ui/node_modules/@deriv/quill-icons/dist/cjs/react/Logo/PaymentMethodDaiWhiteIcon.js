@@ -1,0 +1,34 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const PaymentMethodDaiWhiteIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 128 80', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { fill: '#fff' },
+        React.createElement("path", { fillRule: 'evenodd', d: 'M26.937 20.928H11.509V33.31H6.148v4.436h5.361v4.657H6.148v4.436h5.361v12.233h15.428c9.278 0 16.336-4.996 19.052-12.233h4.897v-4.436h-3.823q.141-1.181.142-2.407v-.109q0-1.089-.113-2.14h3.794V33.31H46.08c-2.646-7.34-9.76-12.383-19.143-12.383M15.822 55.093V46.84h25.441c-2.372 4.948-7.468 8.253-14.326 8.253zm0-12.69h26.763a17 17 0 0 0 .156-2.297v-.109q0-1.15-.15-2.25h-26.77zm25.474-9.092c-2.358-5.017-7.469-8.41-14.36-8.41H15.823v8.41zM78.155 31.625a19 19 0 0 0-3.468-.294h-3.883a3.196 3.196 0 0 0-3.195 3.195V48.09a3.196 3.196 0 0 0 3.195 3.196h1.973q1.25 0 1.937-.014a26 26 0 0 0 1.784-.113 17 17 0 0 0 1.966-.309q1.727-.378 3.061-1.165 1.35-.8 2.177-1.784a8.9 8.9 0 0 0 1.376-2.233q.534-1.25.745-2.443.21-1.207.21-2.5 0-.983-.154-1.895a8.6 8.6 0 0 0-.52-1.882 8 8 0 0 0-.94-1.77 7.6 7.6 0 0 0-1.475-1.53 9.2 9.2 0 0 0-2.05-1.222q-1.151-.506-2.739-.8m-7.008 2.964h3.638q1.236 0 1.938.098a7.4 7.4 0 0 1 1.615.407q.786.295 1.544.829.773.533 1.334 1.25.576.702.913 1.74.351 1.04.351 2.276 0 2.148-.955 3.75a5.4 5.4 0 0 1-1.306 1.488 6.7 6.7 0 0 1-1.502.913q-.716.294-1.741.463a15 15 0 0 1-1.658.197 37 37 0 0 1-1.6.028h-2.57zM100.013 31.33c-1.169 0-2.22.715-2.65 1.802L90.17 51.286h3.426l2.233-5.224h8.145l2.233 5.224h3.637l-7.179-18.153a2.85 2.85 0 0 0-2.652-1.803m-.111 4.087 2.837 7.4h-5.688z', clipRule: 'evenodd' }),
+        React.createElement("path", { d: 'M118.313 33.1a1.77 1.77 0 0 1 3.539 0v18.186h-3.539z' }))));
+const ForwardRef = (0, react_1.forwardRef)(PaymentMethodDaiWhiteIcon);
+exports.default = ForwardRef;

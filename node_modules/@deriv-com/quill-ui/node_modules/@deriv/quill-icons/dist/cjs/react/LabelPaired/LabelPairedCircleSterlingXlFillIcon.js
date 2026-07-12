@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedCircleSterlingXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M12 30c-4.312 0-8.25-2.25-10.406-6-2.157-3.703-2.157-8.25 0-12C3.75 8.297 7.688 6 12 6c4.266 0 8.203 2.297 10.36 6 2.156 3.75 2.156 8.297 0 12A11.91 11.91 0 0 1 12 30m.234-16.5c.188 0 .375.047.516.14l1.453.563c.563.235 1.219-.047 1.453-.656a1.12 1.12 0 0 0-.61-1.453l-1.452-.563a3.4 3.4 0 0 0-1.36-.281c-2.015 0-3.656 1.688-3.656 3.703V16.5H8.25c-.422 0-.75.375-.75.75 0 .422.328.75.75.75h.328v.516c0 .75-.14 1.547-.515 2.25l-.47.843c-.187.375-.14.797.048 1.125.187.328.562.516.984.516h6.75a1.11 1.11 0 0 0 1.125-1.125A1.14 1.14 0 0 0 15.375 21h-4.969q.422-1.195.422-2.531V18h1.922c.375 0 .75-.328.75-.75 0-.375-.375-.75-.75-.75h-1.922v-1.547c0-.797.61-1.453 1.406-1.453' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'a4d328b6d8aa2df2071cd15728945b60__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedCircleSterlingXlFillIcon);
+exports.default = ForwardRef;

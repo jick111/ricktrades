@@ -1,0 +1,47 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const DerivLightNoRecentTransactionsIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 128 128', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#5f69d656705630c759793e5e80ae867a__a)' },
+        React.createElement("path", { fill: 'url(#5f69d656705630c759793e5e80ae867a__b)', d: 'M64 128c35.346 0 64-28.654 64-64S99.346 0 64 0 0 28.654 0 64s28.654 64 64 64' }),
+        React.createElement("path", { fill: 'url(#5f69d656705630c759793e5e80ae867a__c)', d: 'M105 55c0-11.03-8.97-20-20-20-4.18 0-8.07 1.3-11.28 3.5H50.75L27.25 62v54.38C37.65 123.69 50.32 128 64 128s26.55-4.38 37-11.8V66.94c2.5-3.34 4-7.47 4-11.95z' }),
+        React.createElement("path", { fill: '#FF444F', d: 'M104.36 70.82C107.89 66.51 110 61 110 55c0-13.81-11.19-25-25-25S60 41.19 60 55s11.19 25 25 25c6 0 11.51-2.12 15.82-5.64l19.69 19.69a63 63 0 0 0 2.3-4.77l-18.45-18.45zM85 75c-11.03 0-20-8.97-20-20s8.97-20 20-20 20 8.97 20 20-8.97 20-20 20' }),
+        React.createElement("path", { fill: '#fff', d: 'M50.75 38.5 27.25 62h19.5c2.21 0 4-1.79 4-4z' })),
+    React.createElement("defs", null,
+        React.createElement("linearGradient", { id: '5f69d656705630c759793e5e80ae867a__b', x1: 64, x2: 64, y1: 128, y2: 0, gradientUnits: 'userSpaceOnUse' },
+            React.createElement("stop", { stopColor: '#85ACB0' }),
+            React.createElement("stop", { offset: 1, stopColor: '#B6CDD0' })),
+        React.createElement("linearGradient", { id: '5f69d656705630c759793e5e80ae867a__c', x1: 63.992, x2: 64.003, y1: 0, y2: 128, gradientUnits: 'userSpaceOnUse' },
+            React.createElement("stop", { stopColor: '#F5F5F5' }),
+            React.createElement("stop", { offset: 0.37, stopColor: '#ECECEC' }),
+            React.createElement("stop", { offset: 0.96, stopColor: '#D3D3D3' }),
+            React.createElement("stop", { offset: 1, stopColor: '#D2D2D2' })),
+        React.createElement("clipPath", { id: '5f69d656705630c759793e5e80ae867a__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h128v128H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(DerivLightNoRecentTransactionsIcon);
+exports.default = ForwardRef;

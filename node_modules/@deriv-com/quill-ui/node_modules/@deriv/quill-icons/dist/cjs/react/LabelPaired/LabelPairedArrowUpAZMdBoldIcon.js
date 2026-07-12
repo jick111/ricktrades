@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowUpAZMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 24, viewBox: '0 0 18 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M13 5c.281 0 .531.188.656.438l2.5 5a.74.74 0 0 1-.343 1c-.344.187-.813.03-1-.344l-.407-.844c-.062 0-.125.031-.156.031h-2.687l-.407.813a.74.74 0 0 1-1 .344.74.74 0 0 1-.344-1l2.5-5A.77.77 0 0 1 13 5m-.687 3.75h1.343L13 7.438zM4.469 5.219a.736.736 0 0 1 1.031 0l3 3c.313.312.313.781 0 1.062a.684.684 0 0 1-1.031 0L5.75 7.562V18.25A.74.74 0 0 1 5 19a.72.72 0 0 1-.75-.75V7.563L2.531 9.28c-.312.313-.781.313-1.062 0a.684.684 0 0 1 0-1.031l3-3zM11 13h4c.281 0 .563.188.656.469a.67.67 0 0 1-.125.781l-2.875 3.25H15a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-4a.72.72 0 0 1-.687-.437c-.126-.25-.094-.563.124-.813l2.876-3.25H11a.72.72 0 0 1-.75-.75A.74.74 0 0 1 11 13' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '4576c84d08ae3b868155b38b7893ceca__a' },
+            React.createElement("path", { d: 'M0 0h18v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowUpAZMdBoldIcon);
+exports.default = ForwardRef;

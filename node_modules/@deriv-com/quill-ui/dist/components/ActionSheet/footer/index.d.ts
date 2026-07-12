@@ -1,0 +1,4 @@
+import { FooterProps } from '../types';
+
+declare const Footer: ({ primaryAction, secondaryAction, alignment, className, shouldCloseOnPrimaryButtonClick, shouldCloseOnSecondaryButtonClick, isPrimaryButtonDisabled, isSecondaryButtonDisabled, primaryButtonColor, ...rest }: FooterProps) => import("react").JSX.Element | null;
+export default Footer;

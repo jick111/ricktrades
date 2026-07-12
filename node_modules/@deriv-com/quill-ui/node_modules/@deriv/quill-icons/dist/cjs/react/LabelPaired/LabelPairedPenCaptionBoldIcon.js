@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPenCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 18, viewBox: '0 0 12 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.844 11.96c.094-.327.281-.632.515-.866l7.125-7.125a1.514 1.514 0 0 1 2.133 0l.914.914c.07.07.14.164.188.234a1.495 1.495 0 0 1-.188 1.899L4.406 14.14c-.023.023-.07.046-.093.093a2.5 2.5 0 0 1-.774.422l-1.828.54-1.008.304a.53.53 0 0 1-.539-.164.48.48 0 0 1-.14-.54l.28-1.007zm1.078.33-.164.538-.375 1.29 1.289-.376.539-.164a.86.86 0 0 0 .398-.234l5.368-5.367-1.454-1.454-5.367 5.368c-.023 0-.023.023-.047.046-.093.094-.14.211-.187.352' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '0a3aef6ec48695e237091db9262c2c3f__a' },
+            React.createElement("path", { d: 'M0 0h12v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPenCaptionBoldIcon);
+exports.default = ForwardRef;

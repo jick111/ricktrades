@@ -1,0 +1,47 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MarketStocksTevaIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const MarketStocksTevaIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#56e87f86d6c170b4f8a5dfa0b790280b__a)' },
+        React.createElement("path", { fill: '#D2EBDB', d: 'M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16' }),
+        React.createElement("path", { fill: '#204E77', d: 'M20.122 15.939v6.492l-2.517 3.274a.72.72 0 0 1-.844.245.815.815 0 0 1-.501-.773l.013-4.117z' }),
+        React.createElement("path", { fill: '#35786E', d: 'm23.98 10.804-.01 2.345c.04 1.203-.16 2.588-.634 3.992-.432 1.283-.997 2.41-1.666 3.275l-1.549 2.015V15.94z' }),
+        React.createElement("path", { fill: '#9FD142', d: 'm20.122 9.48 2.534-3.284a.72.72 0 0 1 .843-.245c.303.12.504.425.501.773l-.02 4.08-3.858 5.135z' }),
+        React.createElement("path", { fill: '#269E75', d: 'm16.273 21.06.008-2.763c.003-1.126.235-2.384.668-3.667.491-1.461 1.197-2.702 1.98-3.605l1.193-1.546v6.46z' }),
+        React.createElement("path", { fill: '#35786E', d: 'm8.02 10.804.01 2.345c-.04 1.203.16 2.588.634 3.992.432 1.283.997 2.41 1.666 3.275l1.548 2.015v-6.492z' }),
+        React.createElement("path", { fill: '#204E77', d: 'M11.878 15.939v6.492l2.517 3.274a.72.72 0 0 0 .844.245.81.81 0 0 0 .5-.773l-.012-4.117z' }),
+        React.createElement("path", { fill: '#269E75', d: 'm15.727 21.06-.008-2.763c-.002-1.126-.235-2.384-.668-3.667-.49-1.461-1.197-2.702-1.98-3.605L11.88 9.48l-.001 6.46z' }),
+        React.createElement("path", { fill: '#9FD142', d: 'M11.879 9.48 9.344 6.195a.72.72 0 0 0-.843-.245.81.81 0 0 0-.501.773l.02 4.08 3.858 5.135z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '56e87f86d6c170b4f8a5dfa0b790280b__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h32v32H0z' })))));
+exports.MarketStocksTevaIcon = MarketStocksTevaIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.MarketStocksTevaIcon);
+exports.default = ForwardRef;

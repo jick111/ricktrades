@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedChartLineUpDownCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 18, viewBox: '0 0 12 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.563 4.25a.57.57 0 0 1 .562.563v8.25c0 .328.234.562.563.562h9.75a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562h-9.75A1.68 1.68 0 0 1 0 13.063v-8.25c0-.305.234-.563.563-.563m8.25 1.875a.54.54 0 0 1-.563-.562c0-.305.234-.563.563-.563h1.874c.141 0 .282.07.399.164a.67.67 0 0 1 .164.399v1.875a.555.555 0 0 1-.562.562.54.54 0 0 1-.563-.562v-.516L7.148 9.898c-.234.235-.585.235-.796 0L4.875 8.422 3.398 9.898c-.234.235-.586.235-.796 0a.513.513 0 0 1 0-.773L4.477 7.25c.21-.234.562-.234.796 0L6.75 8.727l2.578-2.602zm0 6.375a.54.54 0 0 1-.563-.562c0-.305.234-.563.563-.563h.515l-1.101-1.102.796-.796 1.102 1.101v-.515c0-.305.234-.563.563-.563a.57.57 0 0 1 .562.563v1.874c0 .165-.07.305-.164.399a.55.55 0 0 1-.399.164z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'f0c95fe5ff428a932a6b54e6c1f157d4__a' },
+            React.createElement("path", { d: 'M0 0h12v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedChartLineUpDownCaptionBoldIcon);
+exports.default = ForwardRef;

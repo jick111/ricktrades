@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPaperclipCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 11, height: 18, viewBox: '0 0 11 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M9.04 5.21a1.584 1.584 0 0 0-2.227 0l-4.477 4.5c-1.031 1.032-1.031 2.696 0 3.704 1.008 1.031 2.672 1.031 3.703 0l3.563-3.562c.21-.211.562-.211.773 0 .234.234.234.585 0 .796l-3.54 3.563c-1.476 1.476-3.843 1.476-5.296 0-1.476-1.453-1.476-3.82 0-5.297l4.5-4.5c1.031-1.031 2.742-1.031 3.797 0 1.031 1.055 1.031 2.766 0 3.797l-4.313 4.312a1.76 1.76 0 0 1-2.625-.14 1.76 1.76 0 0 1 .141-2.344l3.563-3.562c.21-.211.562-.211.773 0 .234.234.234.585 0 .796l-3.54 3.563a.617.617 0 0 0-.046.844.626.626 0 0 0 .938.047l4.312-4.313c.61-.61.61-1.594 0-2.203' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '65c1587ee96380c3bb29ab00c00de068__a' },
+            React.createElement("path", { d: 'M0 0h11v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPaperclipCaptionBoldIcon);
+exports.default = ForwardRef;

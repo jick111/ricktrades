@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedRectangleBarcodeCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 18, viewBox: '0 0 14 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.75 5.375a.385.385 0 0 0-.375.375v7.5c0 .21.164.375.375.375h10.5a.385.385 0 0 0 .375-.375v-7.5a.4.4 0 0 0-.375-.375zm-1.5.375c0-.82.656-1.5 1.5-1.5h10.5c.82 0 1.5.68 1.5 1.5v7.5c0 .844-.68 1.5-1.5 1.5H1.75a1.48 1.48 0 0 1-1.5-1.5zm2.813.75a.57.57 0 0 1 .562.563v4.875a.555.555 0 0 1-.562.562.54.54 0 0 1-.563-.562V7.062c0-.304.234-.562.563-.562m1.687 0c.188 0 .375.188.375.375v5.25c0 .21-.187.375-.375.375a.37.37 0 0 1-.375-.375v-5.25c0-.187.164-.375.375-.375m1.125.563c0-.305.234-.563.563-.563A.57.57 0 0 1 7 7.063v4.875a.555.555 0 0 1-.562.562.54.54 0 0 1-.563-.562zM9.063 6.5a.57.57 0 0 1 .562.563v4.875a.555.555 0 0 1-.562.562.54.54 0 0 1-.563-.562V7.062c0-.304.234-.562.563-.562m1.687.375c0-.187.164-.375.375-.375.188 0 .375.188.375.375v5.25c0 .21-.187.375-.375.375a.37.37 0 0 1-.375-.375z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'fce09c96dcd9ac54b17378167fb167d0__a' },
+            React.createElement("path", { d: 'M0 0h14v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedRectangleBarcodeCaptionBoldIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedForwardStepXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 15, height: 36, viewBox: '0 0 15 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M12 9.75c0-.375.328-.75.75-.75.375 0 .75.375.75.75v16.5c0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75v-6.328l-8.39 6.797a1.3 1.3 0 0 1-.844.281A1.26 1.26 0 0 1 1.5 25.734V10.312C1.5 9.61 2.063 9 2.766 9c.328 0 .609.14.843.328L12 16.125zm-9 .984v14.579L11.906 18z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '50b7b5aa37cb0569d480abdcc2153070__a' },
+            React.createElement("path", { d: 'M0 0h15v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedForwardStepXlRegularIcon);
+exports.default = ForwardRef;

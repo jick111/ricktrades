@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+const LabelPairedBarsXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 21, height: 36, viewBox: '0 0 21 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M0 10.5C0 9.703.656 9 1.5 9h18c.797 0 1.5.703 1.5 1.5 0 .844-.703 1.5-1.5 1.5h-18A1.48 1.48 0 0 1 0 10.5M0 18c0-.797.656-1.5 1.5-1.5h18c.797 0 1.5.703 1.5 1.5 0 .844-.703 1.5-1.5 1.5h-18A1.48 1.48 0 0 1 0 18m21 7.5c0 .844-.703 1.5-1.5 1.5h-18A1.48 1.48 0 0 1 0 25.5c0-.797.656-1.5 1.5-1.5h18c.797 0 1.5.703 1.5 1.5' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '6738c00bb69899c4020e9c299976004f__a' },
+            React.createElement("path", { d: 'M0 0h21v36H0z' })))));
+const ForwardRef = forwardRef(LabelPairedBarsXlFillIcon);
+export default ForwardRef;

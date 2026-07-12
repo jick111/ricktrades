@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPenLineXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 27, height: 36, viewBox: '0 0 27 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M20.11 7.875c-.422-.422-1.126-.422-1.594 0l-2.532 2.578 3.563 3.563 2.578-2.532c.422-.468.422-1.171 0-1.593zM3.89 22.547c-.374.328-.609.797-.75 1.265l-1.312 4.36 4.36-1.266a2.8 2.8 0 0 0 1.265-.797l11.063-11.015-3.61-3.61zm13.594-15.75a2.69 2.69 0 0 1 3.703 0l2.016 2.016a2.69 2.69 0 0 1 0 3.703L8.531 27.188c-.562.515-1.219.937-1.922 1.125L.938 30a.73.73 0 0 1-.75-.187c-.188-.188-.235-.47-.188-.75l1.688-5.672c.187-.703.609-1.36 1.125-1.922zM11.25 28.5h15c.375 0 .75.375.75.75 0 .422-.375.75-.75.75h-15a.74.74 0 0 1-.75-.75c0-.375.328-.75.75-.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'b8203dae14f9c6d6543539a6095ab164__a' },
+            React.createElement("path", { d: 'M0 0h27v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPenLineXlRegularIcon);
+exports.default = ForwardRef;

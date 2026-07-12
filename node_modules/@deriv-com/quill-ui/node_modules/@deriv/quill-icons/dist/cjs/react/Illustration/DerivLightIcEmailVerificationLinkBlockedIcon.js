@@ -1,0 +1,49 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const DerivLightIcEmailVerificationLinkBlockedIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 128 128', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#f5953996dd731648ed14c5ff408a9fef__a)' },
+        React.createElement("mask", { id: 'f5953996dd731648ed14c5ff408a9fef__b', width: 129, height: 128, x: 0, y: 0, maskUnits: 'userSpaceOnUse', style: {
+                maskType: 'luminance',
+            } },
+            React.createElement("path", { fill: '#fff', d: 'M.5 0h128v128H.5z' })),
+        React.createElement("g", { mask: 'url(#f5953996dd731648ed14c5ff408a9fef__b)' },
+            React.createElement("path", { fill: '#BBCCCE', d: 'M13.5 44.626v14.087l37.62 31.59 6.565-5.582 6.565-5.583 6.46 5.831 6.46 5.831 38.33-32.752V45.063a1.985 1.985 0 0 0-.94-1.688L66.61 13.602a4.02 4.02 0 0 0-4.23 0L14.5 42.93c-.612.35-.992.995-1 1.697' }),
+            React.createElement("path", { fill: '#E1F4F3', d: 'M21.5 30.248v59.404h86V30.248a4 4 0 0 0-1.174-2.823 3.99 3.99 0 0 0-2.826-1.165h-78c-2.21 0-4 1.784-4 3.988' }),
+            React.createElement("path", { fill: '#84ABAE', d: 'M13.5 49.197v61.815a3.99 3.99 0 0 0 4 3.988h93.969c2.209 0 4-1.785 4-3.988V49.197L77.282 82.003 67.1 72.926a3.877 3.877 0 0 0-5.3 0l-10.122 9.042z' }),
+            React.createElement("path", { fill: '#E1F4F3', fillRule: 'evenodd', d: 'm114.979 112.925-46.542-41.49-.006.004a5.873 5.873 0 0 0-7.968.007L14.01 112.96A4 4 0 0 0 17.5 115h.2l45.476-40.601.008-.008a1.884 1.884 0 0 1 2.572 0l.009.008L111.3 115h.169a4 4 0 0 0 3.51-2.075', clipRule: 'evenodd' }),
+            React.createElement("path", { fill: '#85ACB0', fillRule: 'evenodd', d: 'M54.45 45.175c-3.175 0-5.775 2.6-5.775 5.775s2.6 5.775 5.775 5.775h7.95V60.9h-7.95c-5.475 0-9.95-4.475-9.95-9.95S48.975 41 54.45 41h7.95v4.175zM74.55 41H66.6v4.175h7.95c3.175 0 5.775 2.6 5.775 5.775s-2.6 5.775-5.775 5.775H66.6V60.9h7.95c5.5 0 9.95-4.475 9.95-9.95S80.025 41 74.55 41m-.775 7.875H55.25v4.175h18.525z', clipRule: 'evenodd' }),
+            React.createElement("path", { fill: '#FF444F', fillRule: 'evenodd', d: 'M128 23c0-12.702-10.298-23-23-23S82 10.298 82 23s10.298 23 23 23 23-10.298 23-23', clipRule: 'evenodd', style: {
+                    mixBlendMode: 'multiply',
+                } }),
+            React.createElement("path", { fill: '#fff', d: 'M115.212 9.046A16.9 16.9 0 0 0 105.5 6c-9.388 0-17 7.612-17 17 0 3.61 1.126 6.959 3.046 9.712zm4.242 4.242L95.788 36.954A16.9 16.9 0 0 0 105.5 40c9.388 0 17-7.612 17-17a16.9 16.9 0 0 0-3.046-9.712' }))),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'f5953996dd731648ed14c5ff408a9fef__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h128v128H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(DerivLightIcEmailVerificationLinkBlockedIcon);
+exports.default = ForwardRef;

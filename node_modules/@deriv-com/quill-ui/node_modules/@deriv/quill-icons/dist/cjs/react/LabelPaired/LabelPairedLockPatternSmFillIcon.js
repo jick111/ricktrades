@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLockPatternSmFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 22, viewBox: '0 0 18 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M2 5.5c0-.957.766-1.75 1.75-1.75.629 0 1.203.355 1.504.875h2.215c.3-.52.875-.875 1.531-.875.629 0 1.203.355 1.504.875h2.215c.3-.52.875-.875 1.531-.875.957 0 1.75.793 1.75 1.75 0 .984-.793 1.75-1.75 1.75-.164 0-.328 0-.465-.055l-3.117 3.117c.055.137.082.301.082.438 0 .984-.793 1.75-1.75 1.75-.164 0-.328 0-.465-.055l-2.68 2.68H7.47c.3-.52.875-.875 1.531-.875.629 0 1.203.355 1.504.875h2.215c.3-.52.875-.875 1.504-.875.984 0 1.75.793 1.75 1.75 0 .984-.766 1.75-1.75 1.75a1.7 1.7 0 0 1-1.504-.875h-2.215c-.3.547-.875.875-1.531.875a1.7 1.7 0 0 1-1.504-.875H5.254c-.3.547-.875.875-1.504.875C2.766 17.75 2 16.984 2 16c0-.957.766-1.75 1.75-1.75.137 0 .3.027.438.082l3.117-3.117a1.3 1.3 0 0 1-.082-.465c0-.957.793-1.75 1.75-1.75.164 0 .328.027.464.082l2.68-2.707h-1.613c-.3.547-.875.875-1.531.875a1.7 1.7 0 0 1-1.504-.875H5.254c-.3.547-.875.875-1.504.875C2.766 7.25 2 6.484 2 5.5m0 5.25c0 .629.328 1.203.875 1.531.52.301 1.203.301 1.75 0 .52-.328.875-.902.875-1.531 0-.602-.355-1.176-.875-1.504-.547-.3-1.23-.3-1.75 0A1.77 1.77 0 0 0 2 10.75m10.5 0c0 .629.328 1.203.875 1.531.52.301 1.203.301 1.75 0 .52-.328.875-.902.875-1.531 0-.602-.355-1.176-.875-1.504-.547-.3-1.23-.3-1.75 0a1.77 1.77 0 0 0-.875 1.504' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '0415c0388e73465d012bdb7fa755069a__a' },
+            React.createElement("path", { d: 'M0 0h18v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLockPatternSmFillIcon);
+exports.default = ForwardRef;

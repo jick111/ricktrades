@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+const LabelPairedWindowMinimizeSmFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 22, viewBox: '0 0 14 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.875 15.125h12.25A.9.9 0 0 1 14 16c0 .492-.41.875-.875.875H.875A.864.864 0 0 1 0 16c0-.465.383-.875.875-.875' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '63d42c3de2bbb48f68dc0f91817d04cd__a' },
+            React.createElement("path", { d: 'M0 0h14v22H0z' })))));
+const ForwardRef = forwardRef(LabelPairedWindowMinimizeSmFillIcon);
+export default ForwardRef;

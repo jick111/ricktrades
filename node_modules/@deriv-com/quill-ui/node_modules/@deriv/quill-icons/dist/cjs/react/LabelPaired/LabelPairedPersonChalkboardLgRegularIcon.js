@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPersonChalkboardLgRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 25, height: 30, viewBox: '0 0 25 30', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M6.563 7.688c0 .546.39.937.937.937.508 0 .938-.39.938-.937A.95.95 0 0 0 7.5 6.75a.925.925 0 0 0-.937.938m3.125 0c0 .82-.43 1.523-1.094 1.914-.703.39-1.524.39-2.188 0-.703-.391-1.093-1.094-1.093-1.915 0-.78.39-1.484 1.093-1.875.664-.39 1.485-.39 2.188 0a2.18 2.18 0 0 1 1.094 1.875M6.992 11.75c-.273 0-.508.078-.742.156V18h2.5v-6.25zM6.25 24.875a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625V13.43l-1.953 3.633a.64.64 0 0 1-.86.273c-.312-.195-.43-.547-.273-.86L4.22 12.18a3.16 3.16 0 0 1 2.773-1.68H12.5V7.375c0-1.016.82-1.875 1.875-1.875h8.75C24.141 5.5 25 6.36 25 7.375v8.75C25 17.18 24.14 18 23.125 18h-8.75a1.85 1.85 0 0 1-1.875-1.875V13h1.25v3.125c0 .352.273.625.625.625h8.75a.64.64 0 0 0 .625-.625v-8.75c0-.312-.312-.625-.625-.625h-8.75a.64.64 0 0 0-.625.625V10.5h1.875c.313 0 .625.313.625.625a.64.64 0 0 1-.625.625H10v13.125a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625V19.25h-2.5z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '08d2e6adcd56b02b74ca257134cf8d34__a' },
+            React.createElement("path", { d: 'M0 0h25v30H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPersonChalkboardLgRegularIcon);
+exports.default = ForwardRef;

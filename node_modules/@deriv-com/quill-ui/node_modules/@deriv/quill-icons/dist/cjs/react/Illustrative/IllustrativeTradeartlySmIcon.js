@@ -1,0 +1,40 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeTradeartlySmIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeTradeartlySmIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm29.108 23.527-2-2c.127-.26.2-.547.2-.86 0-1.1-.9-2-2-2s-2 .9-2 2c0 .24.04.48.127.7.02.053.047.106.073.153l-4 4c-.26-.127-.546-.2-.86-.2-.24 0-.48.04-.7.127a1 1 0 0 0-.153.073l-1.333-1.333c.126-.26.2-.547.2-.86 0-1.1-.9-2-2-2s-2 .9-2 2c0 .24.04.48.126.7q.032.081.074.153l-2 2a1.94 1.94 0 0 0-1.72 0l-1.007-1.007c.127-.26.2-.546.2-.86 0-1.1-.9-2-2-2s-2 .9-2 2c0 .307.073.594.2.86l-1.673 1.674a.664.664 0 0 0 .473 1.133c.173 0 .34-.067.473-.193l1.674-1.674a1.94 1.94 0 0 0 1.72 0l1.006 1.007c-.126.26-.2.547-.2.86 0 1.1.9 2 2 2s2-.9 2-2c0-.307-.073-.6-.2-.86l2-2c.267.127.56.2.86.2s.6-.073.86-.2l1.334 1.333c-.127.267-.2.56-.2.86 0 1.1.9 2 2 2s2-.9 2-2c0-.306-.074-.6-.2-.86l4-4c.266.127.56.2.86.2s.6-.073.86-.2l2 2c.133.134.3.194.473.194s.34-.067.473-.194c.26-.26.26-.68 0-.94zM6.302 25a.67.67 0 0 1-.667-.667c0-.366.3-.666.667-.666.366 0 .666.3.666.666s-.3.667-.666.667m3.666 3.667A.67.67 0 0 1 9.302 28c0-.367.3-.667.666-.667s.667.3.667.667-.3.667-.667.667M14.635 24a.67.67 0 0 1-.627-.433.669.669 0 0 1 .627-.9c.367 0 .667.3.667.666s-.3.667-.667.667m4 4a.669.669 0 0 1-.233-1.293.669.669 0 0 1 .9.627c0 .366-.3.666-.667.666m6.667-6.667a.67.67 0 0 1-.627-.433.669.669 0 0 1 .627-.9c.366 0 .666.3.666.667 0 .366-.3.666-.666.666' }),
+        React.createElement("path", { d: 'M5.302 18.973h3.36l2.166 2.167c.127.127.3.193.474.193a.56.56 0 0 0 .253-.053.67.67 0 0 0 .413-.613v-1.694h2.667c1.1 0 2-.9 2-2V4.667c0-1.1-.9-2-2-2H5.302c-1.1 0-2 .9-2 2v12.306c0 1.1.9 2 2 2M4.635 4.667c0-.367.3-.667.667-.667h9.333c.367 0 .667.3.667.667v12.306c0 .367-.3.667-.667.667h-3.333c-.367 0-.667.3-.667.667v.753l-1.22-1.22a.66.66 0 0 0-.473-.193h-3.64a.67.67 0 0 1-.667-.667z' }),
+        React.createElement("path", { d: 'M7.302 12.3v2.367c0 1.1.9 2 2 2h1.333c1.1 0 2-.9 2-2V12.3a3.95 3.95 0 0 0 1.333-2.967c0-2.206-1.793-4-4-4s-4 1.794-4 4c0 1.14.48 2.207 1.334 2.967m4 2.367c0 .366-.3.666-.667.666H9.302a.67.67 0 0 1-.667-.666V14h2.667zm-1.334-8a2.666 2.666 0 0 1 2.667 2.666 2.64 2.64 0 0 1-1.067 2.12.67.67 0 0 0-.266.534v.68H8.635v-.68c0-.207-.1-.407-.267-.534a2.64 2.64 0 0 1-1.066-2.12 2.666 2.666 0 0 1 2.666-2.666' }),
+        React.createElement("path", { d: 'M9.162 11.14c.133.133.3.193.473.193s.34-.066.473-.193l.667-.667c.26-.26.26-.68 0-.94l-.193-.193.193-.193a.664.664 0 1 0-.94-.94l-.667.666c-.26.26-.26.68 0 .94l.194.194-.194.193c-.26.26-.26.68 0 .94zM24.635 15.333c-.367 0-.667.3-.667.667v.667c0 .366.3.666.667.666s.667-.3.667-.666V16c0-.367-.3-.667-.667-.667M23.108 17.807c.26-.26.26-.68 0-.94l-.666-.667a.664.664 0 1 0-.94.94l.666.667c.134.133.3.193.474.193.173 0 .34-.067.473-.193zM21.302 18.667c-.367 0-.667.3-.667.666s.3.667.667.667h.666c.367 0 .667-.3.667-.667 0-.366-.3-.666-.667-.666z' }),
+        React.createElement("path", { d: 'M18.635 20c.367 0 .667-.3.667-.667A5.34 5.34 0 0 1 24.635 14c.367 0 .667-.3.667-.667 0-.366-.3-.666-.667-.666-3.673 0-6.667 2.993-6.667 6.666 0 .367.3.667.667.667' }))));
+exports.IllustrativeTradeartlySmIcon = IllustrativeTradeartlySmIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeTradeartlySmIcon);
+exports.default = ForwardRef;

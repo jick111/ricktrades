@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLaptopMobileXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 30, height: 36, viewBox: '0 0 30 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M6 8.25c-.422 0-.75.375-.75.75v12H16.5v3H2.25A2.22 2.22 0 0 1 0 21.75c0-.375.328-.75.75-.75H3V9c0-1.64 1.313-3 3-3h15c1.64 0 3 1.36 3 3v1.5h-2.25V9c0-.375-.375-.75-.75-.75zm12 6A2.25 2.25 0 0 1 20.25 12h7.5c1.219 0 2.25 1.031 2.25 2.25v13.5A2.25 2.25 0 0 1 27.75 30h-7.5A2.22 2.22 0 0 1 18 27.75zm2.25 0v13.5h7.5v-13.5z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '49774e01606240a766ceb8e98f94e2ca__a' },
+            React.createElement("path", { d: 'M0 0h30v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLaptopMobileXlBoldIcon);
+exports.default = ForwardRef;

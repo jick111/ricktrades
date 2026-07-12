@@ -1,0 +1,40 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CurrencyDotIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const CurrencyDotIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#4a9af1b8ba497a81ef3d182a61f392b7__a)' },
+        React.createElement("path", { fill: '#E6007A', d: 'M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16' }),
+        React.createElement("path", { fill: '#fff', d: 'M20.327 6.52c0 1.39-1.937 2.517-4.327 2.517S11.672 7.91 11.672 6.52 13.61 4.003 16 4.003s4.327 1.127 4.327 2.517M20.327 25.485C20.327 26.875 18.39 28 16 28s-4.328-1.126-4.328-2.517c0-1.39 1.938-2.516 4.328-2.516s4.327 1.127 4.327 2.517M9.97 12.52c1.194-2.069 1.187-4.31-.018-5.006s-3.15.418-4.345 2.488-1.187 4.312.017 5.007c1.205.696 3.15-.418 4.345-2.488M26.375 16.995c1.204.695 1.211 2.937.016 5.006s-3.14 3.185-4.343 2.49c-1.204-.695-1.211-2.937-.016-5.006s3.14-3.185 4.343-2.49M9.952 24.49c1.205-.695 1.213-2.936.018-5.006S6.83 16.3 5.625 16.995s-1.213 2.938-.017 5.007c1.195 2.07 3.14 3.184 4.344 2.489M26.392 10.003c1.195 2.07 1.188 4.311-.016 5.006s-3.148-.42-4.343-2.489-1.188-4.311.016-5.006 3.148.42 4.343 2.49' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '4a9af1b8ba497a81ef3d182a61f392b7__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h32v32H0z' })))));
+exports.CurrencyDotIcon = CurrencyDotIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.CurrencyDotIcon);
+exports.default = ForwardRef;

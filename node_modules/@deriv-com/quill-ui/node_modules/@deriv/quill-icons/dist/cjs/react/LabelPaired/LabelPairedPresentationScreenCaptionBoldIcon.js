@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPresentationScreenCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 18, viewBox: '0 0 14 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.813 3.5h12.375a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562H.813a.54.54 0 0 1-.563-.562c0-.305.234-.563.563-.563M1 5.375h1.125v5.063c0 .117.07.187.188.187h9.375c.093 0 .187-.07.187-.187V5.375H13v5.063c0 .726-.61 1.312-1.312 1.312H7.539v1.102l1.711 1.71a.513.513 0 0 1 0 .774c-.21.234-.562.234-.797 0l-1.476-1.477L5.5 15.336a.513.513 0 0 1-.773 0 .513.513 0 0 1 0-.774l1.71-1.71V11.75H2.314A1.31 1.31 0 0 1 1 10.438z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'c9d7e548684d73051380642634963466__a' },
+            React.createElement("path", { d: 'M0 0h14v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPresentationScreenCaptionBoldIcon);
+exports.default = ForwardRef;

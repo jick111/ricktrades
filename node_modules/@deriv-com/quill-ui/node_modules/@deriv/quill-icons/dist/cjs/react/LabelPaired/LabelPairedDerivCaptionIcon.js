@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedDerivCaptionIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 15, height: 18, viewBox: '0 0 15 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M9.938 3.898 12.28 3.5l-1.64 9.375C10.383 14.328 9 15.5 7.523 15.5h-1.78c-2.016 0-3.352-1.617-3-3.61l.163-.867c.352-1.992 2.25-3.632 4.266-3.632h2.133zm-1.524 8.649.516-3H7.055c-.914 0-1.758.75-1.922 1.64l-.094.54c-.164.89.445 1.617 1.336 1.617h1.102c.445 0 .843-.352.937-.797' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '8573e6bc4ff8d7ca432e1b63daa4a8b3__a' },
+            React.createElement("path", { d: 'M0 0h15v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedDerivCaptionIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,39 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeMultipleMarketsIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeMultipleMarketsIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M12 4.667H8A3.335 3.335 0 0 0 4.667 8v4A3.335 3.335 0 0 0 8 15.333h6c.733 0 1.333-.6 1.333-1.333V8A3.335 3.335 0 0 0 12 4.667M8 14c-1.1 0-2-.9-2-2V8c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2v6z' }),
+        React.createElement("path", { d: 'M11.333 9.333c-.366 0-.666.3-.666.667v1.333c0 .367.3.667.666.667s.667-.3.667-.667V10c0-.367-.3-.667-.667-.667M8.667 8.667c-.367 0-.667.3-.667.666v2c0 .367.3.667.667.667.366 0 .666-.3.666-.667v-2c0-.366-.3-.666-.666-.666M24 4.667h-4A3.335 3.335 0 0 0 16.667 8v6c0 .733.6 1.333 1.333 1.333h6A3.335 3.335 0 0 0 27.333 12V8A3.335 3.335 0 0 0 24 4.667M26 12c0 1.1-.9 2-2 2h-6V8c0-1.1.9-2 2-2h4c1.1 0 2 .9 2 2z' }),
+        React.createElement("path", { d: 'M23.333 8c-.366 0-.666.3-.666.667v2.666c0 .367.3.667.666.667s.667-.3.667-.667V8.667C24 8.3 23.7 8 23.333 8M20.667 10c-.367 0-.667.3-.667.667v.666c0 .367.3.667.667.667.366 0 .666-.3.666-.667v-.666c0-.367-.3-.667-.666-.667M24 16.667h-6c-.733 0-1.333.6-1.333 1.333v6A3.335 3.335 0 0 0 20 27.333h4A3.335 3.335 0 0 0 27.333 24v-4A3.334 3.334 0 0 0 24 16.667M26 24c0 1.1-.9 2-2 2h-4c-1.1 0-2-.9-2-2v-6h6c1.1 0 2 .9 2 2z' }),
+        React.createElement("path", { d: 'M23.333 22c-.366 0-.666.3-.666.667v.666c0 .367.3.667.666.667s.667-.3.667-.667v-.666c0-.367-.3-.667-.667-.667M20.667 20c-.367 0-.667.3-.667.667v2.666c0 .367.3.667.667.667.366 0 .666-.3.666-.667v-2.666c0-.367-.3-.667-.666-.667M14.613 19.08s-.006-.013-.013-.02a.7.7 0 0 0-.12-.173q-.021-.029-.053-.047a.5.5 0 0 0-.14-.093c-.02-.014-.04-.02-.06-.034a.7.7 0 0 0-.234-.046H12.66c-.367 0-.667.3-.667.666 0 .287.18.527.434.627l-2.434 2.433L7.8 20.2a.664.664 0 0 0-.94 0l-1.32 1.32a.676.676 0 0 0-.093.853c.206.307.62.387.926.187 0 0 .254-.24.287-.267l.68-.68 2.193 2.194c.134.133.3.193.474.193.173 0 .34-.067.473-.193l2.907-2.907c.093.253.333.44.62.44.366 0 .666-.3.666-.667v-1.3599999999999999a.6.6 0 0 0-.046-.233z' }))));
+exports.IllustrativeMultipleMarketsIcon = IllustrativeMultipleMarketsIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeMultipleMarketsIcon);
+exports.default = ForwardRef;

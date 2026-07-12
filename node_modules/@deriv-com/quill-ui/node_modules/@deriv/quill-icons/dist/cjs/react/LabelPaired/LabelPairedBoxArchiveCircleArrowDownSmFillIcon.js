@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedBoxArchiveCircleArrowDownSmFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 22, viewBox: '0 0 18 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.25 5.5c0-.465.383-.875.875-.875h12.25a.9.9 0 0 1 .875.875v.875c0 .492-.41.875-.875.875H1.125a.864.864 0 0 1-.875-.875zm.875 2.625h12.25v.902A4.814 4.814 0 0 0 9 13.813c0 1.175.41 2.242 1.094 3.062H2.875c-.984 0-1.75-.766-1.75-1.75zm3.5 2.188c0 .246.191.437.438.437h4.375a.45.45 0 0 0 .437-.437.47.47 0 0 0-.437-.438H5.062a.45.45 0 0 0-.437.438m5.25 3.5c0-1.395.738-2.708 1.969-3.391a3.9 3.9 0 0 1 3.937 0 3.93 3.93 0 0 1 1.969 3.39 3.97 3.97 0 0 1-1.969 3.419c-1.23.71-2.734.71-3.937 0a3.92 3.92 0 0 1-1.969-3.419m2.078-.083a.463.463 0 0 0 0 .63l1.531 1.53a.463.463 0 0 0 .63 0l1.53-1.53a.463.463 0 0 0 0-.63.463.463 0 0 0-.628 0l-.766.793v-2.46a.47.47 0 0 0-.437-.438.45.45 0 0 0-.438.438v2.46l-.793-.793a.463.463 0 0 0-.629 0' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '26072a5840a690352e35a9dd87f08090__a' },
+            React.createElement("path", { d: 'M0 0h18v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedBoxArchiveCircleArrowDownSmFillIcon);
+exports.default = ForwardRef;

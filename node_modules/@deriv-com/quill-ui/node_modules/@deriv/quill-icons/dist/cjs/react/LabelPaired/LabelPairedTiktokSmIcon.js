@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedTiktokSmIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 13, height: 22, viewBox: '0 0 13 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M12.625 9.492c-1.23.028-2.379-.355-3.363-1.066v4.894c0 1.86-1.149 3.5-2.899 4.157a4.41 4.41 0 0 1-4.894-1.23 4.48 4.48 0 0 1-.574-5.06c.875-1.613 2.68-2.515 4.539-2.269v2.46a2.06 2.06 0 0 0-2.297.74c-.492.737-.492 1.694.027 2.405a2.04 2.04 0 0 0 2.27.739 2.05 2.05 0 0 0 1.421-1.942V3.75h2.407c0 .219 0 .41.054.629a3.23 3.23 0 0 0 1.477 2.187 3.3 3.3 0 0 0 1.832.547z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '5da64b27cfaa9522ca8e549fc8b3f6be__a' },
+            React.createElement("path", { d: 'M0 0h13v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedTiktokSmIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedTriangleExclamationXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M11.625 9.984 2.344 25.22c-.094.14-.094.234-.094.375a.64.64 0 0 0 .656.656h18.14c.376 0 .704-.281.704-.656 0-.14-.047-.235-.14-.375L12.327 9.984A.35.35 0 0 0 12 9.75c-.187 0-.281.094-.375.234M9.703 8.813A2.7 2.7 0 0 1 12 7.5c.89 0 1.781.516 2.25 1.313l9.281 15.234c.282.469.469.984.469 1.547 0 1.593-1.312 2.906-2.953 2.906H2.907A2.92 2.92 0 0 1 0 25.594q0-.844.422-1.547zM13.5 23.25c0 .844-.703 1.5-1.5 1.5a1.48 1.48 0 0 1-1.5-1.5c0-.797.656-1.5 1.5-1.5.797 0 1.5.703 1.5 1.5m-.375-8.625v4.5A1.11 1.11 0 0 1 12 20.25c-.656 0-1.125-.469-1.125-1.125v-4.5c0-.61.469-1.125 1.125-1.125.61 0 1.125.516 1.125 1.125' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '2453d1e56eb6578258f626909c86ee82__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedTriangleExclamationXlBoldIcon);
+exports.default = ForwardRef;

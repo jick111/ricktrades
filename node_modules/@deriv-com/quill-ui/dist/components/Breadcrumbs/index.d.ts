@@ -1,0 +1,4 @@
+import { BreadcrumbProps } from './types';
+
+export declare const Breadcrumbs: ({ ...props }: BreadcrumbProps) => import("react").JSX.Element;
+export default Breadcrumbs;

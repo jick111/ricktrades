@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedBankMdFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 24, viewBox: '0 0 16 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M7.594 4.094a1.12 1.12 0 0 1 .781 0l7 3c.438.187.688.656.594 1.125A.97.97 0 0 1 15 9v.25a.74.74 0 0 1-.75.75H1.75A.72.72 0 0 1 1 9.25V9c-.5 0-.906-.312-1-.781a1.01 1.01 0 0 1 .594-1.125zM4 11v6h1.25v-6h2v6h1.5v-6h2v6H12v-6h1.969v6.156c.031 0 .062 0 .062.032l1.5 1c.375.25.531.687.406 1.125A.975.975 0 0 1 15 20H1c-.469 0-.844-.281-.969-.687a.99.99 0 0 1 .407-1.125l1.5-1c0-.032.03-.032.062-.032V11zm4-5c-.562 0-1 .469-1 1 0 .563.438 1 1 1 .531 0 1-.437 1-1 0-.531-.469-1-1-1' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '02d68a4c8f25e96cec32a0e1e453e9f6__a' },
+            React.createElement("path", { d: 'M0 0h16v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedBankMdFillIcon);
+exports.default = ForwardRef;

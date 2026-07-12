@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedMoonSmBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 11, height: 22, viewBox: '0 0 11 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M4.188 6.457a4.83 4.83 0 0 0-2.625 4.293 4.78 4.78 0 0 0 4.785 4.813c.355 0 .71-.028 1.066-.11a6.125 6.125 0 0 1-4.129-5.797c0-1.176.328-2.27.902-3.199m1.695-1.805h.984c.192.028.356.164.383.356a.39.39 0 0 1-.191.465c-.11.054-.192.109-.274.164l-.328.246c-.055.027-.082.054-.11.082a4.8 4.8 0 0 0-1.75 3.719c0 2.652 2.16 4.785 4.786 4.812h.109c.164-.027.301-.027.438-.027.082-.028.191-.028.3-.055.192-.027.383.055.465.219.082.191.055.383-.082.52-.082.081-.136.136-.218.19-.137.11-.247.22-.383.329-.055.027-.11.082-.164.11a6.1 6.1 0 0 1-3.5 1.093C2.984 16.875.25 14.141.25 10.75a6.114 6.114 0 0 1 5.633-6.098' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'a825a5c1bce7b34b5747f8bde04e50e0__a' },
+            React.createElement("path", { d: 'M0 0h11v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedMoonSmBoldIcon);
+exports.default = ForwardRef;

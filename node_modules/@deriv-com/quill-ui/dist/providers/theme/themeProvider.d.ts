@@ -1,0 +1,9 @@
+import { Theme } from './themeContext';
+
+export interface ThemeProviderProps {
+    children: React.ReactNode;
+    theme?: Theme;
+    persistent?: boolean;
+}
+export declare const ThemeProvider: ({ children, theme, persistent, }: ThemeProviderProps) => import("react").JSX.Element;
+export default ThemeProvider;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedDealCancellationXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 30, height: 36, viewBox: '0 0 30 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M4.219 11.719h4.453c.797 0 1.5.14 2.156.422.656.234 1.219.656 1.688 1.172s.797 1.171 1.078 1.968c.234.797.375 1.688.375 2.719 0 1.078-.14 1.969-.375 2.766-.281.797-.61 1.453-1.078 1.968-.47.516-1.032.891-1.688 1.172a5.4 5.4 0 0 1-2.156.422H4.219zM8.672 22.5c.937 0 1.687-.281 2.25-.89.562-.563.844-1.454.844-2.579v-2.015c0-1.125-.282-2.016-.844-2.578-.563-.61-1.313-.891-2.25-.891H6.234V22.5zm12.516 2.016c-1.641 0-2.907-.563-3.844-1.641-.938-1.125-1.407-2.719-1.407-4.875 0-1.031.094-1.969.376-2.766.234-.796.562-1.5 1.03-2.015.47-.563.985-.985 1.641-1.266.657-.281 1.407-.422 2.203-.422 1.125 0 2.016.235 2.766.703.75.47 1.313 1.22 1.735 2.157l-1.735.937a2.9 2.9 0 0 0-.984-1.453c-.469-.328-1.032-.516-1.782-.516-.937 0-1.734.329-2.25.985-.562.656-.843 1.547-.843 2.719v1.921c0 1.172.281 2.063.843 2.72.516.655 1.313.983 2.25.983.75 0 1.407-.187 1.875-.562.47-.375.797-.89 1.032-1.5l1.64.984c-.422.891-.984 1.641-1.734 2.157-.797.515-1.687.75-2.812.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '9c6532709a0fcf4310ed034cec84c20c__a' },
+            React.createElement("path", { d: 'M0 0h30v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedDealCancellationXlRegularIcon);
+exports.default = ForwardRef;

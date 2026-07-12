@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedStopwatchMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 24, viewBox: '0 0 14 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M4.5 4.75A.74.74 0 0 1 5.25 4h3.5a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75h-1v1.563a6.33 6.33 0 0 1 3.531 1.593l.938-.937a.736.736 0 0 1 1.031 0c.313.312.313.781 0 1.062l-.969.969c.75 1.063 1.219 2.375 1.219 3.75 0 3.594-2.937 6.5-6.5 6.5a6.495 6.495 0 0 1-6.5-6.5c0-3.312 2.5-6.062 5.75-6.437V5.5h-1a.72.72 0 0 1-.75-.75M7 18.5a4.96 4.96 0 0 0 4.313-2.5 4.94 4.94 0 0 0 0-5C10.406 9.469 8.78 8.5 7 8.5c-1.812 0-3.437.969-4.344 2.5a4.94 4.94 0 0 0 0 5A4.97 4.97 0 0 0 7 18.5m.75-7.75V14a.74.74 0 0 1-.75.75.72.72 0 0 1-.75-.75v-3.25A.74.74 0 0 1 7 10a.76.76 0 0 1 .75.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'b12047821e533fc71ba592d8e20cdf04__a' },
+            React.createElement("path", { d: 'M0 0h14v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedStopwatchMdBoldIcon);
+exports.default = ForwardRef;

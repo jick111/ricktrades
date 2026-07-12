@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+const LabelPairedHorizontalRuleDashedMdFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 24, viewBox: '0 0 20 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M0 12c0-.531.438-1 1-1h2c.531 0 1 .469 1 1 0 .563-.469 1-1 1H1c-.562 0-1-.437-1-1m5.313 0c0-.531.468-1 1-1h2c.562 0 1 .469 1 1 0 .563-.438 1-1 1h-2c-.532 0-1-.437-1-1m5.343 0c0-.531.438-1 1-1h2c.563 0 1 .469 1 1 0 .563-.437 1-1 1h-2c-.562 0-1-.437-1-1M16 12c0-.531.438-1 1-1h2c.531 0 1 .469 1 1 0 .563-.469 1-1 1h-2c-.562 0-1-.437-1-1' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'e2b7b7bdaad046dea71c04682c46761f__a' },
+            React.createElement("path", { d: 'M0 0h20v24H0z' })))));
+const ForwardRef = forwardRef(LabelPairedHorizontalRuleDashedMdFillIcon);
+export default ForwardRef;

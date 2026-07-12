@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLaptopMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 24, viewBox: '0 0 20 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M16 6.5H4c-.281 0-.5.25-.5.5v7H2V7c0-1.094.875-2 2-2h12c1.094 0 2 .906 2 2v7h-1.5V7c0-.25-.25-.5-.5-.5m-13 11h14c.625 0 1.188-.406 1.406-1H1.563c.218.594.78 1 1.437 1M0 16c0-.531.438-1 1-1h18c.531 0 1 .469 1 1a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'd93b57d112473da32ea658d14222e4f7__a' },
+            React.createElement("path", { d: 'M0 0h20v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLaptopMdBoldIcon);
+exports.default = ForwardRef;

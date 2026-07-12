@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowUpFromSquareXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M12.797 6.328 18 11.578c.469.469.469 1.172 0 1.594-.422.469-1.125.469-1.594 0l-3.328-3.328v11.531c0 .656-.469 1.125-1.125 1.125a1.11 1.11 0 0 1-1.125-1.125V9.844L7.5 13.172a1.027 1.027 0 0 1-1.547 0c-.469-.422-.469-1.125 0-1.594l5.25-5.25c.422-.422 1.125-.422 1.594 0M3.375 7.5h.375c.61 0 1.125.516 1.125 1.125A1.11 1.11 0 0 1 3.75 9.75h-.375a1.11 1.11 0 0 0-1.125 1.125v15.75c0 .656.469 1.125 1.125 1.125h17.25a1.11 1.11 0 0 0 1.125-1.125v-15.75a1.14 1.14 0 0 0-1.125-1.125h-.375c-.656 0-1.125-.469-1.125-1.125 0-.61.469-1.125 1.125-1.125h.375C22.453 7.5 24 9.047 24 10.875v15.75C24 28.5 22.453 30 20.625 30H3.375A3.36 3.36 0 0 1 0 26.625v-15.75C0 9.047 1.5 7.5 3.375 7.5' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '997185561f67b495747809865ca34d54__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowUpFromSquareXlBoldIcon);
+exports.default = ForwardRef;

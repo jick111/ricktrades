@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowsRotateMdRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 24, viewBox: '0 0 16 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M2.156 10.594a.53.53 0 0 1-.5.406c-.312 0-.562-.25-.5-.562C1.875 7.344 4.656 5 8 5c2.531 0 4.75 1.375 6 3.406V6.5c0-.25.219-.5.5-.5.25 0 .5.25.5.5v3c0 .281-.25.5-.5.5h-3a.494.494 0 0 1-.5-.5c0-.25.219-.5.5-.5h1.688a6.002 6.002 0 0 0-11.032 1.594m11.657 2.844a.564.564 0 0 1 .53-.438c.282 0 .532.281.47.594A7.004 7.004 0 0 1 8 19a6.96 6.96 0 0 1-6-3.375V17.5c0 .281-.219.5-.5.5a.494.494 0 0 1-.5-.5v-3c0-.25.219-.5.5-.5h3c.281 0 .5.25.5.5 0 .281-.219.5-.5.5H2.781C3.812 16.813 5.75 18 8 18a5.97 5.97 0 0 0 5.813-4.562' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '778dd557f78b34681b78b8d8486314ff__a' },
+            React.createElement("path", { d: 'M0 0h16v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowsRotateMdRegularIcon);
+exports.default = ForwardRef;

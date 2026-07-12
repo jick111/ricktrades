@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedFiveCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 8, height: 18, viewBox: '0 0 8 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1 4.719a.58.58 0 0 1 .563-.469h4.875A.57.57 0 0 1 7 4.813a.555.555 0 0 1-.562.562H2.03L1.47 8.563h3.187c1.688 0 3.094 1.406 3.094 3.093a3.106 3.106 0 0 1-3.094 3.094h-2.25c-.844 0-1.64-.469-2.015-1.242l-.094-.188a.555.555 0 0 1 .258-.75.555.555 0 0 1 .75.258l.093.188c.188.375.586.609 1.008.609h2.25a1.966 1.966 0 0 0 1.969-1.969 1.98 1.98 0 0 0-1.969-1.969H.813A.6.6 0 0 1 .367 9.5a.67.67 0 0 1-.117-.469z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '58c2bea341b0199951712dda83b2232a__a' },
+            React.createElement("path", { d: 'M0 0h8v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedFiveCaptionBoldIcon);
+exports.default = ForwardRef;

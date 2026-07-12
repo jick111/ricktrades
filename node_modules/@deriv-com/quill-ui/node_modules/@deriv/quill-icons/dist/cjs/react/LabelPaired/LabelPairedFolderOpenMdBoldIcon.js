@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedFolderOpenMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 24, viewBox: '0 0 18 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M12 19H2c-1.125 0-2-.875-2-2V7c0-1.094.875-2 2-2h3.656c.532 0 1.032.219 1.407.594l.843.843c.375.375.875.563 1.407.563H13c1.094 0 2 .906 2 2v1h-1.5V9c0-.25-.25-.5-.5-.5H9.313c-.938 0-1.813-.344-2.47-1L6 6.656a.5.5 0 0 0-.344-.156H2c-.281 0-.5.25-.5.5v8.188L3.625 11.5c.188-.312.5-.5.875-.5H17c.344 0 .688.188.844.5.187.313.187.719 0 1.031l-3.5 6c-.188.282-.5.469-.844.469z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '10f3468fe063b6e1aea194b4049ccd3c__a' },
+            React.createElement("path", { d: 'M0 0h18v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedFolderOpenMdBoldIcon);
+exports.default = ForwardRef;

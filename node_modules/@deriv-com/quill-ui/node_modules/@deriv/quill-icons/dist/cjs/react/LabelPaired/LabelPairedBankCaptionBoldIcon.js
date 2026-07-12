@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedBankCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 18, viewBox: '0 0 12 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm6.258 3.57 5.32 2.953c.258.141.422.399.422.68a.81.81 0 0 1-.82.797H.797A.79.79 0 0 1 0 7.203c0-.281.14-.539.398-.68l5.32-2.953a.55.55 0 0 1 .54 0m-.914 3.305c-.07-.094-.094-.234-.094-.375 0-.398.328-.75.75-.75.398 0 .75.352.75.75 0 .14-.047.281-.117.375h3.281L6 4.719 2.063 6.875zM1.5 8.75h1.125v3.75h1.5V8.75H5.25v3.75h1.5V8.75h1.125v3.75h1.5V8.75H10.5v3.75h.188a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562H1.5a.54.54 0 0 1-.562-.562c0-.305.234-.563.562-.563zm-.75 5.625h10.688a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562H.75a.54.54 0 0 1-.562-.562c0-.305.234-.563.562-.563' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'e9bc51362a5152ffc71c58e287ccb9fb__a' },
+            React.createElement("path", { d: 'M0 0h12v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedBankCaptionBoldIcon);
+exports.default = ForwardRef;

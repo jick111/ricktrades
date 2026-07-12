@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLinkedinSmIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 13, height: 22, viewBox: '0 0 13 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M11.75 4.625c.465 0 .875.41.875.902V16c0 .492-.41.875-.875.875H1.223A.86.86 0 0 1 .375 16V5.527c0-.492.383-.902.848-.902zm-7.684 10.5V9.301H2.262v5.824zM3.164 8.48c.574 0 1.04-.464 1.04-1.039 0-.574-.466-1.066-1.04-1.066-.602 0-1.066.492-1.066 1.066s.465 1.04 1.066 1.04m7.711 6.645v-3.2c0-1.558-.355-2.788-2.187-2.788-.876 0-1.477.492-1.723.957h-.027V9.3H5.215v5.824H7.02v-2.871c0-.766.136-1.504 1.093-1.504.93 0 .93.875.93 1.531v2.844z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'e15171a16b9efbca5bd36cc8360a937d__a' },
+            React.createElement("path", { d: 'M0 0h13v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLinkedinSmIcon);
+exports.default = ForwardRef;

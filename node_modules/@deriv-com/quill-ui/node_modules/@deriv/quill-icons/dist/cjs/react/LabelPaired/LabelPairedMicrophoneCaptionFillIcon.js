@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedMicrophoneCaptionFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 9, height: 18, viewBox: '0 0 9 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M4.5 3.5a2.25 2.25 0 0 1 2.25 2.25V9.5a2.25 2.25 0 0 1-4.5 0V5.75A2.25 2.25 0 0 1 4.5 3.5m-3 5.063V9.5c0 1.664 1.336 3 3 3 1.64 0 3-1.336 3-3v-.937c0-.305.234-.563.563-.563a.57.57 0 0 1 .562.563V9.5c0 2.11-1.57 3.82-3.562 4.102v.773h1.125a.57.57 0 0 1 .562.563.555.555 0 0 1-.562.562H2.813a.54.54 0 0 1-.563-.562c0-.305.234-.563.563-.563h1.124v-.773A4.126 4.126 0 0 1 .376 9.5v-.937C.375 8.258.609 8 .938 8a.57.57 0 0 1 .562.563' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'c024dea747593bccdc223ed3fa9f6371__a' },
+            React.createElement("path", { d: 'M0 0h9v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedMicrophoneCaptionFillIcon);
+exports.default = ForwardRef;

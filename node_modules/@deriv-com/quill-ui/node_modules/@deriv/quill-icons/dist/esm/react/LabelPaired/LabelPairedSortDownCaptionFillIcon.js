@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+const LabelPairedSortDownCaptionFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 8, height: 18, viewBox: '0 0 8 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M4.516 14.54a.723.723 0 0 1-1.055 0l-3-3a.76.76 0 0 1-.164-.821A.77.77 0 0 1 1 10.25h6a.76.76 0 0 1 .68.469.76.76 0 0 1-.164.82z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '2792dd6ed8475a43b661a6335fbddb7d__a' },
+            React.createElement("path", { d: 'M0 0h8v18H0z' })))));
+const ForwardRef = forwardRef(LabelPairedSortDownCaptionFillIcon);
+export default ForwardRef;

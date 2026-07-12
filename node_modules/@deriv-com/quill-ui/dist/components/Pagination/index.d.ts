@@ -1,0 +1,4 @@
+import { PaginationProps } from './types';
+
+export declare const Pagination: ({ contentPerPage, contentLength, initialPage, onClickPagination, variant, hideChevron, }: PaginationProps) => import("react").JSX.Element;
+export default Pagination;

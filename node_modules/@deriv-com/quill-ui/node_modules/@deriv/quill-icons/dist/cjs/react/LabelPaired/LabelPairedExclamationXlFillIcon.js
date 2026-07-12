@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedExclamationXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 3, height: 36, viewBox: '0 0 3 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M3 9v12c0 .844-.703 1.5-1.5 1.5A1.48 1.48 0 0 1 0 21V9c0-.797.656-1.5 1.5-1.5.797 0 1.5.703 1.5 1.5M1.5 28.5c-.703 0-1.312-.328-1.64-.937-.329-.563-.329-1.266 0-1.875a1.89 1.89 0 0 1 1.64-.938c.656 0 1.266.375 1.594.938.328.609.328 1.312 0 1.875-.328.609-.938.937-1.594.937' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '2a72cf98ded27fbb6eec150ea54740ca__a' },
+            React.createElement("path", { d: 'M0 0h3v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedExclamationXlFillIcon);
+exports.default = ForwardRef;

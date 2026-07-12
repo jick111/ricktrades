@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedBullhornXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm20.25 9.469-.516.515A14.59 14.59 0 0 1 9.75 14.25v6.047c3.75.047 7.313 1.594 9.984 4.265l.516.516zM7.5 12h1.875c3.281 0 6.422-1.266 8.766-3.61l1.78-1.78c.938-.938 2.579-.282 2.579 1.077v6.75c.844.422 1.5 1.547 1.5 2.813 0 1.313-.656 2.438-1.5 2.86v6.75c0 1.359-1.64 2.015-2.578 1.078l-1.781-1.782c-2.25-2.25-5.25-3.562-8.391-3.61v4.829C9.75 28.828 8.531 30 7.125 30h-1.5A2.62 2.62 0 0 1 3 27.375V22.5c-1.687 0-3-1.312-3-3V15c0-1.64 1.313-3 3-3zM5.25 22.5v4.875c0 .234.14.375.375.375h1.5a.37.37 0 0 0 .375-.375V22.5zM3 14.25c-.422 0-.75.375-.75.75v4.5c0 .422.328.75.75.75h4.5v-6z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '590d705d4db86e1abe2281a9d363bc62__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedBullhornXlBoldIcon);
+exports.default = ForwardRef;

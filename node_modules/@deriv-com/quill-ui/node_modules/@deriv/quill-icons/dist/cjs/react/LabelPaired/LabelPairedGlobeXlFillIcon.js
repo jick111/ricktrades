@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedGlobeXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M16.5 18c0 1.078-.094 2.063-.187 3H7.64a30 30 0 0 1-.141-3c0-1.031.047-2.016.14-3h8.673c.093.984.187 1.969.187 3m1.313-3h5.765c.281.984.422 1.969.422 3 0 1.078-.14 2.063-.422 3h-5.765c.093-.937.187-1.969.187-3s-.094-2.016-.187-3m5.296-1.5h-5.484c-.469-2.953-1.406-5.484-2.578-7.078 3.656.984 6.656 3.61 8.062 7.078m-6.984 0H7.828a19.7 19.7 0 0 1 1.266-4.406c.515-1.125 1.031-1.922 1.594-2.438C11.203 6.188 11.625 6 12 6c.328 0 .75.188 1.266.656.562.516 1.078 1.313 1.593 2.438a19.7 19.7 0 0 1 1.266 4.406m-9.797 0H.844C2.25 10.031 5.25 7.406 8.906 6.422c-1.172 1.594-2.11 4.125-2.578 7.078M.375 15h5.766A31 31 0 0 0 6 18c0 1.031.047 2.063.14 3H.376C.094 20.063 0 19.078 0 18c0-1.031.094-2.016.375-3m8.719 11.953A19.5 19.5 0 0 1 7.828 22.5h8.297a19.5 19.5 0 0 1-1.266 4.453c-.515 1.125-1.03 1.922-1.593 2.438-.516.468-.938.609-1.266.609-.375 0-.797-.14-1.312-.61-.563-.515-1.079-1.312-1.594-2.437M6.328 22.5c.469 3 1.406 5.531 2.578 7.125C5.25 28.641 2.25 26.015.844 22.5zm16.781 0c-1.406 3.516-4.406 6.14-8.062 7.125 1.219-1.594 2.11-4.125 2.578-7.125z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '680d9745ac06971195c58f2ee6aa812a__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedGlobeXlFillIcon);
+exports.default = ForwardRef;

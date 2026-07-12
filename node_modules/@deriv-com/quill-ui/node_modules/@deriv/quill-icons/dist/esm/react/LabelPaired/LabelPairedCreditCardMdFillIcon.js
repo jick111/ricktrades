@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+const LabelPairedCreditCardMdFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 24, viewBox: '0 0 18 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M2 5h14c1.094 0 2 .906 2 2v1H0V7c0-1.094.875-2 2-2m16 6v6c0 1.125-.906 2-2 2H2c-1.125 0-2-.875-2-2v-6zM3.5 15c-.281 0-.5.25-.5.5 0 .281.219.5.5.5h2c.25 0 .5-.219.5-.5 0-.25-.25-.5-.5-.5zm3.5.5c0 .281.219.5.5.5h4c.25 0 .5-.219.5-.5 0-.25-.25-.5-.5-.5h-4c-.281 0-.5.25-.5.5' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'caf59788e51c3697d0e96934da696b56__a' },
+            React.createElement("path", { d: 'M0 0h18v24H0z' })))));
+const ForwardRef = forwardRef(LabelPairedCreditCardMdFillIcon);
+export default ForwardRef;

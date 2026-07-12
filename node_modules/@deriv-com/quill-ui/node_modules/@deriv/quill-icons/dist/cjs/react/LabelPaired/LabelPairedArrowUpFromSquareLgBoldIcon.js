@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowUpFromSquareLgBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 30, viewBox: '0 0 20 30', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M10.664 5.773 15 10.148c.39.391.39.977 0 1.329-.352.39-.937.39-1.328 0l-2.774-2.774v9.61c0 .546-.39.937-.937.937a.925.925 0 0 1-.938-.937v-9.61L6.25 11.477a.856.856 0 0 1-1.29 0c-.39-.352-.39-.938 0-1.329l4.376-4.375c.351-.351.937-.351 1.328 0m-7.851.977h.312a.95.95 0 0 1 .938.938c0 .546-.43.937-.938.937h-.312a.925.925 0 0 0-.938.938v13.125c0 .546.39.937.938.937h14.375c.507 0 .937-.39.937-.937V9.563a.95.95 0 0 0-.937-.938h-.313c-.547 0-.937-.39-.937-.937 0-.508.39-.938.937-.938h.313C18.71 6.75 20 8.04 20 9.563v13.125a2.826 2.826 0 0 1-2.812 2.812H2.813A2.8 2.8 0 0 1 0 22.688V9.563A2.826 2.826 0 0 1 2.813 6.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '4b83c7d8ebc227e08d3e1e7584aa1887__a' },
+            React.createElement("path", { d: 'M0 0h20v30H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowUpFromSquareLgBoldIcon);
+exports.default = ForwardRef;

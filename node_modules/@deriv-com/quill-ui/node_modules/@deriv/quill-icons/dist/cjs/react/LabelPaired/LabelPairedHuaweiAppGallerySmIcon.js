@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedHuaweiAppGallerySmIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 22, viewBox: '0 0 18 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm8.29 11.242-.247.63-.027.054h.574l-.027-.055zm4.429-7.492A3.29 3.29 0 0 1 16 7.031v7.465c0 1.805-1.477 3.254-3.281 3.254H5.254A3.244 3.244 0 0 1 2 14.496V7.031C2 5.227 3.45 3.75 5.254 3.75zm-2.38 7-.41 1.313-.41-1.313h-.382l.629 1.914h.328l.41-1.258.41 1.258h.3l.657-1.914h-.383l-.41 1.313-.41-1.313zm-2.187 0-.82 1.914h.383l.164-.355v-.028h.848l.164.383h.382l-.793-1.887v-.027zm5.825 0v1.914h.382V10.75zm-10.5 0v1.914h.382v-.766h.82v.766h.383V10.75H4.68v.793h-.82v-.793zm3.308 0v1.094c0 .328-.164.492-.41.492-.273 0-.437-.164-.437-.492v-1.067h-.356v1.067c0 .547.273.847.766.847.52 0 .793-.3.793-.847V10.75zm5.387 0v1.914h1.367v-.355h-1.012v-.465h.684v-.356h-.684v-.383h.985v-.355zM6.43 5.992c0 1.34 1.12 2.406 2.488 2.406s2.488-1.066 2.488-2.406h-.355c0 1.149-.957 2.051-2.133 2.051s-2.133-.902-2.133-2.05z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '783f735216cc3e4642ef8757f15078cb__a' },
+            React.createElement("path", { d: 'M0 0h18v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedHuaweiAppGallerySmIcon);
+exports.default = ForwardRef;

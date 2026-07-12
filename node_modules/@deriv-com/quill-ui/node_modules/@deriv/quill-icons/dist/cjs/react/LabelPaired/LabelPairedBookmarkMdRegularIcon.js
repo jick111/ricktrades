@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedBookmarkMdRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 24, viewBox: '0 0 12 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M0 5.5A1.5 1.5 0 0 1 1.5 4h9c.813 0 1.5.688 1.5 1.5v13.813c0 .406-.312.687-.719.687a.8.8 0 0 1-.375-.094L6 16.625l-4.937 3.281A.8.8 0 0 1 .688 20C.28 20 0 19.719 0 19.313zM1.5 5c-.281 0-.5.25-.5.5v13.25l4.719-3.156a.54.54 0 0 1 .531 0L11 18.75V5.5c0-.25-.25-.5-.5-.5z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '543bf57faf53237745518671b4f1cea5__a' },
+            React.createElement("path", { d: 'M0 0h12v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedBookmarkMdRegularIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,5 @@
+import { default as React } from 'react';
+import { TBasicStepperProps } from './types';
+
+export declare const BasicStepper: ({ currentStep, Icon, size, labels, lineSize, }: TBasicStepperProps) => React.JSX.Element;
+export default BasicStepper;

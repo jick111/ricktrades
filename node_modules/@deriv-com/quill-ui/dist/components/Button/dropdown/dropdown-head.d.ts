@@ -1,0 +1,4 @@
+import { ButtonProps } from '../types';
+
+declare const HeadComponent: import('react').ForwardRefExoticComponent<ButtonProps & import('react').RefAttributes<HTMLButtonElement>>;
+export default HeadComponent;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedStopwatchMdRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 24, viewBox: '0 0 14 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M4 4.5c0-.25.219-.5.5-.5h5c.25 0 .5.25.5.5 0 .281-.25.5-.5.5h-2v2.031a6.48 6.48 0 0 1 3.969 1.782l1.156-1.157a.53.53 0 0 1 .719 0c.187.188.187.5 0 .719l-1.188 1.188A6.45 6.45 0 0 1 13.5 13.5c0 3.594-2.937 6.5-6.5 6.5a6.495 6.495 0 0 1-6.5-6.5 6.48 6.48 0 0 1 6-6.469V5h-2a.494.494 0 0 1-.5-.5m-2.5 9a5.51 5.51 0 0 0 2.75 4.781c1.688.969 3.781.969 5.5 0 1.688-1 2.75-2.812 2.75-4.781 0-1.937-1.062-3.75-2.75-4.75-1.719-.969-3.812-.969-5.5 0A5.5 5.5 0 0 0 1.5 13.5m6-3V14c0 .281-.25.5-.5.5a.494.494 0 0 1-.5-.5v-3.5c0-.25.219-.5.5-.5.25 0 .5.25.5.5' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '0204a782cc50281b7fe65fe9c3058d8d__a' },
+            React.createElement("path", { d: 'M0 0h14v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedStopwatchMdRegularIcon);
+exports.default = ForwardRef;

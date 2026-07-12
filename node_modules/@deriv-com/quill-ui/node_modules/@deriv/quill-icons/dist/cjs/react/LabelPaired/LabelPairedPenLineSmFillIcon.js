@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPenLineSmFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 22, viewBox: '0 0 16 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm12.512 4.297 1.066 1.066a1.766 1.766 0 0 1 0 2.489l-1.312 1.312L8.71 5.61l1.312-1.312a1.766 1.766 0 0 1 2.489 0M1.71 12.609l6.371-6.37 3.555 3.554-6.371 6.371a2.4 2.4 0 0 1-1.012.602l-3.309.957a.56.56 0 0 1-.629-.164.56.56 0 0 1-.164-.63l.957-3.308c.11-.383.329-.738.602-1.012m5.195 3.829h8.313c.355 0 .656.3.656.656 0 .383-.3.656-.656.656H6.906a.63.63 0 0 1-.656-.656c0-.356.273-.657.656-.657' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '17fcc6d4cda5963e0d5afae1ea69f624__a' },
+            React.createElement("path", { d: 'M0 0h16v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPenLineSmFillIcon);
+exports.default = ForwardRef;

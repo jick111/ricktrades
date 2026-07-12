@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedFloppyDiskPenCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 18, viewBox: '0 0 14 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.375 5.75v7.5c0 .21.164.375.375.375h4.828l-.281 1.125H1.75a1.48 1.48 0 0 1-1.5-1.5v-7.5c0-.82.656-1.5 1.5-1.5h5.742c.399 0 .774.164 1.055.445l1.758 1.758-.797.797L7.75 5.492V5.47v2.343a.555.555 0 0 1-.562.563h-4.5a.54.54 0 0 1-.563-.562V5.374H1.75a.385.385 0 0 0-.375.375m8.93.703c.28.281.445.656.445 1.055V9.03l-1.125 1.125V7.508a.38.38 0 0 0-.117-.258zM3.25 5.375V7.25h3.375V5.375zM4 11c0-.516.281-1.008.75-1.29a1.55 1.55 0 0 1 1.5 0c.445.282.75.774.75 1.29 0 .54-.305 1.031-.75 1.313a1.55 1.55 0 0 1-1.5 0A1.52 1.52 0 0 1 4 11m9.117-1.969.352.352a.95.95 0 0 1 0 1.312l-.703.703-1.664-1.664.703-.703a.95.95 0 0 1 1.312 0M7.54 13.297l3.047-3.047 1.664 1.664-3.047 3.047a.67.67 0 0 1-.328.187l-1.43.352a.39.39 0 0 1-.351-.094.39.39 0 0 1-.094-.351l.352-1.43a.67.67 0 0 1 .187-.328' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '20281195c2fca8fa6e3fb87f7860ce7a__a' },
+            React.createElement("path", { d: 'M0 0h14v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedFloppyDiskPenCaptionBoldIcon);
+exports.default = ForwardRef;

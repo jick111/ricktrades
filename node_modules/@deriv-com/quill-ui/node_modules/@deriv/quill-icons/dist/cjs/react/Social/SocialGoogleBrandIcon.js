@@ -1,0 +1,42 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.SocialGoogleBrandIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const SocialGoogleBrandIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#08c1d2e96be65e5ec8f4fc2562e341d2__a)' },
+        React.createElement("path", { fill: '#3E82F1', d: 'M32 16.375c0-1.097-.1-2.194-.294-3.273H16.325v6.186h8.787a7.34 7.34 0 0 1-3.256 4.829l5.274 4.02C30.22 25.348 32 21.248 32 16.374' }),
+        React.createElement("path", { fill: '#32A753', d: 'M21.858 24.119c-1.458.962-3.33 1.529-5.53 1.529-4.257 0-7.852-2.815-9.136-6.6l-5.458 4.145c2.77 5.404 8.42 8.82 14.593 8.812 4.412 0 8.108-1.43 10.805-3.876z' }),
+        React.createElement("path", { fill: '#F9BB00', d: 'M7.19 12.966 1.735 8.82a15.77 15.77 0 0 0 0 14.377l5.457-4.145a9.35 9.35 0 0 1 0-6.087' }),
+        React.createElement("path", { fill: '#E74133', d: 'M16.327 0C10.154 0 4.503 3.417 1.734 8.82l5.457 4.146c1.284-3.786 4.88-6.6 9.136-6.6 2.394 0 4.55.81 6.237 2.392l4.687-4.595C24.426 1.583 20.73 0 16.327 0' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '08c1d2e96be65e5ec8f4fc2562e341d2__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h32v32H0z' })))));
+exports.SocialGoogleBrandIcon = SocialGoogleBrandIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.SocialGoogleBrandIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,4 @@
+import { BadgeProps } from './types';
+
+export declare const BadgeBase: import('react').ForwardRefExoticComponent<BadgeProps & import('react').RefAttributes<HTMLSpanElement>>;
+export default BadgeBase;

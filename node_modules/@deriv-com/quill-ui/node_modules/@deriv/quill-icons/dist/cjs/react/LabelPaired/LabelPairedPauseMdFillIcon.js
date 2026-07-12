@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPauseMdFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 10, height: 24, viewBox: '0 0 10 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.5 6h1C3.313 6 4 6.688 4 7.5v9A1.5 1.5 0 0 1 2.5 18h-1A1.48 1.48 0 0 1 0 16.5v-9A1.5 1.5 0 0 1 1.5 6m6 0h1c.813 0 1.5.688 1.5 1.5v9A1.5 1.5 0 0 1 8.5 18h-1A1.48 1.48 0 0 1 6 16.5v-9A1.5 1.5 0 0 1 7.5 6' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '34157e5bedbf4a9bac9e02449069373c__a' },
+            React.createElement("path", { d: 'M0 0h10v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPauseMdFillIcon);
+exports.default = ForwardRef;

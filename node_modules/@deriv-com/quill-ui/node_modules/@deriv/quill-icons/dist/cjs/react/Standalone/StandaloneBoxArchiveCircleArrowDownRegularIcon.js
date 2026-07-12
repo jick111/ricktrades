@@ -1,0 +1,35 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.StandaloneBoxArchiveCircleArrowDownRegularIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const StandaloneBoxArchiveCircleArrowDownRegularIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("path", { d: 'M3.5 9c0-.664.547-1.25 1.25-1.25h17.5c.664 0 1.25.586 1.25 1.25v2.5c0 .703-.586 1.25-1.25 1.25H4.75c-.703 0-1.25-.547-1.25-1.25zm1.25 0v2.5h17.5V9zm0 5H6v8.75c0 .703.547 1.25 1.25 1.25h9.492c.235.469.508.898.82 1.25H7.25a2.47 2.47 0 0 1-2.5-2.5zm5 1.875c0-.312.273-.625.625-.625h6.25c.313 0 .625.313.625.625a.64.64 0 0 1-.625.625h-6.25a.617.617 0 0 1-.625-.625m8.242 2.188c1.016-1.72 2.852-2.813 4.883-2.813a5.61 5.61 0 0 1 4.844 2.813c1.015 1.757 1.015 3.906 0 5.625-.977 1.757-2.852 2.812-4.844 2.812a5.6 5.6 0 0 1-4.883-2.812c-1.015-1.72-1.015-3.868 0-5.625m1.094.625c-.781 1.367-.781 3.046 0 4.375a4.35 4.35 0 0 0 3.789 2.187c1.563 0 3.008-.82 3.79-2.187.78-1.329.78-3.008 0-4.375-.782-1.329-2.227-2.188-3.79-2.188-1.562 0-3.008.86-3.79 2.188m1.133 2.07a.66.66 0 0 1 .898 0c.352.39.742.742 1.133 1.133v-3.516c0-.312.273-.625.625-.625.313 0 .625.313.625.625v3.516c.352-.391.742-.743 1.094-1.133a.66.66 0 0 1 .898 0 .66.66 0 0 1 0 .898c-.742.703-1.445 1.446-2.187 2.188a.66.66 0 0 1-.899 0 58 58 0 0 0-2.187-2.188.66.66 0 0 1 0-.898M21 14h1.25v.04c-.43.038-.86.116-1.25.233z' })));
+exports.StandaloneBoxArchiveCircleArrowDownRegularIcon = StandaloneBoxArchiveCircleArrowDownRegularIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.StandaloneBoxArchiveCircleArrowDownRegularIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedAppleXlIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 36, viewBox: '0 0 18 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M14.906 18.61c0 .093-.14 2.859 2.906 4.312-.562 1.734-2.53 5.578-4.828 5.578-1.312 0-2.062-.844-3.562-.844-1.547 0-2.39.844-3.563.844-2.25.094-4.406-4.125-5.015-5.86a11.2 11.2 0 0 1-.656-3.796c0-4.172 2.765-6.188 5.39-6.235 1.266 0 2.86.891 3.563.891.656 0 2.484-1.078 4.172-.937 1.734.14 3.046.796 3.937 2.062-1.547.984-2.344 2.25-2.344 3.984m-2.625-7.688C11.344 12 10.22 12.609 9 12.516c-.094-1.266.375-2.438 1.219-3.375.75-.844 2.062-1.547 3.187-1.641 0 .516.14 1.922-1.125 3.422' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '34bb8442a0f362d9c5c6ff40b06fe8e6__a' },
+            React.createElement("path", { d: 'M0 0h18v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedAppleXlIcon);
+exports.default = ForwardRef;

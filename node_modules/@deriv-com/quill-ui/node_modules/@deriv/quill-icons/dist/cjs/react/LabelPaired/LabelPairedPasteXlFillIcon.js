@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPasteXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M7.5 6c1.078 0 2.063.61 2.578 1.5h2.672C13.969 7.5 15 8.531 15 9.75v.75h-2.25A3.73 3.73 0 0 0 9 14.25V27H2.25A2.22 2.22 0 0 1 0 24.75v-15A2.25 2.25 0 0 1 2.25 7.5h2.625C5.391 6.61 6.375 6 7.5 6m5.25 6h5.813c.562 0 1.171.281 1.593.703l3.14 3.14c.423.423.704 1.032.704 1.595V27.75A2.25 2.25 0 0 1 21.75 30h-9a2.22 2.22 0 0 1-2.25-2.25v-13.5A2.25 2.25 0 0 1 12.75 12M7.5 7.875A1.11 1.11 0 0 0 6.375 9c0 .656.469 1.125 1.125 1.125A1.11 1.11 0 0 0 8.625 9 1.14 1.14 0 0 0 7.5 7.875' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'bea5d4845f9a9c03a06b57db1dada73c__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPasteXlFillIcon);
+exports.default = ForwardRef;

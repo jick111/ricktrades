@@ -1,0 +1,8 @@
+import { SnackbarProps } from '../../components/Snackbar/snackbar';
+
+export type SnackbarContextValue = {
+    queue: SnackbarProps[];
+    addSnackbar: (props: Omit<SnackbarProps, "id" | "isVisible">) => void;
+    removeSnackbar: (id: string, onSnackbarRemove?: () => void) => void;
+};
+export declare const SnackbarContext: import('react').Context<SnackbarContextValue>;

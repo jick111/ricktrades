@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedChartTradingviewSmFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 22, viewBox: '0 0 18 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M14.852 9.273a.843.843 0 0 1 0 1.23l-4.075 4.075a1.32 1.32 0 0 1-1.832 0l-.82-.82-1.148 1.12a.843.843 0 0 1-1.23 0 .843.843 0 0 1 0-1.23L7.194 12.2c.492-.52 1.34-.52 1.832 0l.848.82 3.746-3.746a.843.843 0 0 1 1.23 0M10.395 6.13c0 .328-.301.601-.63.601-.355 0-.656-.273-.656-.601s.301-.602.657-.602c.328 0 .629.274.629.602m.492-.629h.957L10.559 9h-.957zm-4.293 0h2.215V9H7.96V6.293H6.594zM3.75 3.75a.9.9 0 0 1 .875.875v11.129c0 .137.11.246.273.246h9.79a.9.9 0 0 1 .874.875c0 .492-.41.875-.874.875H4.242c-.793 0-1.367-.574-1.367-1.367V4.625c0-.465.383-.875.875-.875' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'fe62ee36186f141ea5f700b3c7fbc6ce__a' },
+            React.createElement("path", { d: 'M0 0h18v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedChartTradingviewSmFillIcon);
+exports.default = ForwardRef;

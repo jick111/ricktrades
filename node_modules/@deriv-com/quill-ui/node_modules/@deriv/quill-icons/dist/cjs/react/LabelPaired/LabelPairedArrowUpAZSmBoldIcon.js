@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowUpAZSmBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 22, viewBox: '0 0 16 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M11.5 4.625c.246 0 .465.164.574.383l2.188 4.375a.647.647 0 0 1-.301.875c-.3.164-.711.027-.875-.301l-.356-.738c-.054 0-.109.027-.136.027h-2.352l-.355.711a.647.647 0 0 1-.875.3.647.647 0 0 1-.301-.874l2.187-4.375a.67.67 0 0 1 .602-.383m-.602 3.281h1.176L11.5 6.758zm-6.863-3.09a.644.644 0 0 1 .902 0l2.625 2.625c.274.274.274.684 0 .93a.6.6 0 0 1-.902 0L5.156 6.867v9.352c0 .383-.3.656-.656.656a.63.63 0 0 1-.656-.656V6.867L2.34 8.371c-.274.274-.684.274-.93 0a.6.6 0 0 1 0-.902l2.625-2.625zm5.715 6.809h3.5c.246 0 .492.164.574.41a.59.59 0 0 1-.11.684L11.2 15.563h2.051c.355 0 .656.3.656.656 0 .383-.3.656-.656.656h-3.5a.63.63 0 0 1-.602-.383.635.635 0 0 1 .11-.71l2.515-2.844H9.75a.63.63 0 0 1-.656-.657c0-.355.273-.656.656-.656' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '11de3da60abb92db6a6c8c97f264a4c3__a' },
+            React.createElement("path", { d: 'M0 0h16v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowUpAZSmBoldIcon);
+exports.default = ForwardRef;

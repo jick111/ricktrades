@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedFourSmBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 11, height: 22, viewBox: '0 0 11 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm5.418 5.61-3.445 6.453h5.715V7.906c0-.355.273-.656.656-.656.355 0 .656.3.656.656v4.157h1.094c.355 0 .656.3.656.656 0 .383-.3.656-.656.656H9v2.844c0 .383-.3.656-.656.656a.63.63 0 0 1-.656-.656v-2.844H.906c-.246 0-.465-.11-.574-.3a.7.7 0 0 1-.027-.657L4.242 4.98c.192-.3.574-.437.903-.273.3.164.437.574.273.902' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'b80837333aecd9c0191f4e2d74fc96d4__a' },
+            React.createElement("path", { d: 'M0 0h11v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedFourSmBoldIcon);
+exports.default = ForwardRef;

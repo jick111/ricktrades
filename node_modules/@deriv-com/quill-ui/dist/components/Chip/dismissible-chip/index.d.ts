@@ -1,0 +1,5 @@
+import { default as React } from 'react';
+import { DismissibleChipProps } from '../types';
+
+export declare const DismissibleChip: React.ForwardRefExoticComponent<DismissibleChipProps & React.RefAttributes<HTMLButtonElement>>;
+export default DismissibleChip;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPresentationScreenXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 27, height: 36, viewBox: '0 0 27 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.5 6h24c.797 0 1.5.703 1.5 1.5 0 .844-.703 1.5-1.5 1.5v10.5c0 1.688-1.36 3-3 3H15v1.64l3.281 3.329c.61.562.61 1.547 0 2.11-.562.608-1.547.608-2.11 0L13.5 26.905l-2.719 2.672c-.562.61-1.547.61-2.11 0a1.445 1.445 0 0 1 0-2.11L12 24.142V22.5H4.5c-1.687 0-3-1.312-3-3V9A1.48 1.48 0 0 1 0 7.5C0 6.703.656 6 1.5 6m3 3v10.5h18V9z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '21bacdeef12f0a6a9075550048f2d052__a' },
+            React.createElement("path", { d: 'M0 0h27v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPresentationScreenXlFillIcon);
+exports.default = ForwardRef;

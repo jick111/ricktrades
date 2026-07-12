@@ -1,0 +1,38 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.IllustrativeSignUpIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const IllustrativeSignUpIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M9.333 23.333c1.654 0 3-1.346 3-3s-1.346-3-3-3-3 1.347-3 3 1.347 3 3 3m0-4.666A1.667 1.667 0 1 1 9.332 22a1.667 1.667 0 0 1 .001-3.334M15.333 20h6c.367 0 .667-.3.667-.667 0-.366-.3-.666-.667-.666h-6c-.366 0-.666.3-.666.666s.3.667.666.667M15.333 22.667H20c.367 0 .667-.3.667-.667s-.3-.667-.667-.667h-4.667c-.366 0-.666.3-.666.667s.3.667.666.667' }),
+        React.createElement("path", { d: 'M22 10.667H4.667A3.335 3.335 0 0 0 1.333 14v13.333a3.335 3.335 0 0 0 3.334 3.334H22a3.334 3.334 0 0 0 3.333-3.334V14A3.335 3.335 0 0 0 22 10.667M4.667 12H22c1.1 0 2 .9 2 2H2.667c0-1.1.9-2 2-2M24 27.333c0 1.1-.9 2-2 2h-8v-2.666A2.666 2.666 0 0 0 11.333 24c-.366 0-.666.3-.666.667 0 .366.3.666.666.666.734 0 1.334.6 1.334 1.334v2.666H6v-2.666c0-.734.6-1.334 1.333-1.334.367 0 .667-.3.667-.666S7.7 24 7.333 24a2.666 2.666 0 0 0-2.666 2.667v2.666c-1.1 0-2-.9-2-2v-12H24zM26.333 1.333a4.333 4.333 0 1 0 0 8.667 4.333 4.333 0 0 0 0-8.667m0 7.334c-1.653 0-3-1.347-3-3s1.347-3 3-3 3 1.346 3 3-1.346 3-3 3' }),
+        React.createElement("path", { d: 'm26.86 4.86-.86.86-.193-.193a.664.664 0 1 0-.94.94l.666.666c.134.134.3.194.474.194.173 0 .34-.067.473-.194L27.813 5.8a.664.664 0 1 0-.94-.94z' }))));
+exports.IllustrativeSignUpIcon = IllustrativeSignUpIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.IllustrativeSignUpIcon);
+exports.default = ForwardRef;

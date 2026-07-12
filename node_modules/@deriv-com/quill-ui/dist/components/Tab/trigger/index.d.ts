@@ -1,0 +1,6 @@
+import { TabProps } from '../types';
+
+export declare const TabTrigger: {
+    ({ children, icon, className, ...rest }: TabProps): import("react").JSX.Element;
+    displayName: string;
+};

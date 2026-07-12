@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedBasketShoppingCaptionRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 18, viewBox: '0 0 14 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M7.914 3.57a.37.37 0 0 1 .516.118L10.96 8h2.415c.188 0 .375.188.375.375 0 .21-.187.375-.375.375h-.562l-1.407 5.625A1.505 1.505 0 0 1 9.953 15.5H4.047c-.703 0-1.29-.469-1.477-1.125L1.188 8.75H.625a.37.37 0 0 1-.375-.375C.25 8.188.414 8 .625 8h2.391l2.53-4.312a.37.37 0 0 1 .516-.118.37.37 0 0 1 .118.516L3.883 8h6.21L7.798 4.086a.37.37 0 0 1 .117-.516M1.961 8.75l1.36 5.438c.07.328.374.562.726.562h5.906a.77.77 0 0 0 .727-.562l1.36-5.438zM5.5 10.625v2.25c0 .21-.187.375-.375.375a.37.37 0 0 1-.375-.375v-2.25c0-.187.164-.375.375-.375.188 0 .375.188.375.375M7 10.25c.188 0 .375.188.375.375v2.25c0 .21-.187.375-.375.375a.37.37 0 0 1-.375-.375v-2.25c0-.187.164-.375.375-.375m2.25.375v2.25c0 .21-.187.375-.375.375a.37.37 0 0 1-.375-.375v-2.25c0-.187.164-.375.375-.375.188 0 .375.188.375.375' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '5b5fe2dd5087aa4be5b3d2b1ca0a6dde__a' },
+            React.createElement("path", { d: 'M0 0h14v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedBasketShoppingCaptionRegularIcon);
+exports.default = ForwardRef;

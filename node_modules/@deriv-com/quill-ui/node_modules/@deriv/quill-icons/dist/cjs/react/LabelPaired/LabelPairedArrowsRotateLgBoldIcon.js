@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowsRotateLgBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 30, viewBox: '0 0 20 30', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M3.672 12.844a.976.976 0 0 1-1.25.469.935.935 0 0 1-.508-1.211C3.242 8.977 6.367 6.75 10 6.75c2.031 0 3.984.82 5.43 2.266l2.07 2.07V8.937c0-.507.39-.937.938-.937a.95.95 0 0 1 .937.938v4.374c0 .547-.43.938-.937.938h-4.375c-.547 0-.938-.39-.938-.937 0-.508.39-.938.938-.938h2.109l-2.07-2.031A5.83 5.83 0 0 0 10 8.625a6.86 6.86 0 0 0-6.328 4.219m14.375 6.133C16.68 22.062 13.594 24.25 10 24.25c-2.07 0-4.023-.781-5.469-2.266L2.5 19.954v2.108c0 .547-.43.938-.937.938-.547 0-.938-.39-.938-.937v-4.375c0-.508.39-.938.938-.938h4.375a.95.95 0 0 1 .937.938c0 .546-.43.937-.937.937H3.789l2.07 2.07c1.094 1.094 2.579 1.68 4.141 1.68 2.813 0 5.273-1.68 6.29-4.14.233-.508.78-.704 1.25-.508.468.195.702.742.507 1.25' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '5967a9f98feb6a201c07fd3385bf1e0e__a' },
+            React.createElement("path", { d: 'M0 0h20v30H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowsRotateLgBoldIcon);
+exports.default = ForwardRef;

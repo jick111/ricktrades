@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowDownLgBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 15, height: 30, viewBox: '0 0 15 30', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M6.797 23.977.234 17.102c-.351-.391-.351-.977.04-1.329.39-.351.976-.351 1.328.04l4.96 5.195V7.688c0-.508.391-.938.938-.938a.95.95 0 0 1 .938.938v13.32l4.921-5.195a.93.93 0 0 1 1.329-.04c.39.352.39.938.039 1.329l-6.563 6.875a.92.92 0 0 1-.664.273c-.273 0-.508-.078-.703-.273' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '919f4a97b63b0dd216479cad822c3a8d__a' },
+            React.createElement("path", { d: 'M0 0h15v30H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowDownLgBoldIcon);
+exports.default = ForwardRef;

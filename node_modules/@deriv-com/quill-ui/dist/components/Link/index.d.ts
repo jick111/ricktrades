@@ -1,0 +1,4 @@
+import { LinkProps } from './types';
+
+export declare const Link: import('react').ForwardRefExoticComponent<LinkProps & import('react').RefAttributes<HTMLAnchorElement>>;
+export default Link;

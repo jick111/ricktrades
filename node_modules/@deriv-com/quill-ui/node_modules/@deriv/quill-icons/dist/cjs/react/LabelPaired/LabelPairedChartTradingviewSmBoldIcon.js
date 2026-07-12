@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedChartTradingviewSmBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 18, height: 22, viewBox: '0 0 18 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M3.313 3.75c.355 0 .656.3.656.656v11.621c0 .246.164.41.41.41H14.44c.383 0 .657.301.657.657a.63.63 0 0 1-.657.656H3.887c-.684 0-1.23-.547-1.23-1.23V4.406c0-.355.273-.656.656-.656m11.593 5.469c.274.246.274.656 0 .93l-4.265 4.265a1.09 1.09 0 0 1-1.559 0l-.957-.984-1.723 1.722c-.273.274-.683.274-.93 0-.273-.246-.273-.656 0-.93l1.86-1.859a1.09 1.09 0 0 1 1.559 0l.984.985 4.102-4.13c.273-.273.683-.273.93 0m-4.73-3.09c0 .328-.301.601-.63.601-.355 0-.655-.273-.655-.601s.3-.602.656-.602c.328 0 .629.274.629.602m.492-.629h.957L10.34 9h-.957zm-4.293 0H8.59V9h-.848V6.293H6.375z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '058a827b25a22e91795d263e90ce147c__a' },
+            React.createElement("path", { d: 'M0 0h18v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedChartTradingviewSmBoldIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,42 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.AccountsDerivXIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const AccountsDerivXIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#1ab5c05b106edab115747de5cd9bc885__a)' },
+        React.createElement("path", { fill: '#FF444F', d: 'M0 6a6 6 0 0 1 6-6h20a6 6 0 0 1 6 6v20a6 6 0 0 1-6 6H6a6 6 0 0 1-6-6z' }),
+        React.createElement("path", { fill: '#E12E3A', d: 'M6 0a6 6 0 0 0-6 6v.174l29.914-4.721A5.98 5.98 0 0 0 26 0zM30.532 2.068 25.044 32H26a6 6 0 0 0 6-6V6c0-1.504-.553-2.88-1.468-3.932' }),
+        React.createElement("path", { fill: '#fff', d: 'M9.544 19.066q.155.015.35.028h.49q1.639 0 2.422-.826.798-.825.798-2.282 0-1.525-.756-2.31-.756-.784-2.394-.784a8 8 0 0 0-.462.014q-.238 0-.448.028zm6.314-3.08q0 1.26-.392 2.198a4.04 4.04 0 0 1-1.12 1.554q-.714.616-1.75.924-1.035.308-2.324.308-.588 0-1.372-.056a10.5 10.5 0 0 1-1.54-.196v-9.45a12 12 0 0 1 1.568-.182 21 21 0 0 1 1.414-.056q1.246 0 2.254.28 1.023.28 1.75.882a3.9 3.9 0 0 1 1.12 1.54q.393.938.392 2.254' }),
+        React.createElement("path", { fill: '#fff', d: 'M22.021 20.844a26 26 0 0 0-.896-1.638 18 18 0 0 0-1.106-1.708q-.195.252-.504.7-.293.448-.602.952-.294.504-.56.966t-.392.728H15.47q.616-1.134 1.428-2.38.826-1.246 1.834-2.646l-3.122-4.676h2.646l1.89 3.024 1.848-3.024h2.492l-3.08 4.704a33 33 0 0 1 1.974 2.828q.798 1.288 1.26 2.17z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '1ab5c05b106edab115747de5cd9bc885__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h32v32H0z' })))));
+exports.AccountsDerivXIcon = AccountsDerivXIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.AccountsDerivXIcon);
+exports.default = ForwardRef;

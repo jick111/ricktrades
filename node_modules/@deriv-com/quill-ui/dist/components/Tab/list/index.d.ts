@@ -1,0 +1,3 @@
+import { TabProps } from '../types';
+
+export declare const TabList: ({ children, className }: TabProps) => import("react").JSX.Element;

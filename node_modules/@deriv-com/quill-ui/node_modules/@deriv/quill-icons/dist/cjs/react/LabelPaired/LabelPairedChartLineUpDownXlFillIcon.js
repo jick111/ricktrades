@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedChartLineUpDownXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M3 9v15.75c0 .422.328.75.75.75H22.5c.797 0 1.5.703 1.5 1.5 0 .844-.703 1.5-1.5 1.5H3.75C1.64 28.5 0 26.86 0 24.75V9c0-.797.656-1.5 1.5-1.5.797 0 1.5.703 1.5 1.5m14.672 2.719-.89-.89c-.188-.188-.282-.47-.282-.75 0-.563.469-1.079 1.031-1.079h4.219c.375 0 .75.375.75.75v4.219c0 .562-.516 1.031-1.078 1.031-.281 0-.563-.094-.75-.281l-.89-.89-5.25 5.25c-.563.608-1.548.608-2.11 0L9.75 16.405l-2.719 2.672c-.562.61-1.547.61-2.11 0a1.445 1.445 0 0 1 0-2.11l3.75-3.75a1.445 1.445 0 0 1 2.11 0l2.719 2.673zm3 6.61c.187-.188.469-.329.75-.329.61 0 1.078.516 1.078 1.078v4.172c0 .422-.375.75-.75.75h-4.219a1.04 1.04 0 0 1-1.031-1.031c0-.282.094-.563.281-.75l.89-.89-1.64-1.642 2.157-2.109 1.593 1.64z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'fdf2520449ca9da5522992587ac7e79a__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedChartLineUpDownXlFillIcon);
+exports.default = ForwardRef;

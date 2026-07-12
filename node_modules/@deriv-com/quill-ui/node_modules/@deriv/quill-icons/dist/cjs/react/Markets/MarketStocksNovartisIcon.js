@@ -1,0 +1,44 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MarketStocksNovartisIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const MarketStocksNovartisIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#7b715e190bb2d0f8011f5a5038fc91d5__a)' },
+        React.createElement("path", { fill: '#F6F7F8', d: 'M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16' }),
+        React.createElement("path", { fill: 'url(#7b715e190bb2d0f8011f5a5038fc91d5__b)', d: 'm18.667 15.204-.038.097c.632.278 2.05 1.381 2.05 3.602 0 2.092-1.763 4.2-4.534 4.2-3.447 0-4.635-2.016-4.635-3.868 0-2.373 1.659-3.952 1.659-6.114a3.38 3.38 0 0 0-2.66-3.26l-.057.098a2.8 2.8 0 0 1 .85 2.025c0 2.335-1.969 3.994-1.969 6.673 0 2.468 1.726 4.983 6.72 4.983 4.453 0 6.8-2.18 6.8-4.5-.003-1.99-1.428-3.674-4.186-3.937' }),
+        React.createElement("path", { fill: '#0460A9', d: 'm16.113 20.297 1.264-11.94h-2.622l1.264 11.94z' })),
+    React.createElement("defs", null,
+        React.createElement("linearGradient", { id: '7b715e190bb2d0f8011f5a5038fc91d5__b', x1: -0.007, x2: 31.992, y1: 15.996, y2: 15.996, gradientUnits: 'userSpaceOnUse' },
+            React.createElement("stop", { offset: 0.3, stopColor: '#E74A21' }),
+            React.createElement("stop", { offset: 0.7, stopColor: '#EC9A1E' })),
+        React.createElement("clipPath", { id: '7b715e190bb2d0f8011f5a5038fc91d5__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h32v32H0z' })))));
+exports.MarketStocksNovartisIcon = MarketStocksNovartisIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.MarketStocksNovartisIcon);
+exports.default = ForwardRef;

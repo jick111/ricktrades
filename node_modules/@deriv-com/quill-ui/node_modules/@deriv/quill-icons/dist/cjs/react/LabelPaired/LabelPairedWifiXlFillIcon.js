@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedWifiXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 30, height: 36, viewBox: '0 0 30 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M2.531 15.516c-.61.609-1.547.562-2.156-.047-.562-.563-.516-1.547.047-2.11C4.219 9.75 9.328 7.5 15 7.5c5.625 0 10.734 2.25 14.531 5.86.563.562.61 1.546.047 2.109-.61.61-1.547.656-2.156.047C24.187 12.422 19.828 10.5 15 10.5c-4.875 0-9.234 1.922-12.469 5.016M15 18c-2.672 0-5.11 1.031-6.984 2.625a1.487 1.487 0 0 1-2.11-.094c-.515-.656-.468-1.593.14-2.156C8.438 16.313 11.579 15 15 15s6.516 1.313 8.906 3.375c.61.563.703 1.5.14 2.156-.562.61-1.5.657-2.108.094C20.063 19.031 17.625 18 15 18m3 7.5c0 1.078-.61 2.063-1.5 2.625-.937.516-2.11.516-3 0A3.05 3.05 0 0 1 12 25.5c0-1.031.563-2.016 1.5-2.578.89-.516 2.063-.516 3 0 .89.562 1.5 1.547 1.5 2.578' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '5fd164f217e99d98a95ad58033f4ae88__a' },
+            React.createElement("path", { d: 'M0 0h30v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedWifiXlFillIcon);
+exports.default = ForwardRef;

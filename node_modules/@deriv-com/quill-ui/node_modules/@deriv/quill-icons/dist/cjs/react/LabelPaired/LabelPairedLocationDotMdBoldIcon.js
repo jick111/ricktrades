@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLocationDotMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 24, viewBox: '0 0 12 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M10.5 10c0-2.469-2.031-4.5-4.5-4.5-2.5 0-4.5 2.031-4.5 4.5 0 .406.125 1 .469 1.813.312.75.781 1.624 1.312 2.5C4.187 15.75 5.22 17.125 6 18.125c.75-1 1.781-2.375 2.688-3.812.53-.876 1-1.75 1.312-2.5.344-.813.5-1.407.5-1.813m1.5 0c0 2.75-3.656 7.594-5.281 9.625a.943.943 0 0 1-1.469 0C3.656 17.594 0 12.75 0 10c0-3.312 2.688-6 6-6 3.313 0 6 2.688 6 6m-5 0c0-.531-.469-1-1-1-.562 0-1 .469-1 1 0 .563.438 1 1 1 .531 0 1-.437 1-1m-3.5 0c0-.875.469-1.687 1.25-2.156.75-.438 1.719-.438 2.5 0C8 8.312 8.5 9.125 8.5 10c0 .906-.5 1.719-1.25 2.188-.781.437-1.75.437-2.5 0A2.53 2.53 0 0 1 3.5 10' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'fc1d236329d489ffd314174e815cca00__a' },
+            React.createElement("path", { d: 'M0 0h12v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLocationDotMdBoldIcon);
+exports.default = ForwardRef;

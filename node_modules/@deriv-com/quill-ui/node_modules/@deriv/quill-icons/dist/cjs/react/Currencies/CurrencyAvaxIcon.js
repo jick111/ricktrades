@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.CurrencyAvaxIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const CurrencyAvaxIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("path", { fill: '#E84142', d: 'M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16' }),
+    React.createElement("path", { fill: '#fff', d: 'M8.306 23.185h3.101c.73 0 1.096 0 1.421-.09a2.34 2.34 0 0 0 .954-.554c.344-.327.561-.783.793-1.19l4.022-7.109c.357-.624.534-.938.612-1.268a2.3 2.3 0 0 0 0-1.091c-.078-.327-.256-.639-.608-1.254L17.02 7.867c-.326-.573-.49-.86-.699-.965a.79.79 0 0 0-.714 0c-.208.106-.373.392-.699.965L7.25 21.364c-.321.565-.482.848-.47 1.08a.79.79 0 0 0 .357.615c.196.126.518.126 1.17.126M23.682 23.185h-4.443c-.656 0-.986 0-1.178-.126a.8.8 0 0 1-.357-.62c-.012-.23.15-.51.475-1.07l2.225-3.82c.326-.562.491-.84.695-.947a.78.78 0 0 1 .71 0c.203.103.361.37.674.899l2.283 3.906c.309.533.466.804.455 1.028a.79.79 0 0 1-.357.62c-.197.13-.527.13-1.182.13' })));
+exports.CurrencyAvaxIcon = CurrencyAvaxIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.CurrencyAvaxIcon);
+exports.default = ForwardRef;

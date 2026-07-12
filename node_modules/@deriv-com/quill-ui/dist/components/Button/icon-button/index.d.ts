@@ -1,0 +1,5 @@
+import { default as React } from 'react';
+import { IconButtonProps } from '../types';
+
+export declare const IconButton: React.ForwardRefExoticComponent<IconButtonProps & React.RefAttributes<HTMLButtonElement>>;
+export default IconButton;

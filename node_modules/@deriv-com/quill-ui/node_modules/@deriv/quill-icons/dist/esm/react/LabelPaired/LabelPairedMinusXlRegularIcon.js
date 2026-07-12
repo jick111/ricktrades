@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+const LabelPairedMinusXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 21, height: 36, viewBox: '0 0 21 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M20.25 18c0 .422-.375.75-.75.75h-18A.74.74 0 0 1 .75 18c0-.375.328-.75.75-.75h18c.375 0 .75.375.75.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '7e83a8e1528652677342494351bb35e5__a' },
+            React.createElement("path", { d: 'M0 0h21v36H0z' })))));
+const ForwardRef = forwardRef(LabelPairedMinusXlRegularIcon);
+export default ForwardRef;

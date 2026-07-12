@@ -1,0 +1,5 @@
+import { default as React } from 'react';
+import { SelectableChipProps } from '../types';
+
+export declare const SelectableChip: ({ ...rest }: SelectableChipProps) => React.JSX.Element;
+export default SelectableChip;

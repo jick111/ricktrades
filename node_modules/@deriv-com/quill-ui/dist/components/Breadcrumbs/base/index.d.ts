@@ -1,0 +1,4 @@
+import { BreadcrumbProps } from '../types';
+
+export declare function Base({ size, links, className }: BreadcrumbProps): import("react").JSX.Element;
+export default Base;

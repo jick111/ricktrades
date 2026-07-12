@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedWalletSignalXlRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 30, height: 36, viewBox: '0 0 30 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M0 11.25C0 9.188 1.64 7.5 3.75 7.5h18c.375 0 .75.375.75.75 0 .422-.375.75-.75.75h-18a2.25 2.25 0 0 0-2.25 2.25v13.5c0 1.266.984 2.25 2.25 2.25H16.5v1.5H3.75C1.64 28.5 0 26.86 0 24.75zm4.5 0c0-.375.328-.75.75-.75h15A3.76 3.76 0 0 1 24 14.25v3.281c-.516-.234-.984-.375-1.5-.562v-2.672a2.25 2.25 0 0 0-2.25-2.25h-15c-.422 0-.75-.375-.75-.75zm13.5 7.5c0-.375.328-.75.75-.75C24.938 18 30 23.063 30 29.25c0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75c0-5.344-4.406-9.75-9.75-9.75a.74.74 0 0 1-.75-.75m0 4.5c0-.375.328-.75.75-.75 3.703 0 6.75 3.047 6.75 6.75 0 .422-.375.75-.75.75a.74.74 0 0 1-.75-.75c0-2.86-2.39-5.25-5.25-5.25a.74.74 0 0 1-.75-.75m0 5.25c0-.797.656-1.5 1.5-1.5.797 0 1.5.703 1.5 1.5 0 .844-.703 1.5-1.5 1.5a1.48 1.48 0 0 1-1.5-1.5' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'a95382b9919b1805c0aea49563458237__a' },
+            React.createElement("path", { d: 'M0 0h30v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedWalletSignalXlRegularIcon);
+exports.default = ForwardRef;

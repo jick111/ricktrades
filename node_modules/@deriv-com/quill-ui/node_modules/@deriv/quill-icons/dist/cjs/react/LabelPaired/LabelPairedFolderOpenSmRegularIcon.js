@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedFolderOpenSmRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 22, viewBox: '0 0 16 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M12.375 8.125a.9.9 0 0 0-.875-.875H8.273a2.65 2.65 0 0 1-1.859-.766l-.71-.71.6-.63-.6.63a.9.9 0 0 0-.63-.274H1.875A.88.88 0 0 0 1 6.375v7.848l1.395-3.5a1.3 1.3 0 0 1 1.23-.848h10.938c.41 0 .82.219 1.066.602.246.355.3.793.137 1.203l-1.75 4.375c-.192.52-.684.82-1.203.82H1.874c-.984 0-1.75-.766-1.75-1.75v-8.75c0-.957.766-1.75 1.75-1.75h3.2c.464 0 .902.191 1.23.52l.738.738c.328.328.766.492 1.23.492H11.5c.957 0 1.75.793 1.75 1.75V9h-.875zM10.625 16h2.188c.164 0 .328-.11.382-.273l1.75-4.375a.44.44 0 0 0-.027-.41.47.47 0 0 0-.355-.192H3.624a.41.41 0 0 0-.41.3l-1.75 4.376a.39.39 0 0 0 .027.383c.082.136.219.191.383.191z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '8902eb3ee840c96f9cfbdb1dba441f46__a' },
+            React.createElement("path", { d: 'M0 0h16v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedFolderOpenSmRegularIcon);
+exports.default = ForwardRef;

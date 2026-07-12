@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedInstagramSmIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 13, height: 22, viewBox: '0 0 13 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M6.5 7.605a3.163 3.163 0 0 1 3.145 3.145A3.145 3.145 0 0 1 6.5 13.895a3.13 3.13 0 0 1-3.145-3.145A3.145 3.145 0 0 1 6.5 7.605m0 5.196c1.121 0 2.023-.903 2.023-2.051A2.02 2.02 0 0 0 6.5 8.727c-1.148 0-2.05.902-2.05 2.023 0 1.148.929 2.05 2.05 2.05m3.992-5.305a.735.735 0 0 0-.738-.738.735.735 0 0 0-.738.738c0 .41.328.738.738.738s.738-.328.738-.738m2.078.738c.055 1.012.055 4.047 0 5.059-.054.984-.273 1.832-.984 2.57-.711.711-1.586.93-2.57.985-1.012.054-4.047.054-5.059 0-.984-.055-1.832-.274-2.57-.985-.711-.738-.93-1.586-.985-2.57-.054-1.012-.054-4.047 0-5.059.055-.984.274-1.859.985-2.57.738-.71 1.586-.93 2.57-.984 1.012-.055 4.047-.055 5.059 0 .984.054 1.859.273 2.57.984s.93 1.586.984 2.57m-1.312 6.125c.328-.793.246-2.707.246-3.609 0-.875.082-2.79-.246-3.61-.219-.519-.63-.956-1.149-1.148-.82-.328-2.734-.246-3.609-.246-.902 0-2.816-.082-3.61.246a2.1 2.1 0 0 0-1.175 1.149c-.328.82-.246 2.734-.246 3.609 0 .902-.082 2.816.246 3.61.219.546.629.956 1.176 1.175.793.328 2.707.246 3.609.246.875 0 2.79.082 3.61-.246.519-.219.956-.629 1.148-1.176' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'e007b89b99f62631879521aede9fc2fc__a' },
+            React.createElement("path", { d: 'M0 0h13v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedInstagramSmIcon);
+exports.default = ForwardRef;

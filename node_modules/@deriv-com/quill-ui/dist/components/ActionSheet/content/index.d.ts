@@ -1,0 +1,5 @@
+import { ComponentPropsWithoutRef } from 'react';
+
+type ContentProps = ComponentPropsWithoutRef<"div">;
+declare const Content: ({ className, ...props }: ContentProps) => import("react").JSX.Element;
+export default Content;

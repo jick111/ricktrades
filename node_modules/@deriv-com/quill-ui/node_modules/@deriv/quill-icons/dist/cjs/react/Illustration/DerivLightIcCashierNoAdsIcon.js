@@ -1,0 +1,39 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const DerivLightIcCashierNoAdsIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 128 128', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#797d6aa7130cde1017db341295d89ad4__a)' },
+        React.createElement("path", { fill: '#E0F0F0', d: 'M30.4 5.33a9.16 9.16 0 0 0-9 9.3v98.74a9.16 9.16 0 0 0 9 9.3h67.2a9.16 9.16 0 0 0 9-9.3V33.55L80.06 5.33z' }),
+        React.createElement("path", { fill: '#BBCCCE', d: 'M80.06 5.33V28.9a4.58 4.58 0 0 0 4.51 4.65h22.06z' }),
+        React.createElement("path", { fill: '#BCCDCE', d: 'm42.139 38.89-1.026-3.405h-4.779L35.31 38.89H32.15l4.718-14.316h3.856l4.655 14.316zm-3.384-11.486h-.103l-1.58 5.435h3.282zm8.605-2.83h5.394q1.416 0 2.584.451 1.17.45 1.99 1.354.82.882 1.271 2.235.452 1.334.452 3.118 0 1.785-.452 3.138-.45 1.333-1.271 2.236a5.3 5.3 0 0 1-1.99 1.333q-1.168.45-2.584.45H47.36zm5.394 11.547q1.395 0 2.195-.78.8-.778.8-2.502v-2.215q0-1.722-.8-2.502t-2.195-.78h-2.276v8.779z' }),
+        React.createElement("path", { fill: '#fff', d: 'M92.09 58.88H35.92a4.18 4.18 0 0 0 0 8.36h56.17a4.18 4.18 0 0 0 0-8.36M92.09 77.38H35.92a4.18 4.18 0 0 0 0 8.36h56.17a4.18 4.18 0 0 0 0-8.36M92.09 95.89H35.92a4.18 4.18 0 0 0 0 8.36h56.17a4.18 4.18 0 0 0 0-8.36' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '797d6aa7130cde1017db341295d89ad4__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h128v128H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(DerivLightIcCashierNoAdsIcon);
+exports.default = ForwardRef;

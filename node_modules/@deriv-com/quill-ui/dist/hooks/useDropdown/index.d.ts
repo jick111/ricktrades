@@ -1,0 +1,9 @@
+import { RefObject } from 'react';
+
+export declare const useDropdown: (refs?: RefObject<HTMLElement>[] | RefObject<HTMLElement>, noAutoClose?: boolean) => {
+    selectedValue: string | number | undefined;
+    isOpen: boolean;
+    open: () => void;
+    close: () => void;
+    setSelectedValue: (value: string | number) => void;
+};

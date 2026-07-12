@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedChartMixedXlFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 24, height: 36, viewBox: '0 0 24 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'm23.438 10.172-7.5 6a1.484 1.484 0 0 1-1.876.047L9 12.422l-6.562 5.25c-.657.515-1.594.422-2.11-.235-.516-.609-.422-1.593.235-2.109l7.5-6c.515-.422 1.265-.422 1.828 0l5.062 3.797 6.61-5.297c.609-.516 1.593-.375 2.109.234.515.657.375 1.594-.235 2.11M7.5 18c0-.797.656-1.5 1.5-1.5.797 0 1.5.703 1.5 1.5v9c0 .844-.703 1.5-1.5 1.5A1.48 1.48 0 0 1 7.5 27zm-6 4.5c0-.797.656-1.5 1.5-1.5.797 0 1.5.703 1.5 1.5V27c0 .844-.703 1.5-1.5 1.5A1.48 1.48 0 0 1 1.5 27zm13.5-3c.797 0 1.5.703 1.5 1.5v6c0 .844-.703 1.5-1.5 1.5a1.48 1.48 0 0 1-1.5-1.5v-6c0-.797.656-1.5 1.5-1.5m4.5-1.5c0-.797.656-1.5 1.5-1.5.797 0 1.5.703 1.5 1.5v9c0 .844-.703 1.5-1.5 1.5a1.48 1.48 0 0 1-1.5-1.5z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'c53044589644a3348c106b59180fdade__a' },
+            React.createElement("path", { d: 'M0 0h24v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedChartMixedXlFillIcon);
+exports.default = ForwardRef;

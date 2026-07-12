@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedLinkSimpleSmRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 16, height: 22, viewBox: '0 0 16 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.125 10.75A4.37 4.37 0 0 1 4.5 6.375h2.188a.47.47 0 0 1 .437.438.45.45 0 0 1-.437.437H4.5a3.507 3.507 0 0 0-3.5 3.5 3.49 3.49 0 0 0 3.5 3.5h2.188a.47.47 0 0 1 .437.438.45.45 0 0 1-.437.437H4.5A4.353 4.353 0 0 1 .125 10.75m15.75 0a4.37 4.37 0 0 1-4.375 4.375H9.313a.43.43 0 0 1-.438-.437.45.45 0 0 1 .438-.438H11.5c1.914 0 3.5-1.559 3.5-3.5 0-1.914-1.586-3.5-3.5-3.5H9.313a.43.43 0 0 1-.438-.437.45.45 0 0 1 .438-.438H11.5a4.39 4.39 0 0 1 4.375 4.375m-11.594-.437h7.438a.47.47 0 0 1 .437.437.45.45 0 0 1-.437.438H4.28a.43.43 0 0 1-.437-.438.45.45 0 0 1 .437-.437' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '66393e1272f3e61261d42afc2ea5c436__a' },
+            React.createElement("path", { d: 'M0 0h16v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedLinkSimpleSmRegularIcon);
+exports.default = ForwardRef;

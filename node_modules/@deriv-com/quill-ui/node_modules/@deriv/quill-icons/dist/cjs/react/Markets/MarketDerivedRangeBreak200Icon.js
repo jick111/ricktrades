@@ -1,0 +1,43 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MarketDerivedRangeBreak200Icon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const MarketDerivedRangeBreak200Icon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { fill: '#0AA0B0' },
+        React.createElement("path", { fillRule: 'evenodd', d: 'M29 16a3 3 0 1 0-2.708-1.707L18.5 22.086l-4.5-4.5-4.5 4.5-4.5-4.5-5 5v2.828l5-5 4.5 4.5 4.5-4.5 4.5 4.5 9.206-9.206c.392.187.83.292 1.294.292m0-2a1 1 0 1 0 0-2 1 1 0 0 0 0 2', clipRule: 'evenodd' }),
+        React.createElement("path", { d: 'M22.017 14H0v-2h24zM24 32H0v-2h24z' })),
+    React.createElement("g", { fill: '#FF444F' },
+        React.createElement("path", { d: 'm21.793 23.207 1.8 1.8 1.414-1.414-1.8-1.8z' }),
+        React.createElement("path", { fillRule: 'evenodd', d: 'm26.292 27.707-1.8-1.8 1.415-1.414 1.8 1.8a3 3 0 1 1-1.414 1.414M30 29a1 1 0 1 1-2 0 1 1 0 0 1 2 0', clipRule: 'evenodd' })),
+    React.createElement("path", { fill: '#414652', d: 'M9.502 7.08q.48 0 .663-.352.185-.352.185-.992V4.68q0-.64-.184-.992t-.664-.352-.664.352-.184.992v1.056q-.001.64.184.992.183.352.664.352M14.962 6.728q-.184.352-.664.352t-.664-.352-.184-.992V4.68q0-.64.184-.992t.664-.352.664.352.184.992v1.056q0 .64-.184.992' }),
+    React.createElement("path", { fill: '#414652', fillRule: 'evenodd', d: 'M2 0a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2h15a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zm4.713 8H2.76V6.904l1.72-1.472q.231-.2.392-.36.16-.168.256-.32.104-.16.144-.312.048-.151.048-.328V4a.59.59 0 0 0-.232-.48.88.88 0 0 0-.504-.16.9.9 0 0 0-.352.064.8.8 0 0 0-.256.176 1 1 0 0 0-.176.248q-.072.136-.112.296l-1.048-.4q.096-.288.264-.544.168-.264.416-.456.255-.2.6-.312a2.5 2.5 0 0 1 .776-.112q.456 0 .808.128t.592.352q.247.224.376.536Q6.6 3.64 6.6 4t-.12.656-.328.56q-.2.255-.472.488-.273.232-.568.472l-1.04.816h2.64zm2.789.096q-1.096 0-1.624-.76T7.35 5.208t.528-2.128 1.624-.76 1.624.76q.527.76.527 2.128t-.527 2.128-1.624.76m3.172-.76q.529.76 1.624.76t1.624-.76q.528-.76.528-2.128t-.528-2.128-1.624-.76-1.624.76-.528 2.128.528 2.128', clipRule: 'evenodd' }),
+    React.createElement("path", { fill: '#fff', d: 'M6.713 8H2.76V6.904l1.72-1.472q.231-.2.392-.36.16-.168.256-.32.104-.16.144-.312.048-.151.048-.328V4a.59.59 0 0 0-.232-.48.88.88 0 0 0-.504-.16.9.9 0 0 0-.352.064.8.8 0 0 0-.256.176 1 1 0 0 0-.176.248q-.072.136-.112.296l-1.048-.4q.096-.288.264-.544.168-.264.416-.456.255-.2.6-.312a2.5 2.5 0 0 1 .776-.112q.456 0 .808.128t.592.352q.247.224.376.536Q6.6 3.64 6.6 4t-.12.656-.328.56q-.2.255-.472.488-.273.232-.568.472l-1.04.816h2.64zM9.502 8.096q-1.096 0-1.624-.76T7.35 5.208t.528-2.128 1.624-.76 1.624.76q.527.76.527 2.128t-.527 2.128-1.624.76m0-1.016q.48 0 .663-.352.185-.352.185-.992V4.68q0-.64-.184-.992t-.664-.352-.664.352-.184.992v1.056q-.001.64.184.992.183.352.664.352M14.298 8.096q-1.095 0-1.624-.76-.528-.76-.528-2.128t.528-2.128 1.624-.76 1.624.76.528 2.128-.528 2.128-1.624.76m0-1.016q.48 0 .664-.352t.184-.992V4.68q0-.64-.184-.992t-.664-.352-.664.352-.184.992v1.056q0 .64.184.992t.664.352' })));
+exports.MarketDerivedRangeBreak200Icon = MarketDerivedRangeBreak200Icon;
+const ForwardRef = (0, react_1.forwardRef)(exports.MarketDerivedRangeBreak200Icon);
+exports.default = ForwardRef;

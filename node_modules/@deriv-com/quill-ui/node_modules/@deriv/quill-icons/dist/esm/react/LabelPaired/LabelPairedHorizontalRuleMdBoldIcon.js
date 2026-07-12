@@ -1,0 +1,11 @@
+import * as React from 'react';
+import { forwardRef } from 'react';
+const LabelPairedHorizontalRuleMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 24, viewBox: '0 0 20 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M0 12a.74.74 0 0 1 .75-.75h18.5A.76.76 0 0 1 20 12a.74.74 0 0 1-.75.75H.75A.72.72 0 0 1 0 12' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '2a9e841245a7cd846f4d24d34d84fb35__a' },
+            React.createElement("path", { d: 'M0 0h20v24H0z' })))));
+const ForwardRef = forwardRef(LabelPairedHorizontalRuleMdBoldIcon);
+export default ForwardRef;

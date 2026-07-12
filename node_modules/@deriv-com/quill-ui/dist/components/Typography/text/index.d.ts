@@ -1,0 +1,3 @@
+import { TypographyProps } from '../base';
+
+export declare const Text: ({ children, className, as, size, italic, color, underlined, bold, centered, ...rest }: TypographyProps) => import("react").JSX.Element;

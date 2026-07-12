@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedArrowUpToLineMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 24, viewBox: '0 0 12 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.75 5h10.5a.76.76 0 0 1 .75.75.74.74 0 0 1-.75.75H.75A.72.72 0 0 1 0 5.75.74.74 0 0 1 .75 5m5.781 4.25 4 4.25c.281.313.281.781-.031 1.063-.312.28-.781.28-1.062-.032L6.75 11.656v6.594A.74.74 0 0 1 6 19a.72.72 0 0 1-.75-.75v-6.594l-2.719 2.875c-.281.313-.75.313-1.062.031-.313-.28-.313-.75-.032-1.062l4-4.25A.78.78 0 0 1 6 9c.188 0 .406.094.531.25' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '93112e4dc42277d4e960d8124ae29f22__a' },
+            React.createElement("path", { d: 'M0 0h12v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedArrowUpToLineMdBoldIcon);
+exports.default = ForwardRef;

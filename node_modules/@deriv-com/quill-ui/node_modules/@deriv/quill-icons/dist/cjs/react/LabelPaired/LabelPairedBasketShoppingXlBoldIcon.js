@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedBasketShoppingXlBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 27, height: 36, viewBox: '0 0 27 36', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M11.39 6.14c.516.282.75.985.47 1.548L8.015 15h10.922l-3.844-7.312c-.281-.563-.047-1.266.469-1.547.562-.282 1.265-.047 1.546.468L21.47 15h4.406c.61 0 1.125.516 1.125 1.125a1.11 1.11 0 0 1-1.125 1.125h-.937l-2.625 10.5c-.329 1.313-1.547 2.25-2.907 2.25H7.594c-1.407 0-2.578-.937-2.953-2.25l-2.578-10.5h-.938C.469 17.25 0 16.781 0 16.125 0 15.515.469 15 1.125 15h4.359l4.36-8.39c.281-.516.984-.75 1.547-.47M4.36 17.25l2.484 9.938a.76.76 0 0 0 .75.562h11.812c.328 0 .61-.234.703-.562l2.485-9.938zm6.14 3.375v3.75A1.11 1.11 0 0 1 9.375 25.5c-.656 0-1.125-.469-1.125-1.125v-3.75c0-.61.469-1.125 1.125-1.125.61 0 1.125.516 1.125 1.125m3-1.125c.61 0 1.125.516 1.125 1.125v3.75A1.11 1.11 0 0 1 13.5 25.5c-.656 0-1.125-.469-1.125-1.125v-3.75c0-.61.469-1.125 1.125-1.125m5.25 1.125v3.75a1.11 1.11 0 0 1-1.125 1.125c-.656 0-1.125-.469-1.125-1.125v-3.75c0-.61.469-1.125 1.125-1.125.61 0 1.125.516 1.125 1.125' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '903d443c17848f2083a0c8d5d6dc56cb__a' },
+            React.createElement("path", { d: 'M0 0h27v36H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedBasketShoppingXlBoldIcon);
+exports.default = ForwardRef;

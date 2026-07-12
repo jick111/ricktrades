@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedSixMdBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 10, height: 24, viewBox: '0 0 10 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M8.5 14c0-1.906-1.594-3.5-3.5-3.5a3.44 3.44 0 0 0-2.562 1.125l-.157.188A3.36 3.36 0 0 0 1.5 14c0 1.938 1.563 3.5 3.5 3.5 1.906 0 3.5-1.562 3.5-3.5M4.531 9.031C4.688 9.031 4.844 9 5 9c2.75 0 5 2.25 5 5 0 2.781-2.25 5-5 5-2.781 0-5-2.219-5-5 0-1.281.469-2.469 1.281-3.344l4.375-5.375a.744.744 0 0 1 1.063-.093c.312.25.375.718.093 1.062z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '0cffdbeadb758070ce53fd7c317a224f__a' },
+            React.createElement("path", { d: 'M0 0h10v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedSixMdBoldIcon);
+exports.default = ForwardRef;

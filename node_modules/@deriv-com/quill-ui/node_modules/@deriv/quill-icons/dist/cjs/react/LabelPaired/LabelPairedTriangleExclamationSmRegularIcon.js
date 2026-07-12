@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedTriangleExclamationSmRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 22, viewBox: '0 0 14 22', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M.93 15.262c-.055.082-.055.164-.055.246 0 .273.219.52.492.52h11.238c.274 0 .52-.247.52-.52a.44.44 0 0 0-.082-.246L7.547 5.828A.66.66 0 0 0 7 5.5a.67.67 0 0 0-.574.328zm-.766-.438L5.66 5.391A1.57 1.57 0 0 1 7 4.625c.52 0 1.04.3 1.313.766l5.496 9.433c.109.192.191.438.191.684 0 .765-.629 1.367-1.395 1.367H1.367A1.354 1.354 0 0 1 0 15.508c0-.246.055-.492.164-.684M7 8.125a.47.47 0 0 1 .438.438v3.5A.45.45 0 0 1 7 12.5a.43.43 0 0 1-.437-.437v-3.5A.45.45 0 0 1 7 8.124m-.656 6.125c0-.355.273-.656.656-.656.355 0 .656.3.656.656 0 .383-.3.656-.656.656a.63.63 0 0 1-.656-.656' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '1b69af7fc8f7cdb25425c7a1abf2d8e1__a' },
+            React.createElement("path", { d: 'M0 0h14v22H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedTriangleExclamationSmRegularIcon);
+exports.default = ForwardRef;

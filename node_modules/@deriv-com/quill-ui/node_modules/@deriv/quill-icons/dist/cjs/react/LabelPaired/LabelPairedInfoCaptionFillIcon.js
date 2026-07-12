@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedInfoCaptionFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 5, height: 18, viewBox: '0 0 5 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M1.375 5.375c0-.398.21-.75.563-.96.328-.212.773-.212 1.125 0 .328.21.562.562.562.96 0 .422-.234.773-.562.984-.352.211-.797.211-1.126 0a1.12 1.12 0 0 1-.562-.984M.25 8.75C.25 8.352.578 8 1 8h1.5c.398 0 .75.352.75.75V14H4c.398 0 .75.352.75.75 0 .422-.352.75-.75.75H1a.74.74 0 0 1-.75-.75c0-.398.328-.75.75-.75h.75V9.5H1a.74.74 0 0 1-.75-.75' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'de85694a4df6d33cb28f96e580f8a5ea__a' },
+            React.createElement("path", { d: 'M0 0h5v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedInfoCaptionFillIcon);
+exports.default = ForwardRef;

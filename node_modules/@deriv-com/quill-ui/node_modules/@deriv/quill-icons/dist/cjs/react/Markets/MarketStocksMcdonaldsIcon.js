@@ -1,0 +1,40 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MarketStocksMcdonaldsIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const MarketStocksMcdonaldsIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#148e4e2a7f6b00a4c32d5b6ea8290653__a)' },
+        React.createElement("path", { fill: '#E51300', d: 'M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16' }),
+        React.createElement("path", { fill: '#FEC200', d: 'M20.375 8.25c1.725 0 3.125 7.275 3.125 16.25H26C26 14.833 23.5 7 20.375 7 18.608 7 17.042 9.358 16 13.033 14.967 9.358 13.392 7 11.625 7 8.5 7 6 14.833 6 24.5h2.5c0-8.975 1.4-16.25 3.125-16.25s3.125 6.717 3.125 15h2.5c0-8.283 1.4-15 3.125-15' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '148e4e2a7f6b00a4c32d5b6ea8290653__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h32v32H0z' })))));
+exports.MarketStocksMcdonaldsIcon = MarketStocksMcdonaldsIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.MarketStocksMcdonaldsIcon);
+exports.default = ForwardRef;

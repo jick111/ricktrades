@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedPaperclipMdFillIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 14, height: 24, viewBox: '0 0 14 24', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M11.375 6.625a2 2 0 0 0-2.781 0l-5.75 5.75a3.395 3.395 0 0 0 0 4.781 3.395 3.395 0 0 0 4.781 0l4.75-4.75a.85.85 0 0 1 1.219 0 .85.85 0 0 1 0 1.219l-4.75 4.75c-2 2-5.219 2-7.219 0s-2-5.219 0-7.219l5.75-5.75a3.64 3.64 0 0 1 5.219 0 3.64 3.64 0 0 1 0 5.219l-5.5 5.5a2.245 2.245 0 0 1-3.219 0 2.245 2.245 0 0 1 0-3.219l4.5-4.5a.85.85 0 0 1 1.219 0 .85.85 0 0 1 0 1.219l-4.5 4.5a.61.61 0 0 0 0 .781.61.61 0 0 0 .781 0l5.5-5.5a2 2 0 0 0 0-2.781' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: 'f0f6865f0473f19d4308de4b436394e0__a' },
+            React.createElement("path", { d: 'M0 0h14v24H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedPaperclipMdFillIcon);
+exports.default = ForwardRef;

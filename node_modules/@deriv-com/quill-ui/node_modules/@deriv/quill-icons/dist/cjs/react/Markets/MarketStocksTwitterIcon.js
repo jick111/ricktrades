@@ -1,0 +1,40 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.MarketStocksTwitterIcon = void 0;
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const types_1 = require("../../types");
+const MarketStocksTwitterIcon = ({ iconSize = 'md', title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', fill: 'none', viewBox: '0 0 32 32', ...types_1.sizes[iconSize], role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", { clipPath: 'url(#56e9cf854a23ffcf623d9eb587a2945e__a)' },
+        React.createElement("path", { fill: '#60AADD', d: 'M32 16c0 8.837-7.163 16-16 16S0 24.837 0 16 7.163 0 16 0s16 7.163 16 16' }),
+        React.createElement("path", { fill: '#fff', d: 'M26 9.96a8.3 8.3 0 0 1-2.356.626 4.13 4.13 0 0 0 1.806-2.269 8.2 8.2 0 0 1-2.575 1.013 4.106 4.106 0 0 0-7.131 2.806c0 .315.035.63.106.937a11.66 11.66 0 0 1-8.456-4.287 4.1 4.1 0 0 0 1.25 5.475 4.04 4.04 0 0 1-1.875-.513v.057a4.1 4.1 0 0 0 3.287 4.018 4 4 0 0 1-1.081.144q-.388 0-.769-.069a4.1 4.1 0 0 0 3.832 2.844A8.2 8.2 0 0 1 6 22.442a11.6 11.6 0 0 0 6.288 1.844c7.55 0 11.674-6.25 11.674-11.675v-.531A8.3 8.3 0 0 0 26 9.96' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '56e9cf854a23ffcf623d9eb587a2945e__a' },
+            React.createElement("path", { fill: '#fff', d: 'M0 0h32v32H0z' })))));
+exports.MarketStocksTwitterIcon = MarketStocksTwitterIcon;
+const ForwardRef = (0, react_1.forwardRef)(exports.MarketStocksTwitterIcon);
+exports.default = ForwardRef;

@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedObjectsAlignLeftLgRegularIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 20, height: 30, viewBox: '0 0 20 30', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M0 6.125C0 5.813.273 5.5.625 5.5c.313 0 .625.313.625.625v18.75a.64.64 0 0 1-.625.625.617.617 0 0 1-.625-.625zm6.25 6.25c0 .352.273.625.625.625h11.25a.64.64 0 0 0 .625-.625v-2.5c0-.312-.312-.625-.625-.625H6.875a.64.64 0 0 0-.625.625zM5 9.875C5 8.859 5.82 8 6.875 8h11.25C19.141 8 20 8.86 20 9.875v2.5c0 1.055-.86 1.875-1.875 1.875H6.875A1.85 1.85 0 0 1 5 12.375zm1.25 11.25c0 .352.273.625.625.625h6.25a.64.64 0 0 0 .625-.625v-2.5c0-.312-.312-.625-.625-.625h-6.25a.64.64 0 0 0-.625.625zM5 18.625c0-1.016.82-1.875 1.875-1.875h6.25c1.016 0 1.875.86 1.875 1.875v2.5C15 22.18 14.14 23 13.125 23h-6.25A1.85 1.85 0 0 1 5 21.125z' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '57005ea9977fcca6679e1062b50d46a6__a' },
+            React.createElement("path", { d: 'M0 0h20v30H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedObjectsAlignLeftLgRegularIcon);
+exports.default = ForwardRef;

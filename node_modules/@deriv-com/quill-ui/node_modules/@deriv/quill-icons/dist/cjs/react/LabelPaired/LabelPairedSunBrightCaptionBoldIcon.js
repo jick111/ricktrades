@@ -1,0 +1,36 @@
+"use strict";
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    var desc = Object.getOwnPropertyDescriptor(m, k);
+    if (!desc || ("get" in desc ? !m.__esModule : desc.writable || desc.configurable)) {
+      desc = { enumerable: true, get: function() { return m[k]; } };
+    }
+    Object.defineProperty(o, k2, desc);
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+const React = __importStar(require("react"));
+const react_1 = require("react");
+const LabelPairedSunBrightCaptionBoldIcon = ({ title, titleId, ...props }, ref) => (React.createElement("svg", { xmlns: 'http://www.w3.org/2000/svg', width: 12, height: 18, viewBox: '0 0 12 18', role: 'img', ref: ref, "aria-labelledby": titleId, ...props },
+    title ? React.createElement("title", { id: titleId }, title) : null,
+    React.createElement("g", null,
+        React.createElement("path", { d: 'M6.563 4.063v1.5A.555.555 0 0 1 6 6.125a.54.54 0 0 1-.562-.562v-1.5c0-.305.234-.563.562-.563a.57.57 0 0 1 .563.563m3.68 1.992L9.163 7.133c-.21.21-.562.21-.797 0-.21-.235-.21-.586 0-.797l1.078-1.078c.211-.211.563-.211.797 0 .211.234.211.586 0 .797M2.53 5.258 3.61 6.336c.211.21.211.562 0 .797-.234.21-.586.21-.796 0L1.758 6.055c-.235-.211-.235-.563 0-.797.21-.211.562-.211.773 0M.562 8.938h1.5a.57.57 0 0 1 .563.562.555.555 0 0 1-.562.563h-1.5A.54.54 0 0 1 0 9.5c0-.305.234-.562.563-.562m9.376 0h1.5A.57.57 0 0 1 12 9.5a.555.555 0 0 1-.562.563h-1.5a.54.54 0 0 1-.563-.563c0-.305.234-.562.563-.562m-6.329 3.75-1.078 1.054a.513.513 0 0 1-.773 0 .513.513 0 0 1 0-.773l1.055-1.078c.21-.211.562-.211.796 0 .211.234.211.586 0 .797m5.555-.797 1.078 1.078c.211.21.211.562 0 .773-.234.235-.586.235-.797 0l-1.078-1.055c-.21-.21-.21-.562 0-.796.235-.211.586-.211.797 0m-2.601 1.547v1.5A.555.555 0 0 1 6 15.5a.54.54 0 0 1-.562-.562v-1.5c0-.305.234-.563.562-.563a.57.57 0 0 1 .563.563M7.5 9.5c0-.516-.305-1.008-.75-1.29a1.55 1.55 0 0 0-1.5 0c-.469.282-.75.774-.75 1.29 0 .54.281 1.031.75 1.313a1.55 1.55 0 0 0 1.5 0c.445-.282.75-.774.75-1.313m-4.125 0c0-.937.492-1.781 1.313-2.25a2.52 2.52 0 0 1 2.625 0c.796.469 1.312 1.313 1.312 2.25 0 .96-.516 1.805-1.312 2.273a2.52 2.52 0 0 1-2.625 0A2.58 2.58 0 0 1 3.375 9.5' })),
+    React.createElement("defs", null,
+        React.createElement("clipPath", { id: '1bb7d7cfd03a003ba0e2e2c7887e9293__a' },
+            React.createElement("path", { d: 'M0 0h12v18H0z' })))));
+const ForwardRef = (0, react_1.forwardRef)(LabelPairedSunBrightCaptionBoldIcon);
+exports.default = ForwardRef;
