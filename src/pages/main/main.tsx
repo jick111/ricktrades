@@ -43,7 +43,7 @@ import ChartModal from '../chart/chart-modal';
 import Dashboard from '../dashboard';
 import BotBuilder from '../bot-builder';
 import FreeBots from '../free-bots';
-import AiScanner from '../free-bots/ai-scanner';
+import AnalysisTool from '../free-bots/analysis-tool';
 import RunStrategy from '../dashboard/run-strategy';
 import './main.scss';
 
@@ -356,13 +356,13 @@ const AppWrapper = observer(() => {
                             <div
                                 label={
                                     <>
-                                        📡
-                                        <Localize i18n_default_text='AI Scanner' />
+                                        📊
+                                        <Localize i18n_default_text='Analysis Tool' />
                                     </>
                                 }
-                                id='id-ai-scanner'
+                                id='id-analysis-tool'
                             >
-                                <AiScanner />
+                                <AnalysisTool />
                             </div>
                             <div
                                 label={
