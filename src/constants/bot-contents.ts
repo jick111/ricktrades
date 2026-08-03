@@ -15,3 +15,4 @@ export const TAB_IDS = [
 ];
 
 export const DEBOUNCE_INTERVAL_TIME = 300;
+export const MAX_STRATEGIES = 10;
