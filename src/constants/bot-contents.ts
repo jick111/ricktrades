@@ -13,3 +13,5 @@ export const TAB_IDS = [
     'id-charts',
     'id-tutorials',
 ];
+
+export const DEBOUNCE_INTERVAL_TIME = 300;
