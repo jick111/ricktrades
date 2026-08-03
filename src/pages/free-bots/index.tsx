@@ -29,10 +29,10 @@ const FREE_BOTS: FreeBot[] = [
 const FreeBots = observer(() => {
     const { dashboard, run_panel } = useStore();
     const { setActiveTab } = dashboard;
-    const { is_running, onRunButtonClick, onStopButtonClick } = run_panel;
+    const { is_running, onStopButtonClick } = run_panel;
     const [loadingId, setLoadingId] = React.useState<string | null>(null);
 
-    const handleRun = async (bot: FreeBot) => {
+    const handleLoad = async (bot: FreeBot) => {
         if (is_running || loadingId) return;
         setLoadingId(bot.id);
         try {
@@ -55,8 +55,6 @@ const FreeBots = observer(() => {
                 show_snackbar: false,
             });
             workspace.strategy_to_load = bot.xml;
-
-            await onRunButtonClick();
         } finally {
             setLoadingId(null);
         }
@@ -66,7 +64,7 @@ const FreeBots = observer(() => {
         <div style={{ padding: 20 }}>
             <h1>🤖 Free Bots</h1>
             <p style={{ opacity: 0.8, fontSize: 14 }}>
-                Tap Run to load a bot into Bot Builder and start it on your connected account.
+                Tap Load to bring a bot into Bot Builder, then press the Run button below to start it.
             </p>
 
             <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
@@ -89,7 +87,7 @@ const FreeBots = observer(() => {
                         </div>
                         <button
                             type="button"
-                            onClick={() => handleRun(bot)}
+                            onClick={() => handleLoad(bot)}
                             disabled={is_running || loadingId !== null}
                             style={{
                                 background: '#2a2',
@@ -101,7 +99,7 @@ const FreeBots = observer(() => {
                                 opacity: is_running || loadingId !== null ? 0.6 : 1,
                             }}
                         >
-                            {loadingId === bot.id ? 'Loading…' : 'Run'}
+                            {loadingId === bot.id ? 'Loading…' : 'Load'}
                         </button>
                     </div>
                 ))}
