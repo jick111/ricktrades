@@ -109,7 +109,7 @@
         </statement>
         <next>
           <block type="controls_if" id="bp_select">
-            <mutation elseif="2" else="1"/>
+            <mutation xmlns="http://www.w3.org/1999/xhtml" elseif="2" else="1"></mutation>
             <value name="IF0">
               <block type="logic_compare">
                 <field name="OP">EQ</field>
@@ -170,7 +170,7 @@
   <block type="after_purchase" id="ap_main" x="0" y="1600" deletable="false" movable="false">
     <statement name="AFTERPURCHASE_STACK">
       <block type="controls_if" id="ap_branch">
-        <mutation else="1"/>
+        <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
         <value name="IF0">
           <block type="logic_compare">
             <field name="OP">EQ</field>
@@ -180,7 +180,7 @@
         </value>
         <statement name="DO0">
           <block type="controls_if" id="ap_normal">
-            <mutation else="1"/>
+            <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
             <value name="IF0">
               <block type="contract_check_result"><field name="CHECK_RESULT">win</field></block>
             </value>
@@ -235,7 +235,7 @@
             </statement>
             <next>
               <block type="controls_if" id="ap_legswitch">
-                <mutation else="1"/>
+                <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
                 <value name="IF0">
                   <block type="logic_compare">
                     <field name="OP">EQ</field>
@@ -251,7 +251,7 @@
                 </statement>
                 <statement name="ELSE">
                   <block type="controls_if" id="ap_recend">
-                    <mutation else="1"/>
+                    <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
                     <value name="IF0">
                       <block type="logic_compare">
                         <field name="OP">GTE</field>
