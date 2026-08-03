@@ -1,0 +1,482 @@
+<xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
+  <variables>
+    <variable id="vBaseS1">base1</variable>
+    <variable id="vTrades">tradesDone</variable>
+    <variable id="vBaseS2">base2</variable>
+    <variable id="vStake">stake</variable>
+    <variable id="vBarrier">barrier</variable>
+    <variable id="vInit">initialized</variable>
+    <variable id="vStreak">streak</variable>
+    <variable id="vPhase">phase</variable>
+    <variable id="vLeg">leg</variable>
+    <variable id="vPnL">totalPnL</variable>
+  </variables>
+  <block type="trade_definition" id="td_main" deletable="false" movable="false" x="0" y="110">
+    <statement name="TRADE_OPTIONS">
+      <block type="trade_definition_market" id="td_mkt" deletable="false" movable="false">
+        <field name="MARKET_LIST">synthetic_index</field>
+        <field name="SUBMARKET_LIST">random_index</field>
+        <field name="SYMBOL_LIST">1HZ50V</field>
+        <next>
+          <block type="trade_definition_tradetype" id="td_tt" deletable="false" movable="false">
+            <field name="TRADETYPECAT_LIST">digits</field>
+            <field name="TRADETYPE_LIST">overunder</field>
+            <next>
+              <block type="trade_definition_contracttype" id="td_ct" deletable="false" movable="false">
+                <field name="TYPE_LIST">both</field>
+                <next>
+                  <block type="trade_definition_candleinterval" id="td_ci" deletable="false" movable="false">
+                    <field name="CANDLEINTERVAL_LIST">60</field>
+                    <next>
+                      <block type="trade_definition_restartbuysell" id="td_rbs" deletable="false" movable="false">
+                        <field name="TIME_MACHINE_ENABLED">FALSE</field>
+                        <next>
+                          <block type="trade_definition_restartonerror" id="td_roe" deletable="false" movable="false">
+                            <field name="RESTARTONERROR">TRUE</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="INITIALIZATION">
+      <block type="variables_set" id="init_b1">
+        <field name="VAR" id="vBaseS1">base1</field>
+        <value name="VALUE">
+          <block type="math_number" id="n_b1">
+            <field name="NUM">10</field>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="init_b2">
+            <field name="VAR" id="vBaseS2">base2</field>
+            <value name="VALUE">
+              <block type="math_number" id="n_b2">
+                <field name="NUM">10</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="init_st">
+                <field name="VAR" id="vStake">stake</field>
+                <value name="VALUE">
+                  <block type="variables_get" id="g_b1_init">
+                    <field name="VAR" id="vBaseS1">base1</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="init_bar">
+                    <field name="VAR" id="vBarrier">barrier</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="n_bar">
+                        <field name="NUM">2</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="init_ph">
+                        <field name="VAR" id="vPhase">phase</field>
+                        <value name="VALUE">
+                          <block type="text" id="t_norm">
+                            <field name="TEXT">normal</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="init_leg">
+                            <field name="VAR" id="vLeg">leg</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="n_leg">
+                                <field name="NUM">1</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="init_strk">
+                                <field name="VAR" id="vStreak">streak</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="n_strk">
+                                    <field name="NUM">0</field>
+                                  </block>
+                                </value>
+                                <next>
+                                  <block type="variables_set" id="init_pnl">
+                                    <field name="VAR" id="vPnL">totalPnL</field>
+                                    <value name="VALUE">
+                                      <block type="math_number" id="n_pnl">
+                                        <field name="NUM">0</field>
+                                      </block>
+                                    </value>
+                                    <next>
+                                      <block type="variables_set" id="init_td">
+                                        <field name="VAR" id="vTrades">tradesDone</field>
+                                        <value name="VALUE">
+                                          <block type="math_number" id="n_td">
+                                            <field name="NUM">0</field>
+                                          </block>
+                                        </value>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="SUBMARKET">
+      <block type="trade_definition_tradeoptions" id="td_opts" deletable="false" movable="false">
+        <mutation xmlns="http://www.w3.org/1999/xhtml" has_first_barrier="false" has_second_barrier="false" has_prediction="true"></mutation>
+        <field name="DURATIONTYPE_LIST">t</field>
+        <value name="DURATION">
+          <shadow type="math_number" id="sh_dur">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="AMOUNT">
+          <shadow type="math_number" id="sh_amt">
+            <field name="NUM">10</field>
+          </shadow>
+          <block type="variables_get" id="g_stk_amt">
+            <field name="VAR" id="vStake">stake</field>
+          </block>
+        </value>
+        <value name="PREDICTION">
+          <shadow type="math_number_positive" id="sh_pred" inline="true">
+            <field name="NUM">2</field>
+          </shadow>
+          <block type="variables_get" id="g_bar_pred">
+            <field name="VAR" id="vBarrier">barrier</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="after_purchase" id="ap_main" deletable="false" movable="false" x="1829" y="110">
+    <statement name="AFTERPURCHASE_STACK">
+      <block type="variables_set" id="ap_inc_td">
+        <field name="VAR" id="vTrades">tradesDone</field>
+        <value name="VALUE">
+          <block type="math_arithmetic" id="ap_inc_math">
+            <field name="OP">ADD</field>
+            <value name="A">
+              <block type="variables_get" id="ap_get_td">
+                <field name="VAR" id="vTrades">tradesDone</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="ap_one">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <next>
+          <block type="controls_if" id="ap_winloss">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
+            <value name="IF0">
+              <block type="contract_check_result" id="ap_chk_win">
+                <field name="CHECK_RESULT">win</field>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="variables_set" id="ap_win_strk">
+                <field name="VAR" id="vStreak">streak</field>
+                <value name="VALUE">
+                  <block type="math_number" id="ap_win_z">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="ap_win_ph">
+                    <field name="VAR" id="vPhase">phase</field>
+                    <value name="VALUE">
+                      <block type="text" id="ap_win_norm">
+                        <field name="TEXT">normal</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="ap_win_strk">
+                        <field name="VAR" id="vStreak">streak</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="ap_win_strk_z">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="ap_win_stk">
+                            <field name="VAR" id="vStake">stake</field>
+                            <value name="VALUE">
+                              <block type="variables_get" id="ap_win_b1">
+                                <field name="VAR" id="vBaseS1">base1</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id="ap_win_bar">
+                                <field name="VAR" id="vBarrier">barrier</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="ap_win_7">
+                                    <field name="NUM">2</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="variables_set" id="ap_loss_ph">
+                <field name="VAR" id="vPhase">phase</field>
+                <value name="VALUE">
+                  <block type="text" id="ap_loss_rec">
+                    <field name="TEXT">normal</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="ap_loss_strk">
+                    <field name="VAR" id="vStreak">streak</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="ap_loss_z">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="ap_loss_stk">
+                        <field name="VAR" id="vStake">stake</field>
+                        <value name="VALUE">
+                          <block type="math_arithmetic" id="ap_loss_mult">
+                            <field name="OP">MULTIPLY</field>
+                            <value name="A">
+                              <block type="variables_get" id="ap_loss_gstk">
+                                <field name="VAR" id="vStake">stake</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="ap_loss_two">
+                                <field name="NUM">2</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="ap_loss_bar">
+                            <field name="VAR" id="vBarrier">barrier</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="ap_loss_5">
+                                <field name="NUM">6</field>
+                              </block>
+                            </value>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </statement>
+            <next>
+              <block type="trade_again" id="ap_again"></block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="before_purchase" id="bp_main" deletable="false" movable="false" x="0" y="1160">
+    <statement name="BEFOREPURCHASE_STACK">
+      <block type="controls_if" id="bp_init">
+        <value name="IF0">
+          <block type="logic_compare" id="bp_init_cmp">
+            <field name="OP">NEQ</field>
+            <value name="A">
+              <block type="variables_get" id="bp_init_g">
+                <field name="VAR" id="vInit">initialized</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="bp_init_one">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="bp_init_set">
+            <field name="VAR" id="vInit">initialized</field>
+            <value name="VALUE">
+              <block type="math_number" id="bp_init_set_one">
+                <field name="NUM">1</field>
+              </block>
+            </value>
+          </block>
+        </statement>
+        <next>
+          <block type="controls_if" id="bp_streak">
+            <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
+            <value name="IF0">
+              <block type="logic_compare" id="bp_strk_cmp">
+                <field name="OP">LTE</field>
+                <value name="A">
+                  <block type="last_digit" id="bp_last"></block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="bp_strk_7">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="controls_if" id="bp_check_phase_high">
+                <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
+                <value name="IF0">
+                  <block type="logic_compare" id="bp_phase_eq_normal">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="variables_get" id="bp_ph_g1">
+                        <field name="VAR" id="vPhase">phase</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="bp_ph_normal">
+                        <field name="TEXT">normal</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="variables_set" id="bp_strk_inc">
+                    <field name="VAR" id="vStreak">streak</field>
+                    <value name="VALUE">
+                      <block type="math_arithmetic" id="bp_strk_add">
+                        <field name="OP">ADD</field>
+                        <value name="A">
+                          <block type="variables_get" id="bp_strk_g">
+                            <field name="VAR" id="vStreak">streak</field>
+                          </block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="bp_strk_one">
+                            <field name="NUM">1</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="controls_if" id="bp_check_streak_2">
+                        <value name="IF0">
+                          <block type="logic_compare" id="bp_strk_gte2">
+                            <field name="OP">GTE</field>
+                            <value name="A">
+                              <block type="variables_get" id="bp_strk_g2">
+                                <field name="VAR" id="vStreak">streak</field>
+                              </block>
+                            </value>
+                            <value name="B">
+                              <block type="math_number" id="bp_2">
+                                <field name="NUM">2</field>
+                              </block>
+                            </value>
+                          </block>
+                        </value>
+                        <statement name="DO0">
+                          <block type="variables_set" id="bp_ph_to_recovery">
+                            <field name="VAR" id="vPhase">phase</field>
+                            <value name="VALUE">
+                              <block type="text" id="bp_ph_recovery">
+                                <field name="TEXT">recovery</field>
+                              </block>
+                            </value>
+                          </block>
+                        </statement>
+                      </block>
+                    </next>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block type="variables_set" id="bp_strk_reset">
+                    <field name="VAR" id="vStreak">streak</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="bp_strk_z">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </statement>
+            <statement name="ELSE">
+              <block type="controls_if" id="bp_check_phase_low">
+                <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
+                <value name="IF0">
+                  <block type="logic_compare" id="bp_phase_eq_recovery">
+                    <field name="OP">EQ</field>
+                    <value name="A">
+                      <block type="variables_get" id="bp_ph_g2">
+                        <field name="VAR" id="vPhase">phase</field>
+                      </block>
+                    </value>
+                    <value name="B">
+                      <block type="text" id="bp_ph_recovery2">
+                        <field name="TEXT">recovery</field>
+                      </block>
+                    </value>
+                  </block>
+                </value>
+                <statement name="DO0">
+                  <block type="controls_if" id="bp_digit_check_low">
+                    <value name="IF0">
+                      <block type="logic_compare" id="bp_digit_lt7">
+                        <field name="OP">GT</field>
+                        <value name="A">
+                          <block type="last_digit" id="bp_digit"></block>
+                        </value>
+                        <value name="B">
+                          <block type="math_number" id="bp_7">
+                            <field name="NUM">2</field>
+                          </block>
+                        </value>
+                      </block>
+                    </value>
+                    <statement name="DO0">
+                      <block type="purchase" id="bp_purchase">
+                        <field name="PURCHASE_LIST">DIGITOVER</field>
+                      </block>
+                    </statement>
+                  </block>
+                </statement>
+                <statement name="ELSE">
+                  <block type="variables_set" id="bp_strk_reset2">
+                    <field name="VAR" id="vStreak">streak</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="bp_strk_z2">
+                        <field name="NUM">0</field>
+                      </block>
+                    </value>
+                  </block>
+                </statement>
+              </block>
+            </statement>
+
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+</xml>
